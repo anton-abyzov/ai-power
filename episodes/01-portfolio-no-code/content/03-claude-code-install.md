@@ -24,7 +24,7 @@ bashclaude-code init
 
 ### Understanding the Context Window
 
-![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=StLOY6fAw2MqVGdsakh51]]
+![[../diagrams/all-diagrams.excalidraw#^frame=StLOY6fAw2MqVGdsakh51]]
 
 200K tokens = Your working memory
 System prompt (3.1k tokens)

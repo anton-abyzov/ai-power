@@ -10,7 +10,7 @@ timestamp: "0:00-2:25"
 
 ## The New Reality [0:35-1:00]
 
-![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=KoJdwhj1PwVlHIsIixIRr]]
+![[../diagrams/all-diagrams.excalidraw#^frame=KoJdwhj1PwVlHIsIixIRr]]
 
 What you no longer need:
 - HTML
@@ -26,13 +26,13 @@ What you no longer need:
 
 ## The Opportunity [1:00-1:20]
 
-![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=rVOSTdETPrlwu1WhoIxKN]]
+![[../diagrams/all-diagrams.excalidraw#^frame=rVOSTdETPrlwu1WhoIxKN]]
 
 We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 ## What You'll Build [1:20-1:40]
 
-![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=PEMM5ClHbU_L4mXxJZVbE]]
+![[../diagrams/all-diagrams.excalidraw#^frame=PEMM5ClHbU_L4mXxJZVbE]]
 
 In the next hour:
 - ✅ Custom design - Your vision, not a template

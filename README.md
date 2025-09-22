@@ -2,6 +2,14 @@
 
 Build anything with AI. No code required.
 
+## ⚠️ IMPORTANT: Folder Structure
+
+### 📝 `episodes/` = EDIT HERE (Obsidian)
+Your source files - edit these in Obsidian!
+
+### 🚫 `docs/episodes/` = AUTO-GENERATED
+Never edit! Created automatically for website deployment.
+
 ## 📺 Latest Episode
 **[01: Portfolio Website](episodes/01-portfolio-no-code)** - Save $10K in 60 minutes
 

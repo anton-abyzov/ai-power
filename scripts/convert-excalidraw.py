@@ -14,14 +14,14 @@ def convert_excalidraw_links(content):
     """
     Convert Obsidian Excalidraw embeds to HTML iframes for MkDocs.
 
-    Pattern: ![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=FRAME_ID]]
+    Pattern: ![[../diagrams/all-diagrams.excalidraw#^frame=FRAME_ID]]
     To: <div><iframe src="../../diagrams/viewer.html#FRAME_ID"></iframe></div>
     """
-    # Pattern to match Obsidian Excalidraw embeds
-    pattern = r'!\[\[(episodes/[^/]+/diagrams/[^#]+)#\^clippedframe=([^\]]+)\]\]'
+    # Pattern to match Obsidian Excalidraw embeds (relative path with frame syntax)
+    pattern = r'!\[\[\.\.\/diagrams\/[^#]+\.excalidraw#\^frame=([^\]]+)\]\]'
 
     def replace_embed(match):
-        frame_id = match.group(2)
+        frame_id = match.group(1)
         # Return HTML iframe embed
         return (
             f'<div style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">\n'
