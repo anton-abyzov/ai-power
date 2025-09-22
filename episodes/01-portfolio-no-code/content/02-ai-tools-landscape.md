@@ -5,7 +5,7 @@ timestamp: "10:11-15:03"
 
 # AI Development Tools Landscape
 
-[📊 View in Excalidraw - Frame 4](../diagrams/all-diagrams.excalidraw#^g_huRGX4AReE-0V69pVaT)
+![[../diagrams/all-diagrams.excalidraw.md#^clippedframe=g_huRGX4AReE-0V69pVaT]]
 
 ## The Three Layers
 
