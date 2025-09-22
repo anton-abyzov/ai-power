@@ -27,7 +27,7 @@ claude-code init
 ## Understanding the Context Window
 
 <div style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
-<iframe src="../diagrams/viewer.html#StLOY6fAw2MqVGdsakh51" width="100%" height="100%" frameborder="0"></iframe>
+<iframe src="../../diagrams/viewer.html#StLOY6fAw2MqVGdsakh51" width="100%" height="100%" frameborder="0"></iframe>
 </div>
 
 - 200K tokens = Your working memory

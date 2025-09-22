@@ -8,7 +8,7 @@ timestamp: "31:28-42:52"
 ## Deployment Options Comparison
 
 <div style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
-<iframe src="../diagrams/viewer.html#Ztri2CGQKDYpPN5xoF3qH" width="100%" height="100%" frameborder="0"></iframe>
+<iframe src="../../diagrams/viewer.html#Ztri2CGQKDYpPN5xoF3qH" width="100%" height="100%" frameborder="0"></iframe>
 </div>
 
 - **GitHub Pages**: Free, automatic CI/CD, public code

@@ -11,7 +11,7 @@ timestamp: "0:00-2:25"
 ## The New Reality [0:35-1:00]
 
 <div style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
-<iframe src="../diagrams/viewer.html#KoJdwhj1PwVlHIsIixIRr" width="100%" height="100%" frameborder="0"></iframe>
+<iframe src="../../diagrams/viewer.html#KoJdwhj1PwVlHIsIixIRr" width="100%" height="100%" frameborder="0"></iframe>
 </div>
 
 What you no longer need:
@@ -29,7 +29,7 @@ What you no longer need:
 ## The Opportunity [1:00-1:20]
 
 <div style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
-<iframe src="../diagrams/viewer.html#rVOSTdETPrlwu1WhoIxKN" width="100%" height="100%" frameborder="0"></iframe>
+<iframe src="../../diagrams/viewer.html#rVOSTdETPrlwu1WhoIxKN" width="100%" height="100%" frameborder="0"></iframe>
 </div>
 
 We have maybe 12 months where knowing this gives you an INSANE advantage.
@@ -37,7 +37,7 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 ## What You'll Build [1:20-1:40]
 
 <div style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
-<iframe src="../diagrams/viewer.html#PEMM5ClHbU_L4mXxJZVbE" width="100%" height="100%" frameborder="0"></iframe>
+<iframe src="../../diagrams/viewer.html#PEMM5ClHbU_L4mXxJZVbE" width="100%" height="100%" frameborder="0"></iframe>
 </div>
 
 In the next hour:

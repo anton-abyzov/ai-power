@@ -6,7 +6,7 @@ timestamp: "10:11-15:03"
 # AI Development Tools Landscape
 
 <div style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
-<iframe src="../diagrams/viewer.html#g_huRGX4AReE-0V69pVaT" width="100%" height="100%" frameborder="0"></iframe>
+<iframe src="../../diagrams/viewer.html#g_huRGX4AReE-0V69pVaT" width="100%" height="100%" frameborder="0"></iframe>
 </div>
 
 ## The Three Layers
