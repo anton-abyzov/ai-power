@@ -1,0 +1,6 @@
+mkdocs==1.6.1
+mkdocs-material==9.5.49
+pymdown-extensions==10.12
+Pygments>=2.16
+markdown>=3.5
+Jinja2>=3.1
