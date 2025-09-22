@@ -23,7 +23,7 @@ Initialize Project
 bashclaude-code init
 Understanding the Context Window
 Show Image
-📊 View in Excalidraw - Frame 5
+[📊 View in Excalidraw - Frame 5](../diagrams/all-diagrams.excalidraw#^StLOY6fAw2MqVGdsakh51)
 
 200K tokens = Your working memory
 System prompt (3.1k tokens)

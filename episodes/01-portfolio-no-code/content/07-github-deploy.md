@@ -7,7 +7,7 @@ timestamp: "31:28-42:52"
 
 ## Deployment Options Comparison
 ![GitHub Flow](../diagrams/06-github-flow.png)
-[📊 View in Excalidraw - Frame 7](../diagrams/all-diagrams.excalidraw#Frame7)
+[📊 View in Excalidraw - Frame 7](../diagrams/all-diagrams.excalidraw#^Ztri2CGQKDYpPN5xoF3qH)
 
 - **GitHub Pages**: Free, automatic CI/CD, public code
 - **Cloudflare**: Private code, manual updates
