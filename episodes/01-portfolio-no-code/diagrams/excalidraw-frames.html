@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excalidraw Diagrams - Frame Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .frame-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .frame-btn {
+            padding: 8px 16px;
+            border: 2px solid #6200ea;
+            background: white;
+            color: #6200ea;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .frame-btn:hover {
+            background: #6200ea;
+            color: white;
+        }
+
+        .frame-btn.active {
+            background: #6200ea;
+            color: white;
+        }
+
+        .svg-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: auto;
+            max-height: 80vh;
+        }
+
+        .svg-container svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .frame-info {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1e1e1e;
+                color: #e0e0e0;
+            }
+
+            .frame-nav, .svg-container {
+                background: #2d2d2d;
+            }
+
+            .frame-btn {
+                border-color: #bb86fc;
+                color: #bb86fc;
+                background: #2d2d2d;
+            }
+
+            .frame-btn:hover, .frame-btn.active {
+                background: #bb86fc;
+                color: #000;
+            }
+
+            .frame-info {
+                background: #3d3d3d;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Excalidraw Frame Navigator</h1>
+
+    <div class="frame-nav" id="frameNav">
+        <!-- Frame buttons will be inserted here -->
+    </div>
+
+    <div class="frame-info" id="frameInfo">
+        Select a frame to view
+    </div>
+
+    <div class="svg-container" id="svgContainer">
+        <!-- SVG will be loaded here -->
+    </div>
+
+    <script>
+        // Frame definitions with their viewBox coordinates
+        const frames = {
+            'Frame_1': { id: 'KoJdwhj1PwVlHIsIixIRr', name: 'Frame 1', x: -2838, y: -2618, width: 1793, height: 2016 },
+            'Frame_2': { id: 'rVOSTdETPrlwu1WhoIxKN', name: 'Frame 2', x: -303, y: -2451, width: 963, height: 1326 },
+            'Frame_3': { id: 'PEMM5ClHbU_L4mXxJZVbE', name: 'Frame 3', x: 1455, y: -2591, width: 1880, height: 2008 },
+            'Frame_3_5': { id: '_W_JdP3rpJypbhNkADqEX', name: 'Frame 3.5', x: 4211, y: -2626, width: 1697, height: 2024 },
+            'Frame_4': { id: 'g_huRGX4AReE-0V69pVaT', name: 'Frame 4', x: -2849, y: -491, width: 973, height: 873 },
+            'Frame_4_5': { id: 'Sf8jn2Eo9OT3zH1cGwPek', name: 'Frame 4.5', x: -539, y: -536, width: 1422, height: 1014 },
+            'Frame_5': { id: 'StLOY6fAw2MqVGdsakh51', name: 'Frame 5', x: 1956, y: -497, width: 1055, height: 930 },
+            'Frame_6': { id: '9ZzwHK92FuFlxCy7kcnge', name: 'Frame 6', x: -2921, y: 1243, width: 1733, height: 1182 },
+            'Frame_6_5': { id: 'g9O_5V5J8RbOc6o25FUbR', name: 'Frame 6.5', x: -195, y: 1386, width: 1243, height: 1123 },
+            'Frame_7': { id: 'Ztri2CGQKDYpPN5xoF3qH', name: 'Frame 7', x: 2577, y: 1405, width: 1178, height: 1197 },
+            'Frame_8': { id: 'F0FmZBCy1DOtGqDTonkYd', name: 'Frame 8', x: 5041, y: 1409, width: 1904, height: 1117 }
+        };
+
+        let currentSvg = null;
+
+        // Load SVG file
+        async function loadSVG() {
+            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const svgFile = isDark ? 'all-diagrams.excalidraw.dark.svg' : 'all-diagrams.excalidraw.light.svg';
+
+            try {
+                const response = await fetch(svgFile);
+                const svgText = await response.text();
+                currentSvg = svgText;
+                return svgText;
+            } catch (error) {
+                console.error('Error loading SVG:', error);
+                return '<p>Error loading diagram</p>';
+            }
+        }
+
+        // Navigate to a specific frame
+        function navigateToFrame(frameKey) {
+            const frame = frames[frameKey];
+            if (!frame || !currentSvg) return;
+
+            // Update active button
+            document.querySelectorAll('.frame-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[data-frame="${frameKey}"]`).classList.add('active');
+
+            // Update frame info
+            document.getElementById('frameInfo').innerHTML = `
+                <strong>${frame.name}</strong> |
+                ID: <code>${frame.id}</code> |
+                Dimensions: ${frame.width}×${frame.height}
+            `;
+
+            // Create SVG with proper viewBox for the frame
+            const parser = new DOMParser();
+            const svgDoc = parser.parseFromString(currentSvg, 'image/svg+xml');
+            const svgElement = svgDoc.querySelector('svg');
+
+            if (svgElement) {
+                // Add 50px padding around the frame
+                const padding = 50;
+                svgElement.setAttribute('viewBox',
+                    `${frame.x - padding} ${frame.y - padding} ${frame.width + padding * 2} ${frame.height + padding * 2}`
+                );
+
+                // Display the modified SVG
+                document.getElementById('svgContainer').innerHTML = svgElement.outerHTML;
+            }
+        }
+
+        // Initialize the frame navigator
+        async function init() {
+            // Create frame buttons
+            const navContainer = document.getElementById('frameNav');
+            Object.entries(frames).forEach(([key, frame]) => {
+                const btn = document.createElement('button');
+                btn.className = 'frame-btn';
+                btn.dataset.frame = key;
+                btn.textContent = frame.name;
+                btn.onclick = () => navigateToFrame(key);
+                navContainer.appendChild(btn);
+            });
+
+            // Load SVG
+            await loadSVG();
+
+            // Check for frame in URL hash
+            const hash = window.location.hash.slice(1);
+            const frameFromHash = Object.entries(frames).find(([key, frame]) =>
+                frame.id === hash || key === hash
+            );
+
+            if (frameFromHash) {
+                navigateToFrame(frameFromHash[0]);
+            } else {
+                // Default to Frame 1
+                navigateToFrame('Frame_1');
+            }
+        }
+
+        // Handle hash changes
+        window.addEventListener('hashchange', () => {
+            const hash = window.location.hash.slice(1);
+            const frameFromHash = Object.entries(frames).find(([key, frame]) =>
+                frame.id === hash || key === hash
+            );
+            if (frameFromHash) {
+                navigateToFrame(frameFromHash[0]);
+            }
+        });
+
+        // Handle theme changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', async () => {
+            await loadSVG();
+            const activeFrame = document.querySelector('.frame-btn.active')?.dataset.frame;
+            if (activeFrame) {
+                navigateToFrame(activeFrame);
+            }
+        });
+
+        // Initialize on load
+        init();
+    </script>
+</body>
+</html>
