@@ -35,6 +35,12 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Convert Obsidian content for MkDocs
+        run: |
+          echo "Converting Obsidian Excalidraw embeds to MkDocs format..."
+          python3 scripts/convert-excalidraw.py
+          echo "Conversion complete!"
+
       - name: Build MkDocs site
         run: mkdocs build --strict --verbose
 

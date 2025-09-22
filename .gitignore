@@ -11,6 +11,8 @@
 site/
 .cache/
 .build_temp/
+# Auto-generated from episodes/ during build
+docs/episodes/
 
 # Python
 __pycache__/

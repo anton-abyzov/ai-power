@@ -150,7 +150,6 @@ nav:
   - Home: index.md
 
   - Episode 01 - Portfolio Without Code:
-    - Overview: episodes/01-portfolio-no-code/index.md
     - All Diagrams: episodes/01-portfolio-no-code/diagrams/index.md
     - Video Sections:
       - "00:00 - Introduction": episodes/01-portfolio-no-code/content/00-introduction.md
