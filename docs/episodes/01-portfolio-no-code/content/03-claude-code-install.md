@@ -26,7 +26,7 @@ Understanding the Context Window
 
 <!-- For Obsidian: ![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=StLOY6fAw2MqVGdsakh51]] -->
 
-<iframe src="../diagrams/frame5.html" width="100%" height="600" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px; background: #f5f5f5;"></iframe>
+<iframe src="../diagrams/viewer.html#StLOY6fAw2MqVGdsakh51" width="100%" height="600" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px; background: #f5f5f5;"></iframe>
 
 200K tokens = Your working memory
 System prompt (3.1k tokens)
