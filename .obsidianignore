@@ -1,0 +1,9 @@
+# Hide auto-generated MkDocs content from Obsidian
+docs/episodes/
+
+# Hide build artifacts
+site/
+.cache/
+node_modules/
+__pycache__/
+*.pyc
