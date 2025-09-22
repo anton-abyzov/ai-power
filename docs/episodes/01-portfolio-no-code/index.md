@@ -28,16 +28,14 @@ Build 3 professional websites in 60 minutes without writing code. This replaces 
 ### 📁 Resources
 
 - [All Resources & Links](../RESOURCES.md)
-- [Main Diagram](diagrams/all-diagrams.excalidraw)
+- [View All Diagrams](diagrams/all-diagrams.excalidraw.md)
 - [Agent Definition Prompt](prompts/agent-definition.md)
 - [Master Prompt](prompts/master-prompt.md)
 - [Sidebar Navigation](prompts/sidebar-nav.md)
 
-### 🚀 Next Episodes
+### 🚀 More Episodes Coming Soon
 
-- Episode 02: Apollo + Apify Scraper
-- Episode 03: Mobile App Development
-- Episode 04: AI Automations
+Stay tuned for more AI-powered development tutorials covering data automation, mobile apps, and workflow automation!
 
 ---
 

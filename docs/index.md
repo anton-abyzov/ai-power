@@ -36,7 +36,7 @@
     - Deploy to GitHub Pages (completely free)
     - Create custom designs without templates
 
-[**→ Start Learning Now**](episodes/01-portfolio-no-code/index.md){ .md-button .md-button--primary }
+[**→ Start Learning Now**](episodes/01-portfolio-no-code/){ .md-button .md-button--primary }
 
 ---
 
@@ -81,16 +81,17 @@
 
 ### ✅ Available Now
 
-- **[Episode 01: Portfolio Without Code](episodes/01-portfolio-no-code/index.md)** - Build professional portfolios using AI
+- **[Episode 01: Portfolio Without Code](episodes/01-portfolio-no-code/)** - Build professional portfolios using AI
   - 3 complete websites
   - Full deployment pipeline
   - Custom designs
 
-### 🚧 Coming Soon
+### 🚧 Future Episodes
 
-- **Episode 02: Apollo + Apify Data Scraper** - Automate lead generation
-- **Episode 03: Mobile App Development** - iOS & Android apps with AI
-- **Episode 04: AI Automations with N8N** - Build complex workflows
+- **Data Automation & Scraping** - Learn to build data pipelines
+- **Mobile App Development** - Create apps without native coding
+- **AI-Powered Workflows** - Automate complex business processes
+- **And much more...** - New episodes added regularly
 
 ---
 
@@ -124,7 +125,7 @@
 
     1. **Watch** the [YouTube video](https://youtu.be/XUylfjtjv9g) for visual learning
 
-    2. **Follow** the [step-by-step tutorial](episodes/01-portfolio-no-code/index.md)
+    2. **Follow** the [step-by-step tutorial](episodes/01-portfolio-no-code/)
 
     3. **Deploy** your first website within 60 minutes
 
@@ -176,7 +177,7 @@
   <p style="font-size: 1.1rem; margin: 1rem 0 2rem;">
     Transform your ideas into reality in the next 60 minutes
   </p>
-  <a href="episodes/01-portfolio-no-code/index.md" class="md-button md-button--primary" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
+  <a href="episodes/01-portfolio-no-code/" class="md-button md-button--primary" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
     🚀 Start Episode 01 Now
   </a>
 </div>
