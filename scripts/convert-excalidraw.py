@@ -84,10 +84,6 @@ def sync_episodes_to_docs():
             rel_path = source_file.relative_to(episodes_dir)
             dest_file = docs_episodes_dir / rel_path
 
-            # Skip Obsidian-specific files
-            if source_file.suffix in [".excalidraw"]:
-                continue
-
             dest_file.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source_file, dest_file)
             print(f"Copied: {source_file} -> {dest_file}")
