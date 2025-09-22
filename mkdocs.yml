@@ -1,0 +1,169 @@
+site_name: GitHub AI Power - Build 3 Websites in 60 Minutes
+site_description: Learn to build professional websites without coding using AI tools like Claude Code, Obsidian, and GitHub Pages
+site_author: Anton Abyzov
+site_url: https://anton-abyzov.github.io/GitHubAIPower
+repo_url: https://github.com/anton-abyzov/GitHubAIPower
+repo_name: GitHubAIPower
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - content.action.edit
+    - content.action.view
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      lang:
+        - en
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: anton-abyzov
+      repo: GitHubAIPower
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://youtube.com/@antonabyzov
+      name: YouTube Channel
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/in/antonabyzov/
+      name: LinkedIn
+    - icon: simple/x
+      link: https://x.com/aabyzov
+      name: X (Twitter)
+    - icon: simple/github
+      link: https://github.com/anton-abyzov
+      name: GitHub
+    - icon: material/web
+      link: https://antonabyzov.com
+      name: Personal Website
+
+  generator: false
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+
+  - Episode 01 - Portfolio Without Code:
+    - Overview: episodes/01-portfolio-no-code/index.md
+    - Content:
+      - "00 - Introduction": episodes/01-portfolio-no-code/content/00-introduction.md
+      - "01 - Obsidian Setup": episodes/01-portfolio-no-code/content/01-obsidian-setup.md
+      - "02 - AI Tools Landscape": episodes/01-portfolio-no-code/content/02-ai-tools-landscape.md
+      - "03 - Claude Code Install": episodes/01-portfolio-no-code/content/03-claude-code-install.md
+      - "04 - Agent Creation": episodes/01-portfolio-no-code/content/04-agent-creation.md
+      - "05 - Portfolio Preparation": episodes/01-portfolio-no-code/content/05-portfolio-prep.md
+      - "06 - Master Prompt": episodes/01-portfolio-no-code/content/06-master-prompt.md
+      - "07 - GitHub Deploy": episodes/01-portfolio-no-code/content/07-github-deploy.md
+      - "08 - Closing": episodes/01-portfolio-no-code/content/08-closing.md
+    - Prompts:
+      - "Agent Definition": episodes/01-portfolio-no-code/prompts/agent-definition.md
+      - "Master Prompt": episodes/01-portfolio-no-code/prompts/master-prompt.md
+      - "Sidebar Navigation": episodes/01-portfolio-no-code/prompts/sidebar-nav.md
+    - Resources: episodes/RESOURCES.md
+
+  - Community:
+    - Showcase: community/showcase.md
+    - Contributions: community/contributions.md
+
+copyright: >
+  Copyright &copy; 2025 Anton Abyzov |
+  <a href="https://youtube.com/@antonabyzov">Subscribe on YouTube</a>

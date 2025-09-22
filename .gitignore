@@ -1,0 +1,55 @@
+.idea
+
+ Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/**/data.json
+.trash/
+
+# MkDocs
+site/
+.cache/
+.build_temp/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Temporary
+*.tmp
+temp/
+tmp/
+
+# Personal
+credentials.json
+secrets.yaml
+*.key
+private/
+node_modules
