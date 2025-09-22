@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Excalidraw Frame Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .error {
+            color: #d32f2f;
+            padding: 20px;
+            text-align: center;
+        }
+        svg {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1e1e1e;
+            }
+            .error {
+                color: #ff5252;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="error">Loading diagram...</div>
+    </div>
+    <script>
+        // Frame definitions
+        const frames = {
+            'KoJdwhj1PwVlHIsIixIRr': { name: 'Frame 1', x: -2838, y: -2618, width: 1793, height: 2016 },
+            'rVOSTdETPrlwu1WhoIxKN': { name: 'Frame 2', x: -303, y: -2451, width: 963, height: 1326 },
+            'PEMM5ClHbU_L4mXxJZVbE': { name: 'Frame 3', x: 1455, y: -2591, width: 1880, height: 2008 },
+            '_W_JdP3rpJypbhNkADqEX': { name: 'Frame 3.5', x: 4211, y: -2626, width: 1697, height: 2024 },
+            'g_huRGX4AReE-0V69pVaT': { name: 'Frame 4', x: -2849, y: -491, width: 973, height: 873 },
+            'Sf8jn2Eo9OT3zH1cGwPek': { name: 'Frame 4.5', x: -539, y: -536, width: 1422, height: 1014 },
+            'StLOY6fAw2MqVGdsakh51': { name: 'Frame 5', x: 1956, y: -497, width: 1055, height: 930 },
+            '9ZzwHK92FuFlxCy7kcnge': { name: 'Frame 6', x: -2921, y: 1243, width: 1733, height: 1182 },
+            'g9O_5V5J8RbOc6o25FUbR': { name: 'Frame 6.5', x: -195, y: 1386, width: 1243, height: 1123 },
+            'Ztri2CGQKDYpPN5xoF3qH': { name: 'Frame 7', x: 2577, y: 1405, width: 1178, height: 1197 },
+            'F0FmZBCy1DOtGqDTonkYd': { name: 'Frame 8', x: 5041, y: 1409, width: 1904, height: 1117 }
+        };
+
+        async function loadFrame() {
+            const container = document.getElementById('container');
+
+            try {
+                // Get frame ID from URL hash or query parameter
+                const urlParams = new URLSearchParams(window.location.search);
+                const frameId = urlParams.get('frame') || window.location.hash.slice(1) || 'StLOY6fAw2MqVGdsakh51';
+
+                const frame = frames[frameId];
+                if (!frame) {
+                    container.innerHTML = '<div class="error">Frame not found: ' + frameId + '</div>';
+                    return;
+                }
+
+                // Determine theme
+                const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const svgFilename = isDark ? 'all-diagrams.excalidraw.dark.svg' : 'all-diagrams.excalidraw.light.svg';
+
+                // Build absolute URL for the SVG file
+                const baseUrl = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, '/');
+                const svgUrl = baseUrl + svgFilename;
+
+                console.log('Loading SVG from:', svgUrl);
+                console.log('Frame:', frame);
+
+                const response = await fetch(svgUrl);
+                if (!response.ok) {
+                    throw new Error(`Failed to load SVG: ${response.status} ${response.statusText}`);
+                }
+
+                const svgText = await response.text();
+
+                // Parse SVG and update viewBox
+                const parser = new DOMParser();
+                const svgDoc = parser.parseFromString(svgText, 'image/svg+xml');
+                const svgElement = svgDoc.querySelector('svg');
+
+                if (svgElement) {
+                    // Set viewBox to show only the requested frame with padding
+                    const padding = 50;
+                    svgElement.setAttribute('viewBox',
+                        `${frame.x - padding} ${frame.y - padding} ${frame.width + padding * 2} ${frame.height + padding * 2}`
+                    );
+                    svgElement.setAttribute('width', '100%');
+                    svgElement.setAttribute('height', '100%');
+                    svgElement.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+
+                    container.innerHTML = svgElement.outerHTML;
+                } else {
+                    throw new Error('Invalid SVG content');
+                }
+            } catch (error) {
+                console.error('Error loading frame:', error);
+                container.innerHTML = `<div class="error">Error loading diagram:<br>${error.message}</div>`;
+            }
+        }
+
+        // Load on page load
+        loadFrame();
+
+        // Reload on theme change
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', loadFrame);
+
+        // Reload on hash change
+        window.addEventListener('hashchange', loadFrame);
+    </script>
+</body>
+</html>
