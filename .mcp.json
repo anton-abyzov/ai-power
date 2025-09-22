@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "Playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/playwright-mcp-server",
+        "--downloadsDir",
+        "/Users/antonabyzov/Pictures/playwright_screenshots"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

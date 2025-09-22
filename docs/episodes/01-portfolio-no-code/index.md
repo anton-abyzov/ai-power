@@ -29,8 +29,9 @@ Build 3 professional websites in 60 minutes without writing code. This replaces 
 
 - [All Resources & Links](../RESOURCES.md)
 - [Main Diagram](diagrams/all-diagrams.excalidraw)
-- [Prompts](prompts/)
-- [Timestamps](⏰%20TIMESTAMPS.md)
+- [Agent Definition Prompt](prompts/agent-definition.md)
+- [Master Prompt](prompts/master-prompt.md)
+- [Sidebar Navigation](prompts/sidebar-nav.md)
 
 ### 🚀 Next Episodes
 

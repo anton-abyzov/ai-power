@@ -10,8 +10,8 @@ timestamp: "0:00-2:25"
 
 ## The New Reality [0:35-1:00]
 
-!!! info "View Diagram"
-    [📊 Open in Excalidraw - Frame 1](../diagrams/all-diagrams.excalidraw#Frame1)
+!!! tip "What You No Longer Need"
+    You can view the full diagram in [Excalidraw](https://excalidraw.com/#json=700202,aVqF_6M6xKQxWXJZm7hYdg)
 
 What you no longer need:
 - HTML
@@ -27,15 +27,13 @@ What you no longer need:
 
 ## The Opportunity [1:00-1:20]
 
-!!! info "View Diagram"
-    [📊 Open in Excalidraw - Frame 2](../diagrams/all-diagrams.excalidraw#Frame2)
+!!! warning "12-Month Window"
 
 We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 ## What You'll Build [1:20-1:40]
 
-!!! info "View Diagram"
-    [📊 Open in Excalidraw - Frame 3](../diagrams/all-diagrams.excalidraw#Frame3)
+!!! success "Portfolio Features"
 
 In the next hour:
 - ✅ Custom design - Your vision, not a template

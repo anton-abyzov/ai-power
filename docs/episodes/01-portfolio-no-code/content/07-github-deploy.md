@@ -6,8 +6,9 @@ timestamp: "31:28-42:52"
 # Going Live with GitHub Pages
 
 ## Deployment Options Comparison
-![GitHub Flow](../diagrams/06-github-flow.png)
-[📊 View in Excalidraw - Frame 7](../diagrams/all-diagrams.excalidraw#Frame7)
+
+!!! abstract "Deployment Strategies"
+    Choose the right hosting platform based on your needs
 
 - **GitHub Pages**: Free, automatic CI/CD, public code
 - **Cloudflare**: Private code, manual updates

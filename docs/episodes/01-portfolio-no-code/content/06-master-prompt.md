@@ -26,7 +26,7 @@ Deploy locally for immediate testing on ports 8005, 6 and 7.
 - 3 complete websites
 - Fully responsive
 - Working embeds
-- ~$0.30 in API usage
+- Using Claude Code Pro ($20/month unlimited)
 
 ## The Results
 - Version 1: Cosmic theme with gradients

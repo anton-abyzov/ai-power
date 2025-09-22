@@ -1,5 +1,3 @@
-## **📁 content/05-portfolio-prep.md**
-```markdown
 ---
 title: "Organizing Portfolio Content"
 timestamp: "20:43-27:17"
@@ -9,14 +7,17 @@ timestamp: "20:43-27:17"
 
 ## Content Structure
 
+```
 ~/Pictures/anna-portfolio/
 ├── photos/
 ├── achievements/
 ├── youtube-links/
 ├── testimonials/
 └── contacts/
+```
 
 ## Anna's Background
+
 - Math Olympiad captain, regional winner
 - International piano laureate
 - FBLA state conference
@@ -25,15 +26,16 @@ timestamp: "20:43-27:17"
 - Tutors: Math, Science, Languages, Piano
 
 ## Image Optimization Tips
+
 **Using Gemini (Nano Banana)**
 - Remove unwanted elements
 - Be SUPER precise with instructions
 - Example: "Remove only the black microphone stand"
 
 ## Design Inspiration
+
 - Google Stitch AI (beta)
 - Dribbble for ideas
 - But we're skipping design phase - AI will generate on the fly
 
 [→ Next: The Master Prompt](06-master-prompt.md)
-

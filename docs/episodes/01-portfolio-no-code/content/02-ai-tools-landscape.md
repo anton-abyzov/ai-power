@@ -5,8 +5,8 @@ timestamp: "10:11-15:03"
 
 # AI Development Tools Landscape
 
-!!! info "View Diagram"
-    [📊 Open in Excalidraw - Frame 4](../diagrams/all-diagrams.excalidraw#Frame4)
+!!! abstract "The AI Stack"
+    Three layers of AI development tools - from no-code platforms to professional CLI tools
 
 ## The Three Layers
 
