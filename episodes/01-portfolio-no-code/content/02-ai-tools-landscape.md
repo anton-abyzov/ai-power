@@ -5,13 +5,11 @@ timestamp: "10:11-15:03"
 
 # AI Development Tools Landscape
 
-![AI Tools Stack](../diagrams/04-ai-tools-stack.png)
-[📊 View in Excalidraw - Frame 3](../diagrams/all-diagrams.excalidraw#Frame3)
+[📊 View in Excalidraw - Frame 4](../diagrams/all-diagrams.excalidraw.md#Frame4)
 
 ## The Three Layers
 
 ### Top Layer - No Code (Yellow)
-![No Code Tools](../diagrams/all-diagrams.excalidraw#Frame3.5)
 - **Replit, v0, Lovable, Bolt**
 - Click buttons, get websites
 - Great for prototypes
