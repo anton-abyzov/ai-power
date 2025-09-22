@@ -1,0 +1,18 @@
+{
+  "name": "githubaipower",
+  "version": "1.0.0",
+  "description": "Build anything with AI. No code required.",
+  "main": "test-deployment.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
