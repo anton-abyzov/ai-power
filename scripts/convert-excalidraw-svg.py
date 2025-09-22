@@ -10,17 +10,22 @@ import json
 import shutil
 from pathlib import Path
 
-# Frame coordinates extracted from the Excalidraw file
+# Frame coordinates extracted from the Excalidraw file with padding
 FRAME_COORDS = {
-    'KoJdwhj1PwVlHIsIixIRr': {'x': -2838, 'y': -2618, 'width': 1793, 'height': 1006},
-    'rVOSTdETPrlwu1WhoIxKN': {'x': -303, 'y': -2451, 'width': 963, 'height': 561},
-    'PEMM5ClHbU_L4mXxJZVbE': {'x': 1455, 'y': -2591, 'width': 1880, 'height': 1260},
-    'g_huRGX4AReE-0V69pVaT': {'x': -2849, 'y': -491, 'width': 973, 'height': 873},
-    'StLOY6fAw2MqVGdsakh51': {'x': 1956, 'y': -497, 'width': 1055, 'height': 888},
-    'Ztri2CGQKDYpPN5xoF3qH': {'x': 2577, 'y': 1405, 'width': 1178, 'height': 827},
+    'KoJdwhj1PwVlHIsIixIRr': {'x': -2839, 'y': -2619, 'width': 1793, 'height': 1005},  # Frame 1
+    'rVOSTdETPrlwu1WhoIxKN': {'x': -304, 'y': -2451, 'width': 964, 'height': 561},  # Frame 2
+    'PEMM5ClHbU_L4mXxJZVbE': {'x': 1455, 'y': -2592, 'width': 1881, 'height': 1261},  # Frame 3
+    '_W_JdP3rpJypbhNkADqEX': {'x': 4211, 'y': -2627, 'width': 1697, 'height': 493},  # Frame 3.5
+    'g_huRGX4AReE-0V69pVaT': {'x': -2850, 'y': -492, 'width': 974, 'height': 874},  # Frame 4
+    'Sf8jn2Eo9OT3zH1cGwPek': {'x': -540, 'y': -537, 'width': 1422, 'height': 986},  # Frame 4.5
+    'StLOY6fAw2MqVGdsakh51': {'x': 1957, 'y': -498, 'width': 1056, 'height': 888},  # Frame 5
+    '9ZzwHK92FuFlxCy7kcnge': {'x': -2922, 'y': 1243, 'width': 1733, 'height': 1079},  # Frame 6
+    'g9O_5V5J8RbOc6o25FUbR': {'x': -195, 'y': 1386, 'width': 1244, 'height': 847},  # Frame 6.5
+    'Ztri2CGQKDYpPN5xoF3qH': {'x': 2578, 'y': 1405, 'width': 1178, 'height': 827},  # Frame 7
+    'F0FmZBCy1DOtGqDTonkYd': {'x': 5042, 'y': 1410, 'width': 1905, 'height': 1045},  # Frame 8
 }
 
-def convert_excalidraw_links(content, svg_path_prefix="../../diagrams"):
+def convert_excalidraw_links(content, svg_path_prefix="../diagrams"):
     """
     Convert Obsidian Excalidraw embeds to inline SVG with viewBox.
 
@@ -40,15 +45,31 @@ def convert_excalidraw_links(content, svg_path_prefix="../../diagrams"):
 
         coords = FRAME_COORDS[frame_id]
 
+        # Add padding around the frame for better visibility
+        padding = 50
+        view_x = coords['x'] - padding
+        view_y = coords['y'] - padding
+        view_width = coords['width'] + (padding * 2)
+        view_height = coords['height'] + (padding * 2)
+
+        # Calculate aspect ratio for responsive height
+        aspect_ratio = view_height / view_width
+        # Max height of 600px, but scale down if needed
+        max_width = 1200
+        calculated_height = min(600, max_width * aspect_ratio)
+
         # Create embedded SVG with viewBox for the specific frame
-        # Using object tag for better compatibility
-        svg_embed = f'''<div style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: white;">
-<svg viewBox="{coords['x']} {coords['y']} {coords['width']} {coords['height']}"
-     style="width: 100%; height: 100%;"
-     xmlns="http://www.w3.org/2000/svg">
+        svg_embed = f'''<div style="width: 100%; max-width: {max_width}px; margin: 2rem auto;">
+<div style="width: 100%; height: 0; padding-bottom: {aspect_ratio * 100:.1f}%; position: relative; border: 1px solid #e1e4e8; border-radius: 8px; overflow: hidden; background: white;">
+<svg viewBox="{view_x} {view_y} {view_width} {view_height}"
+     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+     xmlns="http://www.w3.org/2000/svg"
+     preserveAspectRatio="xMidYMid meet">
   <image href="{svg_path_prefix}/all-diagrams.excalidraw.light.svg"
-         x="-5000" y="-5000" width="15000" height="10000"/>
+         x="-5000" y="-5000" width="15000" height="10000"
+         preserveAspectRatio="none"/>
 </svg>
+</div>
 </div>'''
 
         return svg_embed
