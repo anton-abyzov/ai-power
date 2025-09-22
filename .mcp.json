@@ -3,12 +3,8 @@
     "playwright": {
       "command": "npx",
       "args": [
-        "-y",
-        "@executeautomation/playwright-mcp-server"
-      ],
-      "env": {
-        "PLAYWRIGHT_DOWNLOADS_DIR": "/Users/antonabyzov/Pictures/playwright_screenshots"
-      }
+        "@playwright/mcp@latest"
+      ]
     }
   }
 }

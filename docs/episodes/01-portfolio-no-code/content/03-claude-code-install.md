@@ -23,7 +23,12 @@ Initialize Project
 bashclaude-code init
 Understanding the Context Window
 Show Image
-📊 View in Excalidraw - Frame 5
+
+<!-- Obsidian -->
+![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=StLOY6fAw2MqVGdsakh51]]
+
+<!-- MkDocs -->
+<iframe src="../diagrams/excalidraw-frames.html#StLOY6fAw2MqVGdsakh51" width="100%" height="600" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
 200K tokens = Your working memory
 System prompt (3.1k tokens)

@@ -5,8 +5,11 @@ timestamp: "10:11-15:03"
 
 # AI Development Tools Landscape
 
-!!! abstract "The AI Stack"
-    Three layers of AI development tools - from no-code platforms to professional CLI tools
+<!-- Obsidian -->
+![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=g_huRGX4AReE-0V69pVaT]]
+
+<!-- MkDocs -->
+<iframe src="../diagrams/excalidraw-frames.html#g_huRGX4AReE-0V69pVaT" width="100%" height="600" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
 ## The Three Layers
 

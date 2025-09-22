@@ -7,7 +7,12 @@ timestamp: "31:28-42:52"
 
 ## Deployment Options Comparison
 ![GitHub Flow](../diagrams/06-github-flow.png)
+
+<!-- Obsidian -->
 ![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=Ztri2CGQKDYpPN5xoF3qH]]
+
+<!-- MkDocs -->
+<iframe src="../diagrams/excalidraw-frames.html#Ztri2CGQKDYpPN5xoF3qH" width="100%" height="600" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
 - **GitHub Pages**: Free, automatic CI/CD, public code
 - **Cloudflare**: Private code, manual updates
