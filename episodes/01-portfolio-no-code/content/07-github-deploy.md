@@ -6,7 +6,6 @@ timestamp: "31:28-42:52"
 # Going Live with GitHub Pages
 
 ## Deployment Options Comparison
-![GitHub Flow](../diagrams/06-github-flow.png)
 
 <!-- Obsidian -->
 ![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^clippedframe=Ztri2CGQKDYpPN5xoF3qH]]
