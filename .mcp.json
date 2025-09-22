@@ -1,10 +1,10 @@
 {
   "mcpServers": {
     "playwright": {
-      "command": "npx",
-      "args": [
-        "@playwright/mcp@latest"
-      ]
+      "type": "stdio",
+      "command": "/Users/antonabyzov/Library/Mobile Documents/iCloud~md~obsidian/Documents/GitHubAIPower",
+      "args": [],
+      "env": {}
     }
   }
 }
