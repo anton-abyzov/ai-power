@@ -17,8 +17,8 @@ def convert_excalidraw_links(content):
     Pattern: ![[../diagrams/all-diagrams.excalidraw#^frame=FRAME_ID]]
     To: <div><iframe src="../../diagrams/viewer.html#FRAME_ID"></iframe></div>
     """
-    # Pattern to match Obsidian Excalidraw embeds (relative path with frame syntax)
-    pattern = r'!\[\[\.\.\/diagrams\/[^#]+\.excalidraw#\^frame=([^\]]+)\]\]'
+    # Pattern to match Obsidian Excalidraw embeds (full path with frame syntax)
+    pattern = r'!\[\[episodes/[^/]+/diagrams/[^#]+\.excalidraw\.md#\^frame=([^\]]+)\]\]'
 
     def replace_embed(match):
         frame_id = match.group(1)
