@@ -223,11 +223,19 @@ html {
     object-fit: contain !important;
 }
 
-/* Fix navigation footer spacing */
+/* Fix navigation footer spacing - reduced height */
 .md-footer-nav {
-    margin-top: 4rem !important;
-    padding: 2rem 0 !important;
+    margin-top: 2rem !important;
+    padding: 1rem 0 !important;
     border-top: 1px solid var(--md-default-fg-color--lightest) !important;
+}
+
+.md-footer {
+    padding: 0.5rem 0 !important;
+}
+
+.md-footer-meta {
+    padding: 0.5rem !important;
 }
 
 /* Better link styling */
