@@ -259,36 +259,47 @@ html {
     border-bottom-color: var(--md-primary-fg-color) !important;
 }
 
-/* Fix list formatting - more specific selectors */
-.md-typeset ul,
-.md-content ul,
-.md-nav ul {
+/* Fix list formatting - force bullets to show */
+.md-typeset ul:not(.md-nav__list):not(.task-list) {
     margin-left: 1.5rem !important;
-    list-style-type: disc !important;
-    list-style-position: outside !important;
     padding-left: 1rem !important;
+    list-style: disc !important;
+    list-style-position: outside !important;
 }
 
-.md-typeset ul li,
-.md-content ul li {
-    margin-bottom: 0.5rem !important;
-    list-style-type: disc !important;
+.md-typeset ul:not(.md-nav__list):not(.task-list) > li {
+    list-style: disc !important;
+    list-style-position: outside !important;
     display: list-item !important;
+    margin-bottom: 0.5rem !important;
 }
 
-.md-typeset ol,
-.md-content ol {
+.md-typeset ul:not(.md-nav__list):not(.task-list) li::before {
+    content: none !important;
+}
+
+.md-typeset ol:not(.md-nav__list) {
     margin-left: 1.5rem !important;
-    list-style-type: decimal !important;
-    list-style-position: outside !important;
     padding-left: 1rem !important;
+    list-style: decimal !important;
+    list-style-position: outside !important;
 }
 
-.md-typeset ol li,
-.md-content ol li {
-    margin-bottom: 0.5rem !important;
-    list-style-type: decimal !important;
+.md-typeset ol:not(.md-nav__list) > li {
+    list-style: decimal !important;
+    list-style-position: outside !important;
     display: list-item !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Remove any custom markers that MkDocs adds */
+.md-typeset li::marker {
+    unicode-bidi: isolate !important;
+    font-variant-numeric: tabular-nums !important;
+    text-transform: none !important;
+    text-indent: 0 !important;
+    text-align: start !important;
+    text-align-last: start !important;
 }
 
 /* Nested lists */
@@ -300,21 +311,20 @@ html {
     list-style-type: square !important;
 }
 
-/* Override MkDocs defaults that hide list styles */
-.md-typeset :not(pre) > ul,
-.md-typeset :not(pre) > ol {
-    list-style: initial !important;
+/* Ensure navigation and other special lists don't get bullets */
+.md-nav__list,
+.md-nav__item,
+.md-tabs__list,
+.md-tabs__item,
+.task-list {
+    list-style-type: none !important;
+    list-style: none !important;
 }
 
-/* Ensure navigation lists don't get bullets */
-.md-nav__list {
-    list-style-type: none !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-}
-
-.md-nav__item {
-    list-style-type: none !important;
+.md-nav__list li::before,
+.md-nav__item::before,
+.md-tabs__item::before {
+    content: none !important;
 }
 
 /* Fix content overflow */

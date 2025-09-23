@@ -44,13 +44,13 @@ In the next hour:
 
 <div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
   <div>
-    <a href="../index.md" style="text-decoration: none;">
+    <a href="../" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">← Back</div>
       <div style="color: #7c4dff; font-weight: 600;">Episode Overview</div>
     </a>
   </div>
   <div style="text-align: right;">
-    <a href="01-obsidian-setup.md" style="text-decoration: none;">
+    <a href="../content/01-obsidian-setup/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">Next →</div>
       <div style="color: #7c4dff; font-weight: 600;">Obsidian Setup</div>
     </a>

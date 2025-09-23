@@ -54,13 +54,13 @@ claude --agent ui-expert "build portfolio site"
 
 <div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
   <div>
-    <a href="02-ai-tools-landscape.md" style="text-decoration: none;">
+    <a href="../content/02-ai-tools-landscape/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">← Previous</div>
       <div style="color: #7c4dff; font-weight: 600;">AI Tools Landscape</div>
     </a>
   </div>
   <div style="text-align: right;">
-    <a href="04-agent-creation.md" style="text-decoration: none;">
+    <a href="../content/04-agent-creation/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">Next →</div>
       <div style="color: #7c4dff; font-weight: 600;">Agent Creation</div>
     </a>

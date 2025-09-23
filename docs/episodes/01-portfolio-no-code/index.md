@@ -61,7 +61,7 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 
     Learn step-by-step how to build professional websites without coding
 
-    [:octicons-arrow-right-24: Start from Beginning](content/00-introduction.md)
+    [:octicons-arrow-right-24: Start from Beginning](content/00-introduction/)
 
 -   :material-rocket-launch:{ .lg .middle } __Jump to Key Sections__
 
@@ -69,10 +69,10 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 
     Skip to the part you need most
 
-    [:octicons-arrow-right-24: Obsidian Setup](content/01-obsidian-setup.md)
-    [:octicons-arrow-right-24: Claude Install](content/03-claude-code-install.md)
-    [:octicons-arrow-right-24: Master Prompt](content/06-master-prompt.md)
-    [:octicons-arrow-right-24: GitHub Deploy](content/07-github-deploy.md)
+    [:octicons-arrow-right-24: Obsidian Setup](content/01-obsidian-setup/)
+    [:octicons-arrow-right-24: Claude Install](content/03-claude-code-install/)
+    [:octicons-arrow-right-24: Master Prompt](content/06-master-prompt/)
+    [:octicons-arrow-right-24: GitHub Deploy](content/07-github-deploy/)
 
 -   :material-file-document:{ .lg .middle } __Get the Prompts__
 
@@ -80,8 +80,8 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 
     Copy the exact prompts I use
 
-    [:octicons-arrow-right-24: Agent Definition](prompts/agent-definition.md)
-    [:octicons-arrow-right-24: Master Prompt](prompts/master-prompt.md)
+    [:octicons-arrow-right-24: Agent Definition](prompts/agent-definition/)
+    [:octicons-arrow-right-24: Master Prompt](prompts/master-prompt/)
 
 -   :material-book-open-variant:{ .lg .middle } __Resources__
 
@@ -89,7 +89,7 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 
     All links and materials mentioned
 
-    [:octicons-arrow-right-24: View Resources](../../episodes/RESOURCES.md)
+    [:octicons-arrow-right-24: View Resources](../RESOURCES/)
 
 </div>
 
@@ -97,20 +97,20 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 | Timestamp | Topic | What You'll Learn |
 |-----------|-------|-------------------|
-| [00:00](content/00-introduction.md) | **Introduction** | The $10K secret and what's possible |
-| [05:11](content/01-obsidian-setup.md) | **Obsidian Setup** | Installing and configuring your content system |
-| [10:11](content/02-ai-tools-landscape.md) | **AI Tools Landscape** | Understanding the tools available |
-| [13:32](content/03-claude-code-install.md) | **Claude Install** | Setting up your AI coding assistant |
-| [16:03](content/04-agent-creation.md) | **Agent Creation** | Building your personalized AI agent |
-| [21:43](content/05-portfolio-prep.md) | **Portfolio Preparation** | Organizing your content |
-| [27:17](content/06-master-prompt.md) | **Master Prompt** | The exact prompt for building websites |
-| [31:28](content/07-github-deploy.md) | **GitHub Deploy** | Publishing your site live |
-| [42:52](content/08-closing.md) | **Closing** | Next steps and community |
+| [00:00](content/00-introduction/) | **Introduction** | The $10K secret and what's possible |
+| [05:11](content/01-obsidian-setup/) | **Obsidian Setup** | Installing and configuring your content system |
+| [10:11](content/02-ai-tools-landscape/) | **AI Tools Landscape** | Understanding the tools available |
+| [13:32](content/03-claude-code-install/) | **Claude Install** | Setting up your AI coding assistant |
+| [16:03](content/04-agent-creation/) | **Agent Creation** | Building your personalized AI agent |
+| [21:43](content/05-portfolio-prep/) | **Portfolio Preparation** | Organizing your content |
+| [27:17](content/06-master-prompt/) | **Master Prompt** | The exact prompt for building websites |
+| [31:28](content/07-github-deploy/) | **GitHub Deploy** | Publishing your site live |
+| [42:52](content/08-closing/) | **Closing** | Next steps and community |
 
 ## 🎓 Ready to Start?
 
 <div style="text-align: center; margin: 2rem 0;">
-    <a href="content/00-introduction.md" class="md-button md-button--primary" style="padding: 1rem 2rem; font-size: 1.2rem;">
+    <a href="content/00-introduction/" class="md-button md-button--primary" style="padding: 1rem 2rem; font-size: 1.2rem;">
         ▶️ Start Learning Now
     </a>
 </div>
