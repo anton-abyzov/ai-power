@@ -14,7 +14,31 @@
   </text>
   <rect x="701.4047269821167" y="395.1681867946279" width="167.78793125744937" height="57.7066956667677" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
   <text x="724.3687457114273" y="431.52153462801175" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Course sales</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-CR3CPpk6" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1971c2"/>
+      </marker>
+    </defs>
+    <path d="M 231.31972647740693 296.6650625575676 L 435.39334143066503 223.91381217609754 L 697.8623414306638 218.44985201857025" stroke="#1971c2" stroke-width="2" fill="none" marker-end="url(#arrowhead-CR3CPpk6)"/>
+  </g>
   <text x="346.72181738281347" y="231.4138121760975" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1971c2" opacity="1.0">✓ Launch business</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-RT0KEAFq" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#2f9e44"/>
+      </marker>
+    </defs>
+    <path d="M 274.78128051757835 321.4165919613497 L 435.39334143066355 321.4168121760973 L 697.9983414306644 326.0948802288317" stroke="#2f9e44" stroke-width="2" fill="none" marker-end="url(#arrowhead-RT0KEAFq)"/>
+  </g>
   <text x="315.22180975341746" y="328.9168121760972" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#2f9e44" opacity="1.0">✓ Automate 20hrs/week</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-huYGyXFf" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#9c36b5"/>
+      </marker>
+    </defs>
+    <path d="M 231.32144160872508 346.1681867946281 L 435.39334143066503 418.9198121760978 L 696.1043414306641 422.72111456593075" stroke="#9c36b5" stroke-width="2" fill="none" marker-end="url(#arrowhead-huYGyXFf)"/>
+  </g>
   <text x="328.23181951904394" y="426.4198121760978" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#9c36b5" opacity="1.0">✓ Build income assets</text>
 </svg>

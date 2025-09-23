@@ -46,4 +46,68 @@
     <tspan x="1488.2911032252193" dy="0">❌ $15,000</tspan>
     <tspan x="1488.2911032252193" dy="1.2em">tuition</tspan>
   </text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-Yaa2UNCk" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 694.1370063698805 178.45147132982538 L 104.49699999999984 291.01900000000023 L 104.49684489705987 390.34999999987895" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-Yaa2UNCk)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-3VUje3Ln" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 695.2697152521032 183.68362381752013 L 252.35800000000035 291.01900000000006 L 252.35774285849038 401.48299999970095" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-3VUje3Ln)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-QDltxpuD" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 698.5088926562257 194.54716191914713 L 427.33599999999973 291.01900000000023 L 427.33600000000024 363.2330000000002" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-QDltxpuD)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-bxhxcclL" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 712.3658981552094 221.17046049910095 L 614.1129999999996 291.0190000000002 L 614.1129999999998 389.6840000000002" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-bxhxcclL)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-f7FRnNdd" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 801.212999999999 267.0187530506869 L 801.2129999999988 291.01900000000006 L 801.2129999999993 362.9090000000001" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-f7FRnNdd)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-3hRgvUsX" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 891.7708750203371 218.690740421403 L 999.7129999999992 291.0190000000002 L 999.7129999999997 378.2840000000001" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-3hRgvUsX)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-bwUhBsE7" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 905.7357646030964 188.95989891320278 L 1250.4029999999998 291.0189999999999 L 1250.4029999999998 310.71900000000005" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-bwUhBsE7)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-9pjSnX9q" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 908.5126818439203 177.23744842136875 L 1543.4780000000005 291.019 L 1543.4780000000005 335.9000000000001" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-9pjSnX9q)"/>
+  </g>
 </svg>

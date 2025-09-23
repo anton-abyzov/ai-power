@@ -39,4 +39,28 @@
   </text>
   <rect x="699.9515686035156" y="522.5281276702883" width="131.71876525878906" height="47.50312423706055" stroke="#000" stroke-width="3" fill="#ffd60a" opacity="1.0"/>
   <text x="706.5409774780273" y="553.7796897888186" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#000" opacity="1.0">70% SAVED</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-6u5IW0NH" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 196.052 286.0187530517578 L 196.052 310.01900000000023 L 196.0516357486273 354.7190000000003" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-6u5IW0NH)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-lfZiwRv9" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 765.8110000000001 286.0187530517576 L 765.8110000000001 310.01900000000023 L 765.811 354.7190000000003" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-lfZiwRv9)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-qD3NJLNg" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 765.8109999999849 473.5281295776367 L 765.8109999999732 517.2280000000003" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-qD3NJLNg)"/>
+  </g>
 </svg>

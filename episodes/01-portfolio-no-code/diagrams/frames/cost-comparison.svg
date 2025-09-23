@@ -22,15 +22,47 @@
   </text>
   <rect x="304.5073138104781" y="345.3992076396944" width="137.746826171875" height="60.38909912109375" stroke="#1e1e1e" stroke-width="2" fill="#b2f2bb" opacity="1.0" rx="10" ry="10"/>
   <text x="337.5307513104781" y="383.09375720024127" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">VSCode</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-rXS6kkGV" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 289.66938447029906 391.4971711349398 L 244.69475277532183 447.68747198855453" stroke="#1e1e1e" stroke-width="1" fill="none" marker-end="url(#arrowhead-rXS6kkGV)"/>
+  </g>
   <rect x="206.03716000188433" y="520.7539439678194" width="137.746826171875" height="60.38909912109375" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0" rx="10" ry="10"/>
   <text x="234.33060177434527" y="545.9484935283663" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
     <tspan x="234.33060177434527" dy="0">Augment</tspan>
     <tspan x="234.33060177434527" dy="1.2em">Code</tspan>
   </text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead--aOIySL2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 362.4346663717902 410.3374705791475 L 293.840273550903 518.5531993389131" stroke="#1e1e1e" stroke-width="1" fill="none" marker-end="url(#arrowhead--aOIySL2)"/>
+  </g>
   <rect x="400.34355648625933" y="520.4163890361788" width="137.746826171875" height="60.38909912109375" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0" rx="10" ry="10"/>
   <text x="447.60699185002886" y="558.1109385967256" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Cline</text>
   <rect x="466.2165423261031" y="433.0976939678194" width="137.746826171875" height="60.38909912109375" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0" rx="10" ry="10"/>
   <text x="492.01997860539996" y="470.79224352836627" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">RooCode</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-PeZoehIC" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 451.6760149823531 388.15541589554897 L 516.8062728596037 431.31409411430377" stroke="#1e1e1e" stroke-width="1" fill="none" marker-end="url(#arrowhead-PeZoehIC)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-l6cKJB3S" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 404.4969220896919 414.56561999321 L 465.88808692952034 514.3952403545381" stroke="#1e1e1e" stroke-width="1" fill="none" marker-end="url(#arrowhead-l6cKJB3S)"/>
+  </g>
   <rect x="302.6793108807906" y="241.85703234672565" width="137.746826171875" height="60.38909912109375" stroke="#1e1e1e" stroke-width="2" fill="#ffec99" opacity="1.0" rx="10" ry="10"/>
   <text x="336.2427492963179" y="279.5515819072725" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Lovable</text>
   <rect x="721.7046218713458" y="143.44816333177278" width="137.746826171875" height="60.38909912109375" stroke="#1e1e1e" stroke-width="2" fill="#ffec99" opacity="1.0" rx="10" ry="10"/>

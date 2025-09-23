@@ -43,7 +43,7 @@ def get_element_bounds(elements):
         height = el.get('height', 0)
 
         # Handle different element types
-        if el['type'] == 'line':
+        if el['type'] in ['line', 'arrow']:
             points = el.get('points', [])
             for point in points:
                 px = x + point[0]
@@ -186,6 +186,63 @@ def create_svg_element(el, offset_x, offset_y, files=None):
             path.set('stroke-linecap', 'round')
             path.set('stroke-linejoin', 'round')
             return path
+
+    elif el_type == 'arrow':
+        # Create a group for the arrow (line + arrowheads)
+        group = ET.Element('g')
+        group.set('opacity', str(opacity))
+
+        # Create the arrow line
+        points = el.get('points', [])
+        if points and len(points) >= 2:
+            # Create path for the arrow line
+            path = ET.Element('path')
+            path_d = f"M {x + points[0][0]} {y + points[0][1]}"
+            for point in points[1:]:
+                path_d += f" L {x + point[0]} {y + point[1]}"
+            path.set('d', path_d)
+            path.set('stroke', stroke_color)
+            path.set('stroke-width', str(stroke_width))
+            path.set('fill', 'none')
+
+            # Handle stroke style
+            stroke_style = el.get('strokeStyle')
+            if stroke_style == 'dashed':
+                path.set('stroke-dasharray', '5,5')
+            elif stroke_style == 'dotted':
+                path.set('stroke-dasharray', '2,2')
+
+            # Add marker for arrowhead if present
+            if el.get('endArrowhead') or el.get('lastCommittedPoint'):
+                # Create a unique marker ID
+                marker_id = f"arrowhead-{el['id'][:8]}"
+
+                # Define the arrowhead marker
+                defs = ET.Element('defs')
+                marker = ET.SubElement(defs, 'marker')
+                marker.set('id', marker_id)
+                marker.set('markerWidth', '10')
+                marker.set('markerHeight', '10')
+                marker.set('refX', '9')
+                marker.set('refY', '3')
+                marker.set('orient', 'auto')
+                marker.set('markerUnits', 'strokeWidth')
+
+                # Create the arrowhead shape
+                arrow_path = ET.SubElement(marker, 'path')
+                arrow_path.set('d', 'M 0 0 L 10 3 L 0 6 L 3 3 z')
+                arrow_path.set('fill', stroke_color)
+
+                # Add the marker reference to the path
+                path.set('marker-end', f"url(#{marker_id})")
+
+                # Return both defs and path in the group
+                group.append(defs)
+
+            group.append(path)
+            return group
+
+        return None
 
     elif el_type == 'image':
         # Handle image elements with embedded data

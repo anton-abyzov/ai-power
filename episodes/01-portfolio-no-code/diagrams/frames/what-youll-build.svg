@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2020.3122116490567" height="763.334042336083" viewBox="0 0 2020.3122116490567 763.334042336083">
-  <rect width="2020.3122116490567" height="763.334042336083" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1719.80322265625" height="763.334042336083" viewBox="0 0 1719.80322265625 763.334042336083">
+  <rect width="1719.80322265625" height="763.334042336083" fill="white"/>
   <rect x="50" y="50" width="1880.5715514793465" height="1260.6859984861687" stroke="#e0e0e0" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
   <rect x="814.3461685180664" y="50.0" width="194.5031280517578" height="47.50312423706055" stroke="#d00000" stroke-width="3" fill="#ff006e" opacity="1.0"/>
   <text x="822.8177642822266" y="81.25156211853027" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">🔥 THE PROMISE</text>
@@ -25,4 +25,100 @@
   </text>
   <rect x="805.3500584123531" y="665.8309180990225" width="209.85940551757812" height="47.50312423706055" stroke="#000" stroke-width="3" fill="#06ffa5" opacity="1.0"/>
   <text x="813.2198093889156" y="697.0824802175528" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#000" opacity="1.0">👇 LET'S BUILD 👇</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-M_f4r122" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 911.5980000000004 98.50312423706055 L 911.5980000000009 141.7030019073486" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-M_f4r122)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-uB1_SZn4" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 912.0877908863922 196.0062484741211 L 911.597999999999 220.0060019073485 L 911.4940902561561 239.70705969394385" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-uB1_SZn4)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-0X8_UH3i" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 897.9539999999997 261.8630019073489 L 251.14099999999974 300.00600190734895 L 251.14099999999962 319.20600190734876" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-0X8_UH3i)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-g5jSGwHO" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 899.5409999999993 263.45000190734845 L 706.0559999999992 300.0060019073485 L 706.0559999999996 319.20600190734876" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-g5jSGwHO)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-7bQfu9rU" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 925.4222849088851 263.59591157890327 L 1117.1389999999994 300.00600190734826 L 1117.1389999999992 319.20600190734876" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-7bQfu9rU)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-ibm5zxLo" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 926.9960922253149 262.02210426247393 L 1497.124999999999 300.0060019073481 L 1497.1249999999995 319.20600190734876" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-ibm5zxLo)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-5XVrFOna" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 251.6307883509421 373.50937271118164 L 251.14099999999962 397.5090019073484 L 799.7429999999995 437.54100190734835" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-5XVrFOna)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-kBE9F2k9" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 706.5457883509425 373.50937271118164 L 706.0559999999996 397.5090019073484 L 805.8020000000024 420.7860019073487" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-kBE9F2k9)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-vbupoiSb" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 1116.479421896729 361.0062484741211 L 1117.1389999999997 397.5090019073484 L 1017.3939999999984 420.78600190734846" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-vbupoiSb)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-BkQ8TbGJ" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 1496.6352116490575 373.5093727111814 L 1497.1249999999995 397.5090019073484 L 1023.4480000000003 436.49000190734864" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-BkQ8TbGJ)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-Rmwg1DwD" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 911.597999130237 471.01249694824173 L 911.5979976122153 514.2120019073486" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-Rmwg1DwD)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-CHYAlzyU" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 910.7134798379361 656.012496948242 L 910.6615876963183 660.0312988210685" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-CHYAlzyU)"/>
+  </g>
 </svg>
