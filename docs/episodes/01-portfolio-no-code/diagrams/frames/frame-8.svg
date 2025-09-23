@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1641.06884765625" height="367.5156250000002" viewBox="0 0 1641.06884765625 367.5156250000002">
+  <rect width="1641.06884765625" height="367.5156250000002" fill="white"/>
+  <rect x="50" y="50" width="1904.503577854326" height="1045.207028355208" stroke="#e0e0e0" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+  <rect x="1306.0562744140625" y="50.0" width="285.0125732421875" height="267.515625" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="1388.8226165771484" y="75.0" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Live Website</text>
+  <rect x="1331.0562744140625" y="85.0" width="235.01251220703125" height="112.5093765258789" stroke="#be185d" stroke-width="2" fill="#ec4899" opacity="1.0"/>
+  <text x="1360.5025939941406" y="123.75468826293945" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="1360.5025939941406" dy="0">GitHub Pages</tspan>
+    <tspan x="1360.5025939941406" dy="1.2em">yourname.github.io</tspan>
+    <tspan x="1360.5025939941406" dy="1.2em">100% FREE</tspan>
+  </text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-y159j4Il" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 1382.1190812922205 198.50937652587913 L 1331.0560000000003 242.51099999999957 L 1331.0560000000003 253.76199999999957 L 1448.5630000000003 265.0129999999996 L 1566.0690000000002 253.76199999999957 L 1566.0690000000002 242.51099999999957 L 1517.8600000000015 200.96900000000028" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-y159j4Il)"/>
+  </g>
+  <text x="1358.3230708007814" y="260.0129999999997" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="1358.3230708007814" dy="0">Changes Live in 30</tspan>
+    <tspan x="1358.3230708007814" dy="1.2em">seconds</tspan>
+  </text>
+  <rect x="495.62188720703125" y="66.2515640258789" width="760.4343872070312" height="150.00625610351562" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="802.7691268920898" y="91.2515640258789" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">GitHub (FREE)</text>
+  <rect x="520.6218872070312" y="101.25156021118164" width="147.27188110351562" height="80.0062484741211" stroke="#047857" stroke-width="2" fill="#10b981" opacity="1.0"/>
+  <text x="534.0778656005859" y="136.2546844482422" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="534.0778656005859" dy="0">Repository</tspan>
+    <tspan x="534.0778656005859" dy="1.2em">Stores Code</tspan>
+  </text>
+  <rect x="717.8937606811523" y="101.25156021118164" width="262.9781188964844" height="80.0062484741211" stroke="#d97706" stroke-width="2" fill="#f59e0b" opacity="1.0"/>
+  <text x="745.4728775024414" y="136.2546844482422" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="745.4728775024414" dy="0">GitHub Actions 2000</tspan>
+    <tspan x="745.4728775024414" dy="1.2em">min/month FREE</tspan>
+  </text>
+  <rect x="1030.8718872070312" y="101.25156021118164" width="200.18438720703125" height="85" stroke="#d97706" stroke-width="2" fill="#f59e0b" opacity="1.0"/>
+  <text x="1049.0041427612305" y="138.75156021118164" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="1049.0041427612305" dy="0">Builds &amp; Deploys</tspan>
+    <tspan x="1049.0041427612305" dy="1.2em">Automatically</tspan>
+  </text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-lpH4Kvus" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 668.8937683105469 141.25500000000102 L 712.594 141.25499994742586" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-lpH4Kvus)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-d3GgzDi-" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 981.8718795776367 141.25499997199404 L 1025.572000000001 141.25499849665903" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-d3GgzDi-)"/>
+  </g>
+  <rect x="50.0" y="66.2515640258789" width="395.62188720703125" height="150.00625610351562" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="178.3809814453125" y="91.2515640258789" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Your Computer</text>
+  <rect x="75.0" y="101.25156021118164" width="157.95938110351562" height="85" stroke="#1e40af" stroke-width="2" fill="#3b82f6" opacity="1.0"/>
+  <text x="90.88972473144531" y="138.75156021118164" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="90.88972473144531" dy="0">1. Edit HTML</tspan>
+    <tspan x="90.88972473144531" dy="1.2em">in VSCode</tspan>
+  </text>
+  <rect x="282.9593811035156" y="101.25156021118164" width="137.66250610351562" height="85" stroke="#1e40af" stroke-width="2" fill="#3b82f6" opacity="1.0"/>
+  <text x="294.72066497802734" y="138.75156021118164" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="294.72066497802734" dy="0">2. Git Push</tspan>
+    <tspan x="294.72066497802734" dy="1.2em">to GitHub</tspan>
+  </text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead--cZiYkHf" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 233.95938110351472 141.2550081667771 L 277.65900000000056 141.25500000268357" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead--cZiYkHf)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-B6oOIgOk" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 421.62188720703125 142.47937629894295 L 445.62200000000007 141.2550000000001 L 470.62200000000007 141.2550000000001 L 515.3220000000001 141.2550000000001" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-B6oOIgOk)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-3HHgpWDg" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 1232.0562744140625 141.25499999999988 L 1256.056 141.255 L 1281.056 141.255 L 1325.7560000000003 141.25499999999965" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-3HHgpWDg)"/>
+  </g>
+</svg>
