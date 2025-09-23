@@ -1,93 +1,48 @@
 const { chromium } = require('playwright');
 
 (async () => {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  console.log('Testing DEPLOYED diagrams...\n');
+  console.log('TESTING DEPLOYED SITE DIAGRAMS');
+  console.log('URL: https://anton-abyzov.github.io/ai-power/episodes/01-portfolio-no-code/content/00-introduction/');
 
-  // Navigate to deployed site
+  // Navigate to the introduction page
   await page.goto('https://anton-abyzov.github.io/ai-power/episodes/01-portfolio-no-code/content/00-introduction/');
   await page.waitForTimeout(3000);
 
-  // Check for images
-  const deployedImages = await page.$$eval('img', elements => elements.map(el => {
-    const rect = el.getBoundingClientRect();
-    return {
+  // Check for diagram images
+  const diagrams = await page.$$eval('div[data-testid="excalidraw-diagram"] img', elements =>
+    elements.map(el => ({
+      frameName: el.getAttribute('data-frame-name'),
       src: el.src,
-      displayed: rect.width > 0 && rect.height > 0,
-      width: Math.round(rect.width),
-      height: Math.round(rect.height),
+      displayed: el.getBoundingClientRect().width > 0,
       naturalWidth: el.naturalWidth,
       naturalHeight: el.naturalHeight,
-      complete: el.complete,
-      error: el.onerror !== null
-    };
-  }));
+      complete: el.complete
+    }))
+  );
 
-  console.log('DEPLOYED IMAGES:');
-  if (deployedImages.length === 0) {
-    console.log('  ❌ No images found on deployed site!');
-  } else {
-    deployedImages.forEach((img, i) => {
-      const filename = img.src.split('/').pop();
-      console.log(`  ${i+1}. ${filename}`);
-      console.log(`     URL: ${img.src}`);
-      console.log(`     Loaded: ${img.complete ? '✓' : '✗'} | Visible: ${img.displayed ? '✓' : '✗'}`);
-      console.log(`     Display: ${img.width}x${img.height} | Natural: ${img.naturalWidth}x${img.naturalHeight}`);
-    });
-  }
-
-  // Check console errors
-  const consoleErrors = [];
-  page.on('console', msg => {
-    if (msg.type() === 'error') {
-      consoleErrors.push(msg.text());
+  console.log('\nDIAGRAM ANALYSIS:');
+  diagrams.forEach((diagram, i) => {
+    console.log(`\n${i + 1}. ${diagram.frameName}`);
+    console.log(`   URL: ${diagram.src}`);
+    console.log(`   Displayed: ${diagram.displayed}`);
+    console.log(`   Loaded: ${diagram.complete}`);
+    console.log(`   Size: ${diagram.naturalWidth}x${diagram.naturalHeight}`);
+    if (diagram.naturalWidth === 0) {
+      console.log('   WARNING: Image not found (404)');
     }
   });
 
-  // Check network errors
-  const failedRequests = [];
-  page.on('requestfailed', request => {
-    failedRequests.push({
-      url: request.url(),
-      error: request.failure().errorText
-    });
-  });
-
-  // Reload to catch errors
-  await page.reload();
-  await page.waitForTimeout(2000);
-
-  if (consoleErrors.length > 0) {
-    console.log('\n❌ CONSOLE ERRORS:');
-    consoleErrors.forEach(err => console.log(`  - ${err}`));
-  }
-
-  if (failedRequests.length > 0) {
-    console.log('\n❌ FAILED REQUESTS:');
-    failedRequests.forEach(req => console.log(`  - ${req.url}: ${req.error}`));
-  }
-
-  // Check actual HTML content
-  const htmlContent = await page.$eval('body', body => {
-    const intro = body.querySelector('h2#the-new-reality-035-100');
-    if (intro) {
-      const next = intro.nextElementSibling;
-      return next ? next.outerHTML.substring(0, 500) : 'No next element';
+  // Try to fetch one SVG directly
+  if (diagrams.length > 0) {
+    console.log('\nTESTING DIRECT SVG ACCESS:');
+    const response = await page.goto(diagrams[0].src);
+    if (response) {
+      console.log(`Status: ${response.status()}`);
     }
-    return 'Section not found';
-  });
-
-  console.log('\n📄 HTML Content after "The New Reality":');
-  console.log(htmlContent);
-
-  // Take screenshot
-  await page.screenshot({ path: 'deployed-diagrams-test.png', fullPage: false });
-  console.log('\n📸 Screenshot saved as deployed-diagrams-test.png');
-
-  console.log('⏰ Browser stays open for 10 seconds...');
-  await page.waitForTimeout(10000);
+  }
 
   await browser.close();
 })();
