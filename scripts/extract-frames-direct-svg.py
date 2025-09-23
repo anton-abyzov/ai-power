@@ -275,9 +275,11 @@ def main():
     root_dir = Path(__file__).parent.parent
     excalidraw_file = root_dir / 'episodes' / '01-portfolio-no-code' / 'diagrams' / 'all-diagrams.excalidraw.excalidraw'
     output_dir = root_dir / 'docs' / 'episodes' / '01-portfolio-no-code' / 'diagrams' / 'frames'
+    episodes_output_dir = root_dir / 'episodes' / '01-portfolio-no-code' / 'diagrams' / 'frames'
 
-    # Create output directory
+    # Create output directories
     output_dir.mkdir(parents=True, exist_ok=True)
+    episodes_output_dir.mkdir(parents=True, exist_ok=True)
 
     # Load Excalidraw data
     with open(excalidraw_file, 'r', encoding='utf-8') as f:
@@ -296,9 +298,13 @@ def main():
         print(f'Processing frame: {frame_name} ({frame["id"]})')
 
         output_path = output_dir / f'{frame_name}.svg'
+        episodes_path = episodes_output_dir / f'{frame_name}.svg'
 
         if extract_frame_to_svg(frame, elements, output_path):
-            print(f'  ✅ Saved: {frame_name}.svg\n')
+            # Copy to episodes directory as well
+            import shutil
+            shutil.copy2(output_path, episodes_path)
+            print(f'  ✅ Saved: {frame_name}.svg (to both docs/ and episodes/)\n')
             success_count += 1
         else:
             print(f'  ❌ Failed to extract {frame_name}\n')
