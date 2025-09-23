@@ -152,23 +152,14 @@ extra_javascript:
 nav:
   - Home: index.md
 
-  - Episode 01 - Portfolio Without Code:
-    - Overview: episodes/01-portfolio-no-code/index.md
-    - Video Sections:
-      - "00:00 - Introduction": episodes/01-portfolio-no-code/content/00-introduction.md
-      - "05:11 - Obsidian Setup": episodes/01-portfolio-no-code/content/01-obsidian-setup.md
-      - "10:11 - AI Tools Landscape": episodes/01-portfolio-no-code/content/02-ai-tools-landscape.md
-      - "13:32 - Claude Install": episodes/01-portfolio-no-code/content/03-claude-code-install.md
-      - "16:03 - Agent Creation": episodes/01-portfolio-no-code/content/04-agent-creation.md
-      - "21:43 - Portfolio Preparation": episodes/01-portfolio-no-code/content/05-portfolio-prep.md
-      - "27:17 - Master Prompt": episodes/01-portfolio-no-code/content/06-master-prompt.md
-      - "31:28 - GitHub Deploy": episodes/01-portfolio-no-code/content/07-github-deploy.md
-      - "42:52 - Closing": episodes/01-portfolio-no-code/content/08-closing.md
-    - Prompts & Resources:
-      - "Agent Definition": episodes/01-portfolio-no-code/prompts/agent-definition.md
-      - "Master Prompt": episodes/01-portfolio-no-code/prompts/master-prompt.md
-      - "Sidebar Navigation": episodes/01-portfolio-no-code/prompts/sidebar-nav.md
-      - "All Resources": episodes/RESOURCES.md
+  - Episode 01:
+    - Start Here: episodes/01-portfolio-no-code/index.md
+    - "🚀 Quick Start": episodes/01-portfolio-no-code/content/00-introduction.md
+    - "⚙️ Setup": episodes/01-portfolio-no-code/content/01-obsidian-setup.md
+    - "🤖 Claude Install": episodes/01-portfolio-no-code/content/03-claude-code-install.md
+    - "✨ The Master Prompt": episodes/01-portfolio-no-code/content/06-master-prompt.md
+    - "🌐 Deploy to GitHub": episodes/01-portfolio-no-code/content/07-github-deploy.md
+    - "📚 Resources": episodes/RESOURCES.md
 
   - Community:
     - Showcase: community/showcase.md
