@@ -26,7 +26,7 @@ def convert_excalidraw_links(content):
         # For now, just embed the full SVG with a note about which frame it should show
         # This ensures the diagram is at least visible
         svg_embed = f'''<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;">
-<img src="../diagrams/all-diagrams.excalidraw.light.svg"
+<img src="../../diagrams/all-diagrams.excalidraw.light.svg"
      alt="Diagram - Frame {frame_id}"
      style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
 </div>'''
