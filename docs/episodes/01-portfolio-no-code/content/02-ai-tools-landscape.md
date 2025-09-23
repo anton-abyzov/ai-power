@@ -5,14 +5,7 @@ timestamp: "10:11-15:03"
 
 # AI Development Tools Landscape
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/cost-comparison.svg"
-     alt="Cost Comparison"
-     title="Cost Comparison"
-     data-frame-id="g_huRGX4AReE-0V69pVaT"
-     data-frame-name="Cost Comparison"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![AI Tools Landscape](../diagrams/frames/frame-4.svg)
 
 ## The Three Layers
 
@@ -29,16 +22,16 @@ timestamp: "10:11-15:03"
 - Plugin dependent
 
 ### Bottom Layer - CLI Tools (Blue)
-- **Claude Code** (our choice)
+- **Claude** (our choice)
 - **Codex, Gemini**
 - Run in ANY terminal
 - No IDE lock-in
 - Maximum control
 
-## Why Claude Code?
+## Why Claude?
 - Thinks before coding
 - Asks clarifying questions
 - Considers edge cases
 - More senior developer than code generator
 
-[→ Next: Installing Claude Code](03-claude-code-install.md)
+[→ Next: Installing Claude](03-claude-code-install.md)

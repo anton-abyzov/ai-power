@@ -10,14 +10,7 @@ timestamp: "0:00-2:25"
 
 ## The New Reality [0:35-1:00]
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/the-new-reality.svg"
-     alt="The New Reality"
-     title="The New Reality"
-     data-frame-id="KoJdwhj1PwVlHIsIixIRr"
-     data-frame-name="The New Reality"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![What You Don't Need](../diagrams/frames/frame-1.svg)
 
 What you no longer need:
 - HTML
@@ -33,27 +26,13 @@ What you no longer need:
 
 ## The Opportunity [1:00-1:20]
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/the-opportunity.svg"
-     alt="The Opportunity"
-     title="The Opportunity"
-     data-frame-id="rVOSTdETPrlwu1WhoIxKN"
-     data-frame-name="The Opportunity"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![12 Month Window](../diagrams/frames/frame-2.svg)
 
 We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 ## What You'll Build [1:20-1:40]
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/what-youll-build.svg"
-     alt="What You'll Build"
-     title="What You'll Build"
-     data-frame-id="PEMM5ClHbU_L4mXxJZVbE"
-     data-frame-name="What You'll Build"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![What You'll Build](../diagrams/frames/frame-3.svg)
 
 In the next hour:
 - ✅ Custom design - Your vision, not a template
@@ -61,4 +40,19 @@ In the next hour:
 - ✅ Deployed live - On GitHub Pages (completely free)
 - ✅ Yours forever - No monthly fees
 
-[→ Next: Obsidian Setup](01-obsidian-setup.md)
+---
+
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+  <div>
+    <a href="../index.md" style="text-decoration: none;">
+      <div style="color: #666; font-size: 0.9rem;">← Back</div>
+      <div style="color: #7c4dff; font-weight: 600;">Episode Overview</div>
+    </a>
+  </div>
+  <div style="text-align: right;">
+    <a href="01-obsidian-setup.md" style="text-decoration: none;">
+      <div style="color: #666; font-size: 0.9rem;">Next →</div>
+      <div style="color: #7c4dff; font-weight: 600;">Obsidian Setup</div>
+    </a>
+  </div>
+</div>

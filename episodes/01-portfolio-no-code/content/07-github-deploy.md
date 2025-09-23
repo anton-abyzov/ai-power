@@ -7,7 +7,7 @@ timestamp: "31:28-42:52"
 
 ## Deployment Options Comparison
 
-![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^frame=Ztri2CGQKDYpPN5xoF3qH]]
+![Deployment Options](../diagrams/frames/frame-7.svg)
 
 - **GitHub Pages**: Free, automatic CI/CD, public code
 - **Cloudflare**: Private code, manual updates

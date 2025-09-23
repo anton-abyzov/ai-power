@@ -14,7 +14,7 @@ description: "Build 3 professional portfolio websites in 60 minutes without writ
 
 ## 🔧 The AI Stack
 
-![AI Stack](/episodes/01-portfolio-no-code/diagrams/frames/frame-4.svg)
+![AI Stack](diagrams/frames/frame-4.svg)
 
 | TOOL | PURPOSE | COST | WHY WE USE IT |
 |------|---------|------|---------------|
@@ -25,13 +25,13 @@ description: "Build 3 professional portfolio websites in 60 minutes without writ
 
 ## 💡 The 12-Month Window
 
-![12 Month Window](/episodes/01-portfolio-no-code/diagrams/frames/frame-2.svg)
+![12 Month Window](diagrams/frames/frame-2.svg)
 
 We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 ## ❌ What You DON'T Need
 
-![What You Don't Need](/episodes/01-portfolio-no-code/diagrams/frames/frame-1.svg)
+![What You Don't Need](diagrams/frames/frame-1.svg)
 
 - HTML
 - CSS
@@ -44,7 +44,7 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 ## ✨ What You DO Need
 
-![What You Need](/episodes/01-portfolio-no-code/diagrams/frames/frame-3.svg)
+![What You Need](diagrams/frames/frame-3.svg)
 
 - **20 minutes** to follow along
 - **Claude** ($20/month)

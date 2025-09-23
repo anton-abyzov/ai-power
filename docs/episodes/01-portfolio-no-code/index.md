@@ -14,45 +14,24 @@ description: "Build 3 professional portfolio websites in 60 minutes without writ
 
 ## 🔧 The AI Stack
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/cost-comparison.svg"
-     alt="Cost Comparison"
-     title="Cost Comparison"
-     data-frame-id="g_huRGX4AReE-0V69pVaT"
-     data-frame-name="Cost Comparison"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![AI Stack](diagrams/frames/frame-4.svg)
 
 | TOOL | PURPOSE | COST | WHY WE USE IT |
 |------|---------|------|---------------|
-| **Claude Code** | AI Programming Assistant | $20/month | Most intelligent AI coder available |
+| **Claude** | AI Programming Assistant | $20/month | Most intelligent AI coder available |
 | **Obsidian** | Knowledge Management | FREE | Perfect for organizing content |
 | **GitHub Pages** | Website Hosting | FREE | Professional hosting, no limits |
 | **Markdown** | Content Format | FREE | Simple, powerful, universal |
 
 ## 💡 The 12-Month Window
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/the-opportunity.svg"
-     alt="The Opportunity"
-     title="The Opportunity"
-     data-frame-id="rVOSTdETPrlwu1WhoIxKN"
-     data-frame-name="The Opportunity"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![12 Month Window](diagrams/frames/frame-2.svg)
 
 We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 ## ❌ What You DON'T Need
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/the-new-reality.svg"
-     alt="The New Reality"
-     title="The New Reality"
-     data-frame-id="KoJdwhj1PwVlHIsIixIRr"
-     data-frame-name="The New Reality"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![What You Don't Need](diagrams/frames/frame-1.svg)
 
 - HTML
 - CSS
@@ -65,17 +44,10 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 ## ✨ What You DO Need
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/why-markdown.svg"
-     alt="Why Markdown"
-     title="Why Markdown"
-     data-frame-id="Sf8jn2Eo9OT3zH1cGwPek"
-     data-frame-name="Why Markdown"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![What You Need](diagrams/frames/frame-3.svg)
 
 - **20 minutes** to follow along
-- **Claude Code** ($20/month)
+- **Claude** ($20/month)
 - **GitHub account** (free)
 - **Your content** (about me, projects, contact)
 
@@ -98,7 +70,7 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
     Skip to the part you need most
 
     [:octicons-arrow-right-24: Obsidian Setup](content/01-obsidian-setup.md)
-    [:octicons-arrow-right-24: Claude Code Install](content/03-claude-code-install.md)
+    [:octicons-arrow-right-24: Claude Install](content/03-claude-code-install.md)
     [:octicons-arrow-right-24: Master Prompt](content/06-master-prompt.md)
     [:octicons-arrow-right-24: GitHub Deploy](content/07-github-deploy.md)
 
@@ -128,7 +100,7 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 | [00:00](content/00-introduction.md) | **Introduction** | The $10K secret and what's possible |
 | [05:11](content/01-obsidian-setup.md) | **Obsidian Setup** | Installing and configuring your content system |
 | [10:11](content/02-ai-tools-landscape.md) | **AI Tools Landscape** | Understanding the tools available |
-| [13:32](content/03-claude-code-install.md) | **Claude Code Install** | Setting up your AI coding assistant |
+| [13:32](content/03-claude-code-install.md) | **Claude Install** | Setting up your AI coding assistant |
 | [16:03](content/04-agent-creation.md) | **Agent Creation** | Building your personalized AI agent |
 | [21:43](content/05-portfolio-prep.md) | **Portfolio Preparation** | Organizing your content |
 | [27:17](content/06-master-prompt.md) | **Master Prompt** | The exact prompt for building websites |

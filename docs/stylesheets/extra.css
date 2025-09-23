@@ -259,6 +259,27 @@ html {
     border-bottom-color: var(--md-primary-fg-color) !important;
 }
 
+/* Fix list formatting */
+.md-typeset ul {
+    margin-left: 1.5rem !important;
+    list-style-type: disc !important;
+}
+
+.md-typeset ul li {
+    margin-bottom: 0.5rem !important;
+    list-style-type: inherit !important;
+}
+
+.md-typeset ol {
+    margin-left: 1.5rem !important;
+    list-style-type: decimal !important;
+}
+
+.md-typeset ol li {
+    margin-bottom: 0.5rem !important;
+    list-style-type: inherit !important;
+}
+
 /* Fix content overflow */
 .md-typeset {
     overflow-wrap: break-word !important;

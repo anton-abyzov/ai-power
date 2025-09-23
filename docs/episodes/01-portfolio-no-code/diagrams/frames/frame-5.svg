@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="597.2149353027344" height="444.47499084472656" viewBox="0 0 597.2149353027344 444.47499084472656">
+  <rect width="597.2149353027344" height="444.47499084472656" fill="white"/>
+  <rect x="50" y="50" width="1055.9661361688445" height="888.3425997461509" stroke="#e0e0e0" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+  <rect x="50.0" y="291.8890380859375" width="116.91094970703125" height="98.73751831054688" stroke="#1e1e1e" stroke-width="2" fill="#b2f2bb" opacity="1.0" rx="10" ry="10"/>
+  <text x="81.12548828125" y="348.75779724121094" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Model</text>
+  <rect x="249.48825073242188" y="50.0" width="116.91094970703125" height="98.73751831054688" stroke="#1e1e1e" stroke-width="2" fill="#a5d8ff" opacity="1.0" rx="10" ry="10"/>
+  <text x="268.05374908447266" y="106.86875915527344" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Context</text>
+  <rect x="430.3039855957031" y="295.7374725341797" width="116.91094970703125" height="98.73751831054688" stroke="#1e1e1e" stroke-width="2" fill="#ffc9c9" opacity="1.0" rx="10" ry="10"/>
+  <text x="454.12947845458984" y="352.6062316894531" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Prompt</text>
+  <g opacity="1.0">
+    <path d="M 166.91083283416629 297.6909160510235 L 255.25626605122125 148.713949547426" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+  </g>
+  <g opacity="1.0">
+    <path d="M 181.38592529296875 339.26561737060547 L 418.0015258789067 340.2218551635742" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+  </g>
+  <g opacity="1.0">
+    <path d="M 355.943786715864 151.52184309659913 L 432.514085284427 297.729641216817" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+  </g>
+</svg>

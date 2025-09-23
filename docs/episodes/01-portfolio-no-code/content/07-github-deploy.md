@@ -7,14 +7,7 @@ timestamp: "31:28-42:52"
 
 ## Deployment Options Comparison
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/frame-7.svg"
-     alt="Frame 7"
-     title="Frame 7"
-     data-frame-id="Ztri2CGQKDYpPN5xoF3qH"
-     data-frame-name="Frame 7"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![Deployment Options](../diagrams/frames/frame-7.svg)
 
 - **GitHub Pages**: Free, automatic CI/CD, public code
 - **Cloudflare**: Private code, manual updates

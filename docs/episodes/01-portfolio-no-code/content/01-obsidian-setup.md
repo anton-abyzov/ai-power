@@ -9,14 +9,7 @@ Before we build, let me show you my secret weapon - Obsidian.
 
 ## Cost Comparison
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/cost-comparison.svg"
-     alt="Cost Comparison"
-     title="Cost Comparison"
-     data-frame-id="g_huRGX4AReE-0V69pVaT"
-     data-frame-name="Cost Comparison"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![Cost Comparison](../diagrams/frames/frame-0.svg)
 - Notion: $20/month, data on their servers
 - Miro: $16/month, just for diagrams
 - Roam: $15/month, for note-taking
@@ -24,27 +17,13 @@ Before we build, let me show you my secret weapon - Obsidian.
 
 ## Why Markdown Files Matter
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/why-markdown.svg"
-     alt="Why Markdown"
-     title="Why Markdown"
-     data-frame-id="Sf8jn2Eo9OT3zH1cGwPek"
-     data-frame-name="Why Markdown"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![Markdown Files](../diagrams/frames/frame-3-5.svg)
 
 Your notes are just `.md` files on YOUR computer. When other apps die, your markdown lives forever.
 
 ## Essential Plugins
 
-<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/frames/essential-plugins.svg"
-     alt="Essential Plugins"
-     title="Essential Plugins"
-     data-frame-id="StLOY6fAw2MqVGdsakh51"
-     data-frame-name="Essential Plugins"
-     style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-</div>
+![Essential Plugins](../diagrams/frames/frame-8.svg)
 - **Excalidraw**: Replaces Miro for diagramming
 - **Git**: Version control for your knowledge
 - **Templates**: Rapid note creation
@@ -55,4 +34,19 @@ Your notes are just `.md` files on YOUR computer. When other apps die, your mark
 2. **Git** (Free, recommended)
 3. **Obsidian Sync** ($4/month if you want zero config)
 
-[→ Next: AI Tools Landscape](02-ai-tools-landscape.md)
+---
+
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+  <div>
+    <a href="00-introduction.md" style="text-decoration: none;">
+      <div style="color: #666; font-size: 0.9rem;">← Previous</div>
+      <div style="color: #7c4dff; font-weight: 600;">Introduction</div>
+    </a>
+  </div>
+  <div style="text-align: right;">
+    <a href="02-ai-tools-landscape.md" style="text-decoration: none;">
+      <div style="color: #666; font-size: 0.9rem;">Next →</div>
+      <div style="color: #7c4dff; font-weight: 600;">AI Tools Landscape</div>
+    </a>
+  </div>
+</div>

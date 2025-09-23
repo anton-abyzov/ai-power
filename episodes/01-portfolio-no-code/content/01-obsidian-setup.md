@@ -9,7 +9,7 @@ Before we build, let me show you my secret weapon - Obsidian.
 
 ## Cost Comparison
 
-![Cost Comparison](/episodes/01-portfolio-no-code/diagrams/frames/frame-0.svg)
+![Cost Comparison](../diagrams/frames/frame-0.svg)
 - Notion: $20/month, data on their servers
 - Miro: $16/month, just for diagrams
 - Roam: $15/month, for note-taking
@@ -17,13 +17,13 @@ Before we build, let me show you my secret weapon - Obsidian.
 
 ## Why Markdown Files Matter
 
-![Markdown Files](/episodes/01-portfolio-no-code/diagrams/frames/frame-3-5.svg)
+![Markdown Files](../diagrams/frames/frame-3-5.svg)
 
 Your notes are just `.md` files on YOUR computer. When other apps die, your markdown lives forever.
 
 ## Essential Plugins
 
-![Essential Plugins](/episodes/01-portfolio-no-code/diagrams/frames/frame-8.svg)
+![Essential Plugins](../diagrams/frames/frame-8.svg)
 - **Excalidraw**: Replaces Miro for diagramming
 - **Git**: Version control for your knowledge
 - **Templates**: Rapid note creation

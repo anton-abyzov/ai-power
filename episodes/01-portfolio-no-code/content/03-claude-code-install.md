@@ -26,7 +26,7 @@ claude init
 
 ### Understanding the Context Window
 
-![Context Window](/episodes/01-portfolio-no-code/diagrams/frames/frame-5.svg)
+![Context Window](../diagrams/frames/frame-5.svg)
 
 200K tokens = Your working memory
 System prompt (3.1k tokens)
