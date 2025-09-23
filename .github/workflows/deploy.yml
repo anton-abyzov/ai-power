@@ -37,8 +37,8 @@ jobs:
 
       - name: Convert Obsidian content for MkDocs
         run: |
-          echo "Converting Obsidian Excalidraw embeds to inline SVG..."
-          python3 scripts/convert-excalidraw-svg.py
+          echo "Converting Obsidian Excalidraw embeds to img tags..."
+          python3 scripts/convert-excalidraw-simple.py
           echo "Conversion complete!"
 
       - name: Build MkDocs site
