@@ -69,7 +69,7 @@ def get_element_bounds(elements):
 
     return min_x, min_y, max_x, max_y
 
-def create_svg_element(el, offset_x, offset_y):
+def create_svg_element(el, offset_x, offset_y, files=None):
     """Create SVG element from Excalidraw element"""
     el_type = el['type']
     x = el.get('x', 0) - offset_x
@@ -188,19 +188,35 @@ def create_svg_element(el, offset_x, offset_y):
             return path
 
     elif el_type == 'image':
-        # Handle image elements if they have data
+        # Handle image elements with embedded data
         image = ET.Element('image')
         image.set('x', str(x))
         image.set('y', str(y))
         image.set('width', str(el.get('width', 0)))
         image.set('height', str(el.get('height', 0)))
         image.set('opacity', str(opacity))
-        # Note: actual image data would need to be handled separately
+        image.set('preserveAspectRatio', 'xMidYMid meet')
+
+        # Get the file ID and look up the data URL
+        file_id = el.get('fileId')
+        if file_id and files and file_id in files:
+            file_data = files[file_id]
+            data_url = file_data.get('dataURL')
+            if data_url:
+                # Use the data URL directly as the href
+                # Note: using 'href' attribute which works in modern SVG
+                image.set('href', data_url)
+            else:
+                print(f"  Warning: No dataURL for image {file_id}")
+        else:
+            if file_id:
+                print(f"  Warning: Image with fileId {file_id} not found in files")
+
         return image
 
     return None
 
-def extract_frame_to_svg(frame, elements, output_path):
+def extract_frame_to_svg(frame, elements, output_path, files=None):
     """Extract a single frame to SVG"""
     # Get frame elements
     frame_elements = [el for el in elements if el.get('frameId') == frame['id'] and not el.get('isDeleted', False)]
@@ -248,7 +264,7 @@ def extract_frame_to_svg(frame, elements, output_path):
 
     # Add elements to SVG
     for el in frame_elements:
-        svg_el = create_svg_element(el, min_x - padding, min_y - padding)
+        svg_el = create_svg_element(el, min_x - padding, min_y - padding, files)
         if svg_el is not None:
             svg.append(svg_el)
 
@@ -286,6 +302,9 @@ def main():
         data = json.load(f)
 
     elements = data['elements']
+    files = data.get('files', {})
+
+    print(f'Found {len(files)} embedded images in Excalidraw file')
 
     # Get all frames
     frames = [el for el in elements if el['type'] == 'frame' and not el.get('isDeleted', False)]
@@ -300,7 +319,7 @@ def main():
         output_path = output_dir / f'{frame_name}.svg'
         episodes_path = episodes_output_dir / f'{frame_name}.svg'
 
-        if extract_frame_to_svg(frame, elements, output_path):
+        if extract_frame_to_svg(frame, elements, output_path, files):
             # Copy to episodes directory as well
             import shutil
             shutil.copy2(output_path, episodes_path)
