@@ -10,7 +10,7 @@ timestamp: "0:00-2:25"
 
 ## The New Reality [0:35-1:00]
 
-![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^frame=KoJdwhj1PwVlHIsIixIRr]]
+![What You Don't Need](/episodes/01-portfolio-no-code/diagrams/frames/frame-1.svg)
 
 What you no longer need:
 - HTML
@@ -26,13 +26,13 @@ What you no longer need:
 
 ## The Opportunity [1:00-1:20]
 
-![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^frame=rVOSTdETPrlwu1WhoIxKN]]
+![12 Month Window](/episodes/01-portfolio-no-code/diagrams/frames/frame-2.svg)
 
 We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 ## What You'll Build [1:20-1:40]
 
-![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^frame=PEMM5ClHbU_L4mXxJZVbE]]
+![What You'll Build](/episodes/01-portfolio-no-code/diagrams/frames/frame-3.svg)
 
 In the next hour:
 - ✅ Custom design - Your vision, not a template
@@ -40,4 +40,19 @@ In the next hour:
 - ✅ Deployed live - On GitHub Pages (completely free)
 - ✅ Yours forever - No monthly fees
 
-[→ Next: Obsidian Setup](01-obsidian-setup.md)
+---
+
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+  <div>
+    <a href="../index.md" style="text-decoration: none;">
+      <div style="color: #666; font-size: 0.9rem;">← Back</div>
+      <div style="color: #7c4dff; font-weight: 600;">Episode Overview</div>
+    </a>
+  </div>
+  <div style="text-align: right;">
+    <a href="01-obsidian-setup.md" style="text-decoration: none;">
+      <div style="color: #666; font-size: 0.9rem;">Next →</div>
+      <div style="color: #7c4dff; font-weight: 600;">Obsidian Setup</div>
+    </a>
+  </div>
+</div>

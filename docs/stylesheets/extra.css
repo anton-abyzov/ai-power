@@ -6,6 +6,15 @@
     max-height: calc(100vh - 4rem) !important;
 }
 
+/* Ensure sidebar is always visible on desktop */
+@media screen and (min-width: 1220px) {
+    .md-sidebar--primary {
+        display: block !important;
+        position: sticky !important;
+        top: 0 !important;
+    }
+}
+
 .md-nav__item--active > .md-nav__link {
     background-color: var(--md-primary-fg-color--light) !important;
     padding: 0.6rem 1rem !important;
