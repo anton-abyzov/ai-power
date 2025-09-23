@@ -3,7 +3,7 @@
 ## 🛠️ Tools Mentioned
 
 ### AI Development
-- [Claude Code](https://claude.ai/code) - $20/month
+- [Claude](https://claude.ai) - $20/month
 - [ChatGPT](https://chat.openai.com)
 - [Gemini](https://gemini.google.com)
 - [v0](https://v0.dev)
@@ -29,15 +29,15 @@
 
 ## 📚 Documentation
 
-- [Claude Code Setup](https://docs.anthropic.com/en/docs/claude-code/setup)
-- [Claude Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
+- [Claude Setup](https://docs.anthropic.com/en/docs/claude/setup)
+- [Claude Subagents](https://docs.anthropic.com/en/docs/claude/sub-agents)
 - [GitHub Pages Docs](https://docs.github.com/pages)
 
 ## 💰 Cost Breakdown
 
 | Service | Cost | What You Get |
 |---------|------|--------------|
-| Claude Code | $20/mo | Unlimited coding assistance |
+| Claude | $20/mo | Unlimited coding assistance |
 | GitHub | FREE | Unlimited public repos |
 | GitHub Pages | FREE | Unlimited sites |
 | Cloudflare | $12/yr | Custom domain |

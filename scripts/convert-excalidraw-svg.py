@@ -78,14 +78,79 @@ def convert_excalidraw_links(content, svg_path_prefix="../diagrams"):
     converted = re.sub(pattern, replace_embed, content)
     return converted
 
+def fix_navigation_links(content):
+    """
+    Fix navigation links to remove duplicate 'content' in paths.
+    Pattern: ../content/XX-name/ -> ../XX-name/
+    """
+    # Fix navigation links in the navigation footer
+    content = re.sub(r'href="../content/([^"]+)/"', r'href="../\1/"', content)
+
+    # Also fix the episode overview link (keep going up two levels)
+    content = re.sub(r'href="../"', r'href="../../"', content)
+
+    return content
+
+def convert_checklist_format(content):
+    """
+    Convert emoji checkboxes to MkDocs task list format.
+    - ✅ text -> - [x] text
+    - ☑️ text -> - [x] text
+    - ✓ text -> - [x] text
+    Also ensure blank lines before lists for proper MkDocs rendering.
+    """
+    # Convert various checkmark emojis to task list syntax
+    patterns = [
+        (r'^(\s*)-\s*✅\s*', r'\1- [x] '),  # Green checkmark
+        (r'^(\s*)-\s*☑️\s*', r'\1- [x] '),  # Ballot box with check
+        (r'^(\s*)-\s*✓\s*', r'\1- [x] '),   # Check mark
+    ]
+
+    lines = content.split('\n')
+    result_lines = []
+
+    for i, line in enumerate(lines):
+        # Convert emoji checkboxes
+        for pattern, replacement in patterns:
+            line = re.sub(pattern, replacement, line)
+
+        # Add blank line before task lists if previous line has text
+        if i > 0 and line.strip().startswith('- ['):
+            prev_line = lines[i-1].strip()
+            # If previous line has text and ends with colon, add blank line
+            if prev_line and prev_line.endswith(':') and result_lines and result_lines[-1].strip():
+                result_lines.append('')
+
+        result_lines.append(line)
+
+    return '\n'.join(result_lines)
+
+def update_discord_links(content):
+    """
+    Update placeholder Discord links with actual Discord invite links.
+    """
+    # Replace placeholder Discord URLs with a working invite or placeholder
+    # TODO: Replace with actual Discord server invite when available
+    discord_url = "https://discord.gg/github-ai-power"  # Update with actual invite code
+
+    # Update Discord links in content - handle various formats
+    content = re.sub(r'https?://discord\.gg/YOUR-DISCORD', discord_url, content)
+    content = re.sub(r'https?://discord\.gg/[A-Za-z0-9\-_]+', discord_url, content)
+    content = re.sub(r'\[Discord\]\(#\)', f'[Discord]({discord_url})', content)
+
+    return content
+
 def process_markdown_file(source_path, dest_path):
     """Process a single markdown file."""
     # Read the source file
     with open(source_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Convert Excalidraw links
+    # Apply all conversions
     converted_content = convert_excalidraw_links(content)
+    converted_content = fix_navigation_links(converted_content)
+    converted_content = convert_checklist_format(converted_content)
+    converted_content = update_discord_links(converted_content)
 
     # Ensure destination directory exists
     dest_path.parent.mkdir(parents=True, exist_ok=True)

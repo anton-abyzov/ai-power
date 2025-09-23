@@ -35,22 +35,23 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 ![What You'll Build](../diagrams/frames/frame-3.svg)
 
 In the next hour:
-- ✅ Custom design - Your vision, not a template
-- ✅ Interactive features - Animations, effects
-- ✅ Deployed live - On GitHub Pages (completely free)
-- ✅ Yours forever - No monthly fees
+
+- [x] Custom design - Your vision, not a template
+- [x] Interactive features - Animations, effects
+- [x] Deployed live - On GitHub Pages (completely free)
+- [x] Yours forever - No monthly fees
 
 ---
 
 <div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
   <div>
-    <a href="../" style="text-decoration: none;">
+    <a href="../../" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">← Back</div>
       <div style="color: #7c4dff; font-weight: 600;">Episode Overview</div>
     </a>
   </div>
   <div style="text-align: right;">
-    <a href="../content/01-obsidian-setup/" style="text-decoration: none;">
+    <a href="../01-obsidian-setup/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">Next →</div>
       <div style="color: #7c4dff; font-weight: 600;">Obsidian Setup</div>
     </a>
