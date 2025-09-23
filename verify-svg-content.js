@@ -1,17 +1,14 @@
 const { chromium } = require('playwright');
 
 (async () => {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  console.log('🔍 VERIFYING SVG CONTENT VISIBILITY\n');
+  console.log('🔍 VERIFYING FULL DIAGRAM SOLUTION\n');
 
-  // Test a specific frame SVG directly
-  await page.goto('file:///Users/antonabyzov/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/GitHubAIPower/episodes/01-portfolio-no-code/diagrams/frames/the-new-reality.svg');
+  // Test the full diagram SVG directly
+  await page.goto('file:///Users/antonabyzov/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/GitHubAIPower/docs/episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.light.svg');
   await page.waitForTimeout(2000);
-
-  // Take screenshot of the SVG
-  await page.screenshot({ path: 'svg-direct-view.png', fullPage: true });
 
   // Check SVG content
   const svgContent = await page.evaluate(() => {
@@ -44,43 +41,57 @@ const { chromium } = require('playwright');
     };
   });
 
-  console.log('SVG CONTENT ANALYSIS:');
-  console.log(svgContent);
+  console.log('✅ FULL DIAGRAM SVG CONTENT:');
+  console.log(`  Total elements: ${svgContent.totalElements}`);
+  console.log(`  Visible elements: ${svgContent.visibleElements}`);
+  console.log(`  Paths: ${svgContent.paths}`);
+  console.log(`  Rectangles: ${svgContent.rects}`);
+  console.log(`  Text elements: ${svgContent.texts}`);
+  console.log(`  ViewBox: ${svgContent.viewBox}`);
 
-  // Now test on the actual page
+  // Skip screenshot of the huge SVG to avoid timeout
+  console.log('  (Skipping SVG screenshot - too large)');
+
+  // Now test on the actual page with full diagram embeds
   await page.goto('http://127.0.0.1:8000/ai-power/episodes/01-portfolio-no-code/content/00-introduction/');
   await page.waitForTimeout(2000);
 
-  const pageImages = await page.$$eval('img[src*="frames"]', elements => elements.map(el => {
-    // Try to check if image appears blank
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-    const img = new Image();
-    img.src = el.src;
+  // Check for our converted diagram embeds with data-testid
+  const diagramDivs = await page.$$eval('div[data-testid="excalidraw-diagram"]', elements =>
+    elements.map(el => {
+      const img = el.querySelector('img');
+      return {
+        frameId: img?.getAttribute('data-frame-id'),
+        frameName: img?.getAttribute('data-frame-name'),
+        src: img?.src?.split('/').pop(),
+        displayed: img?.getBoundingClientRect().width > 0,
+        naturalWidth: img?.naturalWidth,
+        naturalHeight: img?.naturalHeight,
+        complete: img?.complete
+      };
+    })
+  );
 
-    return {
-      src: el.src.split('/').pop(),
-      displayed: el.getBoundingClientRect().width > 0,
-      naturalWidth: el.naturalWidth,
-      naturalHeight: el.naturalHeight,
-      complete: el.complete
-    };
-  }));
+  console.log('\n📊 DIAGRAMS ON PAGE:');
+  if (diagramDivs.length === 0) {
+    console.log('  ❌ No diagrams found with data-testid="excalidraw-diagram"');
+  } else {
+    diagramDivs.forEach(diagram => {
+      const status = diagram.displayed ? '✅' : '❌';
+      console.log(`  ${status} ${diagram.frameName} (${diagram.frameId})`);
+      console.log(`     Source: ${diagram.src}`);
+      console.log(`     Size: ${diagram.naturalWidth}x${diagram.naturalHeight}`);
+      console.log(`     Loaded: ${diagram.complete}`);
+    });
+  }
 
-  console.log('\nIMAGES ON PAGE:');
-  pageImages.forEach(img => {
-    console.log(`  ${img.src}: ${img.displayed ? 'visible' : 'hidden'} (${img.naturalWidth}x${img.naturalHeight})`);
-  });
-
-  // Take screenshot of the page
-  await page.screenshot({ path: 'page-with-svgs.png', fullPage: false });
+  // Take screenshot of the page (viewport only to avoid timeout)
+  await page.screenshot({ path: 'page-with-full-diagrams.png', fullPage: false });
 
   console.log('\n📸 Screenshots saved:');
-  console.log('  - svg-direct-view.png (direct SVG view)');
-  console.log('  - page-with-svgs.png (page with embedded SVGs)');
+  console.log('  - page-with-full-diagrams.png (page with embedded diagrams)');
 
-  console.log('\n⏰ Browser stays open for 15 seconds to inspect...');
-  await page.waitForTimeout(15000);
+  console.log('\n✨ VERIFICATION COMPLETE');
 
   await browser.close();
 })();
