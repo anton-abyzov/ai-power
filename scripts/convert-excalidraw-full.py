@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Convert Obsidian Excalidraw embeds to use the full diagram.
-This is a temporary solution until we can properly export individual frames.
+Convert Obsidian Excalidraw embeds to use individual frame SVGs.
+Uses pre-extracted frame SVG files for precise diagram display.
 """
 
 import os
@@ -11,45 +11,45 @@ from pathlib import Path
 
 def convert_excalidraw_links(content):
     """
-    Convert Obsidian Excalidraw embeds to use the full SVG diagram.
+    Convert Obsidian Excalidraw embeds to use individual frame SVGs.
 
     Pattern: ![[episodes/01-portfolio-no-code/diagrams/all-diagrams.excalidraw.md#^frame=FRAME_ID]]
-    To: <img> tag with the full SVG
+    To: <img> tag with the specific frame SVG
     """
     # Pattern to match Obsidian Excalidraw embeds
     pattern = r'!\[\[episodes/[^/]+/diagrams/[^#]+\.excalidraw\.md#\^frame=([^\]]+)\]\]'
 
-    # Frame names for reference in alt text
-    FRAME_NAMES = {
-        'KoJdwhj1PwVlHIsIixIRr': 'The New Reality',
-        'rVOSTdETPrlwu1WhoIxKN': 'The Opportunity',
-        'PEMM5ClHbU_L4mXxJZVbE': 'What You\'ll Build',
-        '_W_JdP3rpJypbhNkADqEX': 'Frame 3.5',
-        'g_huRGX4AReE-0V69pVaT': 'Cost Comparison',
-        'Sf8jn2Eo9OT3zH1cGwPek': 'Why Markdown',
-        'StLOY6fAw2MqVGdsakh51': 'Essential Plugins',
-        '9ZzwHK92FuFlxCy7kcnge': 'Frame 6',
-        'g9O_5V5J8RbOc6o25FUbR': 'Frame 6.5',
-        'Ztri2CGQKDYpPN5xoF3qH': 'Frame 7',
-        'F0FmZBCy1DOtGqDTonkYd': 'Frame 8',
+    # Frame name and file mapping
+    FRAME_MAP = {
+        'KoJdwhj1PwVlHIsIixIRr': ('The New Reality', 'the-new-reality'),
+        'rVOSTdETPrlwu1WhoIxKN': ('The Opportunity', 'the-opportunity'),
+        'PEMM5ClHbU_L4mXxJZVbE': ('What You\'ll Build', 'what-youll-build'),
+        '_W_JdP3rpJypbhNkADqEX': ('Frame 3.5', 'frame-3-5'),
+        'g_huRGX4AReE-0V69pVaT': ('Cost Comparison', 'cost-comparison'),
+        'Sf8jn2Eo9OT3zH1cGwPek': ('Why Markdown', 'why-markdown'),
+        'StLOY6fAw2MqVGdsakh51': ('Essential Plugins', 'essential-plugins'),
+        '9ZzwHK92FuFlxCy7kcnge': ('Frame 6', 'frame-6'),
+        'g9O_5V5J8RbOc6o25FUbR': ('Frame 6.5', 'frame-6-5'),
+        'Ztri2CGQKDYpPN5xoF3qH': ('Frame 7', 'frame-7'),
+        'F0FmZBCy1DOtGqDTonkYd': ('Frame 8', 'frame-8'),
     }
 
     def replace_embed(match):
         frame_id = match.group(1)
-        frame_name = FRAME_NAMES.get(frame_id, 'Diagram')
+        if frame_id in FRAME_MAP:
+            frame_name, frame_file = FRAME_MAP[frame_id]
+        else:
+            frame_name = 'Diagram'
+            frame_file = 'unknown'
 
-        # For now, use the full diagram SVG
-        # Add a note that this shows the full diagram
+        # Use the specific frame SVG
         svg_embed = f'''<div style="width: 100%; max-width: 1200px; margin: 2rem auto; text-align: center;" data-testid="excalidraw-diagram">
-<img src="../../diagrams/all-diagrams.excalidraw.light.svg"
+<img src="../../diagrams/frames/{frame_file}.svg"
      alt="{frame_name}"
      title="{frame_name}"
      data-frame-id="{frame_id}"
      data-frame-name="{frame_name}"
      style="width: 100%; height: auto; max-height: 600px; object-fit: contain; border: 1px solid #e1e4e8; border-radius: 8px; background: white;">
-<p style="margin-top: 0.5rem; font-size: 0.9em; color: #666; font-style: italic;">
-  Note: Showing full diagram. Scroll to find "{frame_name}" section.
-</p>
 </div>'''
 
         return svg_embed
