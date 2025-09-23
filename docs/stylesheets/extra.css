@@ -259,25 +259,62 @@ html {
     border-bottom-color: var(--md-primary-fg-color) !important;
 }
 
-/* Fix list formatting */
-.md-typeset ul {
+/* Fix list formatting - more specific selectors */
+.md-typeset ul,
+.md-content ul,
+.md-nav ul {
     margin-left: 1.5rem !important;
     list-style-type: disc !important;
+    list-style-position: outside !important;
+    padding-left: 1rem !important;
 }
 
-.md-typeset ul li {
+.md-typeset ul li,
+.md-content ul li {
     margin-bottom: 0.5rem !important;
-    list-style-type: inherit !important;
+    list-style-type: disc !important;
+    display: list-item !important;
 }
 
-.md-typeset ol {
+.md-typeset ol,
+.md-content ol {
     margin-left: 1.5rem !important;
     list-style-type: decimal !important;
+    list-style-position: outside !important;
+    padding-left: 1rem !important;
 }
 
-.md-typeset ol li {
+.md-typeset ol li,
+.md-content ol li {
     margin-bottom: 0.5rem !important;
-    list-style-type: inherit !important;
+    list-style-type: decimal !important;
+    display: list-item !important;
+}
+
+/* Nested lists */
+.md-typeset ul ul {
+    list-style-type: circle !important;
+}
+
+.md-typeset ul ul ul {
+    list-style-type: square !important;
+}
+
+/* Override MkDocs defaults that hide list styles */
+.md-typeset :not(pre) > ul,
+.md-typeset :not(pre) > ol {
+    list-style: initial !important;
+}
+
+/* Ensure navigation lists don't get bullets */
+.md-nav__list {
+    list-style-type: none !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.md-nav__item {
+    list-style-type: none !important;
 }
 
 /* Fix content overflow */
