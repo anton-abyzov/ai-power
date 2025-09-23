@@ -22,16 +22,16 @@ timestamp: "10:11-15:03"
 - Plugin dependent
 
 ### Bottom Layer - CLI Tools (Blue)
-- **Claude Code** (our choice)
+- **Claude** (our choice)
 - **Codex, Gemini**
 - Run in ANY terminal
 - No IDE lock-in
 - Maximum control
 
-## Why Claude Code?
+## Why Claude?
 - Thinks before coding
 - Asks clarifying questions
 - Considers edge cases
 - More senior developer than code generator
 
-[→ Next: Installing Claude Code](03-claude-code-install.md)
+[→ Next: Installing Claude](03-claude-code-install.md)

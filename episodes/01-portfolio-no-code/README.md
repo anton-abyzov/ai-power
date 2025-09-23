@@ -10,7 +10,7 @@ Build 3 professional websites in 60 minutes without writing code. This replaces 
 
 - [00:00](content/00-introduction.md) - The $10K Secret
 - [05:11](content/01-obsidian-setup.md) - Obsidian: Free Productivity Stack
-- [10:11](content/02-claude-code-install.md) - Claude Code Setup
+- [10:11](content/02-claude-code-install.md) - Claude Setup
 - [16:03](content/03-agent-creation.md) - Creating UI/UX Expert Agent
 - [21:43](content/04-portfolio-prep.md) - Content Organization
 - [27:17](content/05-master-prompt.md) - The Master Prompt
@@ -19,7 +19,7 @@ Build 3 professional websites in 60 minutes without writing code. This replaces 
 
 ### 🛠️ Tools Used
 
-- **Claude Code** - AI pair programmer ($20/month)
+- **Claude** - AI pair programmer ($20/month)
 - **Obsidian** - Note-taking (FREE)
 - **GitHub Pages** - Hosting (FREE)
 - **Cloudflare** - Domain ($12/year)

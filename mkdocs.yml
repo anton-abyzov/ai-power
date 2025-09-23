@@ -158,7 +158,7 @@ nav:
       - "00:00 - Introduction": episodes/01-portfolio-no-code/content/00-introduction.md
       - "05:11 - Obsidian Setup": episodes/01-portfolio-no-code/content/01-obsidian-setup.md
       - "10:11 - AI Tools Landscape": episodes/01-portfolio-no-code/content/02-ai-tools-landscape.md
-      - "13:32 - Claude Code Install": episodes/01-portfolio-no-code/content/03-claude-code-install.md
+      - "13:32 - Claude Install": episodes/01-portfolio-no-code/content/03-claude-code-install.md
       - "16:03 - Agent Creation": episodes/01-portfolio-no-code/content/04-agent-creation.md
       - "21:43 - Portfolio Preparation": episodes/01-portfolio-no-code/content/05-portfolio-prep.md
       - "27:17 - Master Prompt": episodes/01-portfolio-no-code/content/06-master-prompt.md
