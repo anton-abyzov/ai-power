@@ -37,8 +37,8 @@ jobs:
 
       - name: Convert Obsidian content for MkDocs
         run: |
-          echo "Converting Obsidian Excalidraw embeds with frame extraction..."
-          python3 scripts/convert-excalidraw-frames.py
+          echo "Converting Obsidian Excalidraw embeds..."
+          python3 scripts/convert-excalidraw-full.py
           echo "Conversion complete!"
 
       - name: Build MkDocs site
