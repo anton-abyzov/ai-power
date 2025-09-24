@@ -19,8 +19,20 @@ GitHubAIPower/
 │   ├── episodes/                  # AUTO-GENERATED (gitignored!)
 │   └── (other static docs)
 │
-└── scripts/
-    └── convert-excalidraw-svg.py # Conversion script
+├── scripts/                       # Utility scripts
+│   ├── convert-excalidraw-svg.py # Conversion script
+│   └── fix-navigation.py         # Navigation fixes
+│
+├── tests/                         # ALL TEST FILES GO HERE
+│   ├── test_navigation_e2e.py    # Navigation E2E tests
+│   ├── test_full_navigation_e2e.py # Comprehensive navigation tests
+│   └── test_production.py        # Production site tests
+│
+└── [ROOT FOLDER]                  # KEEP CLEAN!
+    ├── mkdocs.yml                 # MkDocs config
+    ├── CLAUDE.md                  # This file
+    ├── README.md                  # Project readme
+    └── requirements.txt           # Python dependencies
 ```
 
 ## ⚠️ CRITICAL RULES
@@ -30,7 +42,15 @@ GitHubAIPower/
 - It's gitignored - changes will be lost
 - Always edit files in `episodes/` folder
 
-### 2. Obsidian vs MkDocs Handling
+### 2. KEEP ROOT FOLDER CLEAN
+- **NEVER** put test files in root folder
+- **NEVER** put images directly in root folder
+- **NEVER** create temporary files in root
+- All tests MUST go in `tests/` folder
+- All scripts MUST go in `scripts/` folder
+- All content MUST go in appropriate subdirectories
+
+### 3. Obsidian vs MkDocs Handling
 - **Obsidian**: Uses `![[episodes/.../all-diagrams.excalidraw.md#^frame=FRAME_ID]]`
 - **MkDocs**: Needs conversion to SVG with viewBox
 - Conversion happens during GitHub Actions deployment
@@ -139,8 +159,69 @@ gh run watch $(gh run list --workflow=deploy.yml --limit=1 --json databaseId --j
 gh workflow run deploy.yml
 ```
 
+## 🧪 Testing Guide
+
+### Running E2E Tests
+
+#### From Command Line:
+```bash
+# Run all navigation tests
+cd /path/to/GitHubAIPower
+python3 tests/test_full_navigation_e2e.py
+
+# Test production site
+python3 tests/test_production.py
+
+# Run with pytest (if installed)
+pytest tests/ -v
+```
+
+#### From WebStorm:
+1. **Open Project** in WebStorm
+2. **Configure Python Interpreter**:
+   - File → Settings → Project → Python Interpreter
+   - Select your Python 3.9+ interpreter
+   - Install dependencies: `playwright`, `pytest`
+
+3. **Create Run Configuration**:
+   - Run → Edit Configurations → Add New Configuration → Python
+   - **Name**: "E2E Navigation Tests"
+   - **Script path**: `tests/test_full_navigation_e2e.py`
+   - **Working directory**: Project root
+   - Click OK
+
+4. **Run Tests**:
+   - Click green arrow next to configuration
+   - Or right-click test file → Run
+   - Or use keyboard shortcut: Ctrl+Shift+F10 (Windows/Linux) or Cmd+Shift+R (Mac)
+
+5. **Debug Tests**:
+   - Set breakpoints in test files
+   - Click debug icon instead of run
+   - Step through test execution
+
+### Test Structure:
+```
+tests/
+├── test_navigation_e2e.py        # Basic navigation tests
+├── test_full_navigation_e2e.py   # Comprehensive test suite
+│   ├── test_ai_tools_landscape_page()
+│   ├── test_all_content_pages()
+│   ├── test_navigation_flow()
+│   └── run_all_tests()
+└── test_production.py            # Production site tests
+```
+
+### Before Pushing to GitHub:
+1. Run local server: `mkdocs serve`
+2. Run E2E tests: `python3 tests/test_full_navigation_e2e.py`
+3. Verify all tests pass
+4. Stop local server
+5. Commit and push
+
 ## 📌 Remember
 - **Edit**: Only in `episodes/` folder
-- **Test**: Locally before pushing
-- **Wait**: 5-10 min for CDN updates
+- **Test**: Locally before pushing (run E2E tests!)
+- **Keep Clean**: Root folder is for config files only
+- **Wait**: 5-10 min for CDN updates after deploy
 - **Debug**: Check GitHub Actions logs first
