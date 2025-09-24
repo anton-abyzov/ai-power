@@ -16,6 +16,7 @@ Not tomorrow. Not after this course. Not when you're 'ready.'
 NOW. With what you have. Where you are.
 
 ## What We Accomplished
+
 - Started with NOTHING
 - Used FREE tools
 - Built THREE professional websites
@@ -29,6 +30,7 @@ NOW. With what you have. Where you are.
 **THIS WEEKEND. 48 hours.**
 
 Build SOMETHING. Anything.
+
 - Your portfolio
 - Your kid's website
 - That idea you've been hiding

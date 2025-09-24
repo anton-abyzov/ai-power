@@ -3,6 +3,7 @@
 ## 🛠️ Tools Mentioned
 
 ### AI Development
+
 - [Claude](https://claude.ai) - $20/month
 - [ChatGPT](https://chat.openai.com)
 - [Gemini](https://gemini.google.com)
@@ -12,17 +13,20 @@
 - [Windsurf](https://codeium.com/windsurf)
 
 ### Productivity
+
 - [Obsidian](https://obsidian.md) - FREE
 - [MkDocs](https://www.mkdocs.org) - FREE
 - [Git](https://git-scm.com) - FREE
 
 ### Design & Images
+
 - [Google Stitch](https://labs.google/stitch) - FREE (Beta)
 - [Nana Banana](https://gemini.google.com) - FREE
 - [Figma](https://figma.com) - FREE tier
 - [Dribbble](https://dribbble.com) - Inspiration
 
 ### Deployment
+
 - [GitHub Pages](https://pages.github.com) - FREE
 - [Cloudflare Pages](https://pages.cloudflare.com) - FREE
 - [Vercel](https://vercel.com) - FREE tier

@@ -13,6 +13,7 @@ timestamp: "0:00-2:25"
 ![What You Don't Need](../diagrams/frames/frame-1.svg)
 
 What you no longer need:
+
 - HTML
 - CSS
 - JavaScript

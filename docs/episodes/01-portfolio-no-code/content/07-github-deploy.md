@@ -16,24 +16,29 @@ timestamp: "31:28-42:52"
 ## GitHub Setup Steps
 
 1. **Create Repository**
+
     - Go to github.com
     - New repository → 'anna-portfolio'
     - Public → Create
 
 2. **Upload Code**
+
     - Drag folder into GitHub
     - Or use git commands
 
 3. **Enable GitHub Pages**
+
     - Settings → Pages
     - Source: Deploy from branch
     - Main → Root → Save
 
 4. **Magic Moment**
+
     - Wait 2 minutes
     - Live at: username.github.io/anna-portfolio
 
 ## Custom Domain Setup
+
 - Add CNAME file
 - Configure DNS
 - Result: abyzova.com

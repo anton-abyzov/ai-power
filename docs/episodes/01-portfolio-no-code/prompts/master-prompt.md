@@ -11,6 +11,7 @@ FBLA state conference, just finished 8th grade with 6 academic awards, now in 9t
 She tutors math, science, languages and piano.
 
 Requirements:
+
 - Create website sections that match each folder name
 - Use beautiful popups for YouTube embeds
 - Include testimonials

@@ -8,6 +8,7 @@ timestamp: "16:03-20:43"
 ## What Are Agents?
 
 Think of agents as hiring specialists:
+
 - UI expert for design
 - Backend expert for APIs
 - Database expert for queries
@@ -40,6 +41,7 @@ from a one-shot prompt.
 Your agent is now ready to build custom portfolio sites!
 
 With this configuration, your UI/UX agent can:
+
 - Generate complete portfolio websites
 - Create multiple design variations
 - Handle responsive layouts

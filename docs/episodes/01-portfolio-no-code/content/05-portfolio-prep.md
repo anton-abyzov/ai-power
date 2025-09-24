@@ -28,6 +28,7 @@ timestamp: "20:43-27:17"
 <div class="achievement-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; border-radius: 8px;">
 
 ### 🏅 Academic Excellence
+
 - **Math Olympiad Captain**
 - Regional Winner
 - 6 Academic Awards (8th Grade)
@@ -37,6 +38,7 @@ timestamp: "20:43-27:17"
 <div class="achievement-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 15px; border-radius: 8px;">
 
 ### 🎹 Performing Arts
+
 - **International Piano Laureate**
 - Concert Performances
 - Music Theory Expert
@@ -46,6 +48,7 @@ timestamp: "20:43-27:17"
 <div class="achievement-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 15px; border-radius: 8px;">
 
 ### 📚 Current Activities
+
 - **9th Grade Student**
 - FBLA State Conference
 - Peer Tutor: Math, Science, Languages
@@ -57,6 +60,7 @@ timestamp: "20:43-27:17"
 ## Image Optimization Tips
 
 **Using Gemini (Nano Banana)**
+
 - Remove unwanted elements
 - Be SUPER precise with instructions
 - Example: "Remove only the black microphone stand"

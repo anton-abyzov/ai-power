@@ -22,6 +22,7 @@ Creative - bold colors, playful, interactive
 Deploy locally for immediate testing on ports 8005, 6 and 7.
 
 ## What Happened Next
+
 - 90 seconds to generate
 - 3 complete websites
 - Fully responsive
@@ -29,6 +30,7 @@ Deploy locally for immediate testing on ports 8005, 6 and 7.
 - ~$0.30 in API usage
 
 ## The Results
+
 - Version 1: Cosmic theme with gradients
 - Version 2: College-ready professional
 - Version 3: Vibrant and playful (Anna's favorite!)

@@ -102,18 +102,25 @@ def convert_checklist_format(content):
 
     lines = content.split('\n')
     result_lines = []
+    in_list = False
 
     for i, line in enumerate(lines):
         # Convert emoji checkboxes
         for pattern, replacement in patterns:
             line = re.sub(pattern, replacement, line)
 
-        # Add blank line before task lists if previous line has text
-        if i > 0 and line.strip().startswith('- ['):
-            prev_line = lines[i-1].strip()
-            # If previous line has text and ends with colon, add blank line
-            if prev_line and prev_line.endswith(':') and result_lines and result_lines[-1].strip():
+        # Check if this line starts a list
+        is_list_item = line.strip().startswith('- [') or line.strip().startswith('- ')
+
+        # Add blank line before starting a new list
+        if is_list_item and not in_list:
+            # If previous line has content and isn't blank, add blank line
+            if i > 0 and result_lines and result_lines[-1].strip():
                 result_lines.append('')
+            in_list = True
+        elif not is_list_item and line.strip():
+            # Not a list item and has content, so we're out of the list
+            in_list = False
 
         result_lines.append(line)
 
