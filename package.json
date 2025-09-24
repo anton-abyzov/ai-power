@@ -7,7 +7,14 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:e2e",
+    "test:e2e": "python3 tests/test_full_navigation_e2e.py",
+    "test:e2e:basic": "python3 tests/test_navigation_e2e.py",
+    "test:e2e:production": "python3 tests/test_production.py",
+    "test:all": "pytest tests/ -v",
+    "serve": "mkdocs serve",
+    "build": "mkdocs build",
+    "deploy": "mkdocs gh-deploy"
   },
   "keywords": [],
   "author": "",
