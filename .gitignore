@@ -57,3 +57,5 @@ node_modules
 # Obsidian-specific folders (prevent MkDocs conflicts)
 obsidian-episodes/
 episodes-backup-*
+
+test-screenshots
