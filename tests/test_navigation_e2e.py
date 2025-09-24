@@ -151,7 +151,9 @@ class TestNavigation:
 
         # Get the href to verify it's correct
         href = back_button.get_attribute("href")
-        assert href == "../../", f"Back to Episode Overview button has wrong href: {href}"
+        # Accept both relative and absolute paths that lead to the episode overview
+        valid_hrefs = ["../../", "/ai-power/episodes/01-portfolio-no-code/"]
+        assert any(href.endswith(valid) for valid in valid_hrefs), f"Back to Episode Overview button has wrong href: {href}"
 
         # Click and verify navigation
         back_button.click()
