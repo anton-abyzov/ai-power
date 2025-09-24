@@ -50,7 +50,7 @@ In the next hour:
     </a>
   </div>
   <div style="text-align: right;">
-    <a href="../content/01-obsidian-setup/" style="text-decoration: none;">
+    <a href="../01-obsidian-setup/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">Next →</div>
       <div style="color: #7c4dff; font-weight: 600;">Obsidian Setup</div>
     </a>

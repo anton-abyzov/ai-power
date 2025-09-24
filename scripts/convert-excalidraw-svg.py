@@ -80,15 +80,9 @@ def convert_excalidraw_links(content, svg_path_prefix="../diagrams"):
 
 def fix_navigation_links(content):
     """
-    Fix navigation links to remove duplicate 'content' in paths.
-    Pattern: ../content/XX-name/ -> ../XX-name/
+    Navigation links are now fixed in source files.
+    No conversion needed here.
     """
-    # Fix navigation links in the navigation footer
-    content = re.sub(r'href="../content/([^"]+)/"', r'href="../\1/"', content)
-
-    # Also fix the episode overview link (keep going up two levels)
-    content = re.sub(r'href="../"', r'href="../../"', content)
-
     return content
 
 def convert_checklist_format(content):
@@ -129,12 +123,12 @@ def update_discord_links(content):
     """
     Update placeholder Discord links with actual Discord invite links.
     """
-    # Replace placeholder Discord URLs with a working invite or placeholder
-    # TODO: Replace with actual Discord server invite when available
-    discord_url = "https://discord.gg/github-ai-power"  # Update with actual invite code
+    # Actual Discord invite link from the user (no expiry)
+    discord_url = "https://discord.gg/UYg4BGJ65V"
 
     # Update Discord links in content - handle various formats
     content = re.sub(r'https?://discord\.gg/YOUR-DISCORD', discord_url, content)
+    content = re.sub(r'https?://discord\.gg/github-ai-power', discord_url, content)
     content = re.sub(r'https?://discord\.gg/[A-Za-z0-9\-_]+', discord_url, content)
     content = re.sub(r'\[Discord\]\(#\)', f'[Discord]({discord_url})', content)
 
