@@ -37,10 +37,10 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 
 In the next hour:
 
-- [x] Custom design - Your vision, not a template
-- [x] Interactive features - Animations, effects
-- [x] Deployed live - On GitHub Pages (completely free)
-- [x] Yours forever - No monthly fees
+- Custom design - Your vision, not a template
+- Interactive features - Animations, effects
+- Deployed live - On GitHub Pages (completely free)
+- Yours forever - No monthly fees
 
 ---
 

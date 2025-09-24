@@ -87,17 +87,17 @@ def fix_navigation_links(content):
 
 def convert_checklist_format(content):
     """
-    Convert emoji checkboxes to MkDocs task list format.
-    - ✅ text -> - [x] text
-    - ☑️ text -> - [x] text
-    - ✓ text -> - [x] text
+    Convert emoji checkboxes to plain list items for proper MkDocs rendering.
+    - ✅ text -> - text
+    - ☑️ text -> - text
+    - ✓ text -> - text
     Also ensure blank lines before lists for proper MkDocs rendering.
     """
-    # Convert various checkmark emojis to task list syntax
+    # Remove checkmark emojis but keep as list items
     patterns = [
-        (r'^(\s*)-\s*✅\s*', r'\1- [x] '),  # Green checkmark
-        (r'^(\s*)-\s*☑️\s*', r'\1- [x] '),  # Ballot box with check
-        (r'^(\s*)-\s*✓\s*', r'\1- [x] '),   # Check mark
+        (r'^(\s*)-\s*✅\s*', r'\1- '),  # Remove green checkmark
+        (r'^(\s*)-\s*☑️\s*', r'\1- '),  # Remove ballot box with check
+        (r'^(\s*)-\s*✓\s*', r'\1- '),   # Remove check mark
     ]
 
     lines = content.split('\n')
@@ -105,12 +105,12 @@ def convert_checklist_format(content):
     in_list = False
 
     for i, line in enumerate(lines):
-        # Convert emoji checkboxes
+        # Remove emoji checkboxes but keep list format
         for pattern, replacement in patterns:
             line = re.sub(pattern, replacement, line)
 
         # Check if this line starts a list
-        is_list_item = line.strip().startswith('- [') or line.strip().startswith('- ')
+        is_list_item = line.strip().startswith('- ')
 
         # Add blank line before starting a new list
         if is_list_item and not in_list:
