@@ -137,6 +137,36 @@ class TestNavigation:
 
         page.close()
 
+    def test_back_to_episode_overview(self, browser_context):
+        """Test that the Back to Episode Overview button works correctly."""
+        page = browser_context.new_page()
+
+        # Start at introduction page
+        url = f"{get_base_url()}/episodes/01-portfolio-no-code/content/00-introduction/"
+        page.goto(url)
+
+        # Find and click the Back to Episode Overview button
+        back_button = page.locator("a:has-text('Episode Overview')").first
+        expect(back_button).to_be_visible()
+
+        # Get the href to verify it's correct
+        href = back_button.get_attribute("href")
+        assert href == "../../", f"Back to Episode Overview button has wrong href: {href}"
+
+        # Click and verify navigation
+        back_button.click()
+        page.wait_for_load_state("networkidle")
+
+        # Check we're on the Episode Overview page (no 404)
+        assert "404" not in page.title(), f"Navigation to Episode Overview led to 404 page. URL: {page.url}"
+        assert page.url.endswith("/episodes/01-portfolio-no-code/") or "01-portfolio-no-code" in page.url, f"Should be on Episode Overview, but URL is {page.url}"
+
+        # Verify Episode Overview content loads
+        heading = page.locator("h1").first
+        expect(heading).to_be_visible()
+
+        page.close()
+
     def test_all_navigation_links_no_404(self, browser_context):
         """Test that all major navigation links work without 404 errors."""
         page = browser_context.new_page()
@@ -242,6 +272,10 @@ def main():
             print("✓ Testing Back button navigation...")
             test.test_navigation_back_button(context)
             print("  ✅ Back button works correctly")
+
+            print("✓ Testing Back to Episode Overview...")
+            test.test_back_to_episode_overview(context)
+            print("  ✅ Back to Episode Overview works correctly")
 
             print("✓ Testing all navigation links...")
             test.test_all_navigation_links_no_404(context)
