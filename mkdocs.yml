@@ -157,6 +157,7 @@ nav:
     - Quick Start:
       - "🚀 Introduction": episodes/01-portfolio-no-code/content/00-introduction.md
       - "⚙️ Obsidian Setup": episodes/01-portfolio-no-code/content/01-obsidian-setup.md
+      - "🔧 AI Tools Landscape": episodes/01-portfolio-no-code/content/02-ai-tools-landscape.md
       - "🤖 Claude Install": episodes/01-portfolio-no-code/content/03-claude-code-install.md
       - "📋 Commands Reference": episodes/01-portfolio-no-code/content/claude-commands.md
     - Build Your Site:
@@ -164,6 +165,7 @@ nav:
       - "📁 Portfolio Prep": episodes/01-portfolio-no-code/content/05-portfolio-prep.md
       - "✨ Master Prompt": episodes/01-portfolio-no-code/content/06-master-prompt.md
       - "🌐 GitHub Deploy": episodes/01-portfolio-no-code/content/07-github-deploy.md
+      - "🎬 Closing": episodes/01-portfolio-no-code/content/08-closing.md
     - Prompts & Resources:
       - "📝 Agent Definition": episodes/01-portfolio-no-code/prompts/agent-definition.md
       - "🎯 Master Prompt": episodes/01-portfolio-no-code/prompts/master-prompt.md

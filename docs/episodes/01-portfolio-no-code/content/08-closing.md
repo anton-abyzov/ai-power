@@ -46,3 +46,20 @@ It's ONE DECISION: **Start. Now.**
 See you in the next one. Where we turn YOUR idea... Into THEIR reality.
 
 [🌐 Live Demo: abyzova.com](https://abyzova.com)
+
+---
+
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+  <div>
+    <a href="../07-github-deploy/" style="text-decoration: none;">
+      <div style="color: #666; font-size: 0.9rem;">← Previous</div>
+      <div style="color: #7c4dff; font-weight: 600;">GitHub Deploy</div>
+    </a>
+  </div>
+  <div style="text-align: right;">
+    <a href="/ai-power/episodes/01-portfolio-no-code/" style="text-decoration: none;">
+      <div style="color: #666; font-size: 0.9rem;">Back to →</div>
+      <div style="color: #7c4dff; font-weight: 600;">Episode Overview</div>
+    </a>
+  </div>
+</div>
