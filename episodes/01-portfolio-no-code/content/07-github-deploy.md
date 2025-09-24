@@ -43,7 +43,7 @@ Push code → GitHub receives → Actions run → Site updates automatically
 
 ---
 
-<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin: 3rem 0 2rem 0; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
   <div>
     <a href="../06-master-prompt/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">← Previous</div>
@@ -56,4 +56,4 @@ Push code → GitHub receives → Actions run → Site updates automatically
       <div style="color: #7c4dff; font-weight: 600;">Closing</div>
     </a>
   </div>
-</div>
+</div><\!-- End of content -->

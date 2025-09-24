@@ -52,7 +52,7 @@ claude --agent ui-expert "build portfolio site"
 
 ---
 
-<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin: 3rem 0 2rem 0; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
   <div>
     <a href="../02-ai-tools-landscape/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">← Previous</div>
@@ -65,4 +65,4 @@ claude --agent ui-expert "build portfolio site"
       <div style="color: #7c4dff; font-weight: 600;">Agent Creation</div>
     </a>
   </div>
-</div>
+</div><\!-- End of content -->

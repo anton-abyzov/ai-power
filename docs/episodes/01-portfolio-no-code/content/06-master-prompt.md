@@ -35,7 +35,7 @@ Deploy locally for immediate testing on ports 8005, 6 and 7.
 
 ---
 
-<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin: 3rem 0 2rem 0; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
   <div>
     <a href="../05-portfolio-prep/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">← Previous</div>
@@ -50,3 +50,4 @@ Deploy locally for immediate testing on ports 8005, 6 and 7.
   </div>
 </div>
 
+<\!-- End of content -->

@@ -36,7 +36,7 @@ Your notes are just `.md` files on YOUR computer. When other apps die, your mark
 
 ---
 
-<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin: 3rem 0 2rem 0; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
   <div>
     <a href="../00-introduction/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">← Previous</div>
@@ -50,3 +50,5 @@ Your notes are just `.md` files on YOUR computer. When other apps die, your mark
     </a>
   </div>
 </div>
+
+<!-- End of content -->

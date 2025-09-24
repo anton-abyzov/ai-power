@@ -42,7 +42,7 @@ In the next hour:
 
 ---
 
-<div class="navigation-footer" style="display: flex; justify-content: space-between; margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
+<div class="navigation-footer" style="display: flex; justify-content: space-between; margin: 3rem 0 2rem 0; padding: 2rem 0; border-top: 1px solid #e0e0e0;">
   <div>
     <a href="/ai-power/episodes/01-portfolio-no-code/" style="text-decoration: none;">
       <div style="color: #666; font-size: 0.9rem;">← Back</div>
@@ -56,3 +56,5 @@ In the next hour:
     </a>
   </div>
 </div>
+
+<!-- End of content -->
