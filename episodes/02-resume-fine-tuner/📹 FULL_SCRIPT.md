@@ -50,6 +50,7 @@
 - Developers: Python → ML Engineer, Java → Backend Architect
 - Marketers: Content → SEO Specialist, Growth → Performance Marketer
 - PMs: Agile → Scrum Master, Product → Strategy Lead"
+- ... many more
 
 **[Reference badge: "New to Claude Code? Episode 01 in description"]**
 
