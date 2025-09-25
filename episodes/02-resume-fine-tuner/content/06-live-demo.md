@@ -122,13 +122,13 @@ Used React for internal dashboard showing real-time payment metrics. Applied eve
 sourcing for audit trail maintaining complete transaction history. Worked closely
 with team of 12 engineers across different time zones.
 
-**Grenzebach – Industrial IoT Platform**
+**Industrial Client – IoT Platform**
 Led migration of 50+ services from AWS to Azure, working with Kubernetes for
 container orchestration. Implemented blue-green deployments reducing downtime
 during updates. Built distributed system handling telemetry from 10K+ IoT devices.
 Created comprehensive monitoring with Application Insights and custom metrics.
 
-### eSyncTraining | Senior Software Engineer
+### EdTech Platform | Senior Software Engineer
 *May 2016 - May 2017 | Remote*
 
 Designed eLearning platform using ASP.NET Core serving 500K+ students. Implemented
