@@ -50,6 +50,20 @@ def convert_checklist_format(content):
 
     return '\n'.join(result_lines)
 
+def update_discord_links(content):
+    """
+    Update placeholder Discord links with actual Discord invite link.
+    """
+    # Actual Discord invite link (no expiry)
+    discord_url = "https://discord.gg/UYg4BGJ65V"
+
+    # Update Discord links in content
+    content = re.sub(r'https?://discord\.gg/YOUR-DISCORD', discord_url, content)
+    content = re.sub(r'https?://discord\.gg/github-ai-power', discord_url, content)
+    content = re.sub(r'\[Discord\]\(#\)', f'[Discord]({discord_url})', content)
+
+    return content
+
 def convert_excalidraw_links(content):
     """
     Convert Obsidian Excalidraw embeds to use individual frame SVGs.
@@ -108,6 +122,7 @@ def process_markdown_file(source_path, dest_path):
     # Apply all conversions
     converted_content = convert_excalidraw_links(content)
     converted_content = convert_checklist_format(converted_content)
+    converted_content = update_discord_links(converted_content)
 
     # Ensure destination directory exists
     dest_path.parent.mkdir(parents=True, exist_ok=True)
