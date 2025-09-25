@@ -10,14 +10,42 @@ timestamp: "20:43-27:17"
 <div class="content-structure" style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
 
 ```bash
-~/Pictures/anna-portfolio/
-│
-├── 📸 photos/           # Professional headshots
-├── 🏆 achievements/     # Awards and certificates
-├── 🎥 youtube-links/    # Performance videos
-├── 💬 testimonials/     # References and feedback
-└── 📧 contacts/         # Contact information
+anna-portfolio/
+├── contacts.txt                    # Contact information
+├── testimonials.txt                # References and feedback
+├── youtube_dance_performances.txt  # Dance video links
+├── youtube_piano_performances.txt  # Piano video links
+├── achievements/                   # Awards, certificates
+├── art/                            # Artwork, creative projects
+├── dancing/                        # Dance photos, competitions
+├── fbla/                          # FBLA activities, leadership
+├── gallery/                        # General photo gallery
+├── hero/                          # Hero/banner images
+├── hobbies/                       # Hobby photos
+│   ├── anna_aviation.jpg
+│   ├── anna_ballet.jpg
+│   ├── anna_barbie_balls.jpg
+│   └── anna_travel.jpg
+└── performances/                   # Performance photos/videos
 ```
+
+</div>
+
+### 📝 File Naming Best Practices
+
+Use descriptive, meaningful filenames:
+
+<div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 20px 0;">
+
+**❌ Poor Naming:**
+- `certificate.jpg`
+- `photo1.jpg`
+- `project.png`
+
+**✅ Good Naming:**
+- `google_certification_2024.jpg`
+- `ballet_swan_lake_performance.jpg`
+- `fbla_website_competition_winner.png`
 
 </div>
 
