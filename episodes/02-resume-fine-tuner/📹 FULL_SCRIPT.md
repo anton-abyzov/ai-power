@@ -1,6 +1,6 @@
 # Episode 02: AI-Powered Resume Fine-Tuner with Claude Code
 
-## 🎬 Video Script (10 minutes - HIGH ENERGY)
+## 🎬 Video Script (12-15 minutes - HIGH ENERGY)
 
 ---
 
@@ -35,31 +35,34 @@
 
 ---
 
-### 🚀 CLAUDE CODE AGENTS (1:00-2:00)
+### 🚀 CLAUDE CODE AGENTS (1:00-2:30)
 **[Screen: Claude Code interface]**
 
-"Claude Code agents - AI assistants that follow YOUR exact instructions."
+"Claude Code agents - AI assistants that follow YOUR exact instructions. In Episode 1, we built portfolios with UI agents. Now we're creating something even more powerful."
+
+**[YouTube Card @ 1:10: "Episode 01: Portfolio Builder" - top right]**
 
 **[Show Excalidraw: Agent Architecture Diagram]**
 ![[Agent workflow.excalidraw]]
 
-"Feed it your ENTIRE career once. It tailors PERFECT resumes forever."
+"Think of it like this: You feed the agent your ENTIRE career history once. Every project, every skill, every achievement. Then it becomes your personal resume expert, instantly matching your experience to ANY job description."
 
-**[Quick examples on screen]**
-"Works for:
-- Developers: Python → ML Engineer, Java → Backend Architect
-- Marketers: Content → SEO Specialist, Growth → Performance Marketer
-- PMs: Agile → Scrum Master, Product → Strategy Lead"
-- ... many more
+**[Quick examples on screen with vocal cues]**
+"Watch the transformation:
+- Developers: Generic Python developer BECOMES specialized ML Engineer
+- Marketers: Basic content writer TRANSFORMS INTO SEO specialist
+- Project Managers: Standard PM EVOLVES INTO Agile Coach
+- And hundreds more combinations..."
 
-**[Reference badge: "New to Claude Code? Episode 01 in description"]**
+**[Bridge to next section]**
+"But first, let's set up your workspace. This takes 30 seconds..."
 
 ---
 
-### 🏗️ QUICK SETUP (2:00-2:30)
+### 🏗️ QUICK SETUP (2:30-3:30)
 **[Terminal commands on screen]**
 
-"Skip permission prompts - add to .zshrc:"
+"Quick tip that'll save you hours - skip those annoying permission prompts. Add this to your shell config file:"
 
 ```bash
 function claude() {
@@ -68,14 +71,20 @@ function claude() {
 source ~/.zshrc
 ```
 
-"Organize your workspace:"
+**[Vocal instruction]**
+"For Windows users, check the GitHub repo for PowerShell instructions."
+
+"Now organize your workspace with three simple folders:"
 
 ```bash
 mkdir -p resumes/{templates,outputs,job-descriptions}
 ```
 
-**[File structure visual]**
-"Three folders. That's it. Templates, outputs, job descriptions."
+**[File structure visual with explanation]**
+"Templates store your base resumes. Outputs hold tailored versions. Job descriptions save what worked. Simple system, massive results."
+
+**[Bridge with energy]**
+"Now comes the magic - building your AI resume expert..."
 
 ---
 
@@ -145,39 +154,52 @@ experience:
 
 ---
 
-### 🎯 LIVE DEMO (4:30-6:30)
+### 🎯 LIVE DEMO (5:30-8:00)
 **[Screen: Real job description from inbox]**
 
-"Real job. Real demo. Watch this:"
+"Let me show you the power of this system. Here's a REAL job from my inbox this morning:"
 
 ```
 Senior Full Stack Developer – Healthcare
 - Python, React, PostgreSQL
-- HIPAA compliance
-- 7+ years required
+- HIPAA compliance required
+- 7+ years experience minimum
+- Remote, $180K-220K
 ```
 
-**[Terminal command]**
+**[Terminal command with vocal explanation]**
 ```bash
 claude "resume-fine-tuner: Healthcare Full Stack role [paste JD]"
 ```
 
-**[Show 3-step process visualization]**
-"1. EXTRACT: Python, React, Healthcare, HIPAA
-2. MATCH: Pulls YOUR healthcare projects
-3. GENERATE: Perfect resume in 30 seconds"
+**[Vocal cue for demo]**
+"Watch what happens in real-time. The agent extracts keywords, matches them to my experience, and generates a targeted resume."
 
-**[Split screen: Generic vs Tailored resume]**
+**[Show 3-step process visualization with narration]**
+"Step 1: EXTRACT - The agent identifies Python, React, Healthcare, HIPAA as critical keywords
+Step 2: MATCH - It searches my experience database for relevant projects
+Step 3: GENERATE - Creates a perfectly tailored resume emphasizing healthcare experience"
 
-"Before: Generic Python developer
-After: Healthcare-focused full stack expert with HIPAA experience
+**[Split screen comparison with vocal emphasis]**
+"Look at the difference. The generic resume says 'Python developer with 10 years experience.'
+The tailored one says 'Healthcare-focused full stack engineer with HIPAA-compliant system expertise.'
 
-Time: 30 seconds. Response rate: 3x higher."
+Which one gets the interview? Exactly."
 
-**[Examples for other roles]**
-"Marketing Manager → Growth Marketing Lead: 45 seconds
-Project Manager → Agile Coach: 35 seconds
-Data Analyst → Business Intelligence Expert: 40 seconds"
+**[Show actual metrics]**
+"Processing time: 30 seconds. Response rate improvement: From 15 percent TO 45 percent. That's triple the interviews."
+
+**[YouTube Card @ 7:30: "See Complete Agent Setup" - links to GitHub]**
+
+**[Examples for other industries with vocal transitions]**
+"And this works for ANY role:
+- Marketing Manager BECOMES Growth Marketing Lead
+- Project Manager TRANSFORMS INTO Agile Coach
+- Data Analyst EVOLVES INTO Business Intelligence Expert
+- Sales Rep BECOMES Enterprise Account Executive"
+
+**[Bridge to next section]**
+"Want to maximize your results? Here are the pro strategies..."
 
 ---
 
