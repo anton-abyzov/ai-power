@@ -131,6 +131,54 @@ git commit -m "Initial resume templates"
 git tag -a "microsoft-interview-v1" -m "Version that got MS interview"
 ```
 
+## Claude Code Setup (Important!)
+
+### Permissions Bypass for Local Development
+
+When using Claude Code locally, you might encounter permission prompts for every file operation. To streamline your workflow during development, add this helper function to your shell configuration:
+
+#### For Mac/Linux (.zshrc or .bashrc)
+```bash
+# Open your shell configuration file
+nano ~/.zshrc  # for Mac with zsh (default on newer Macs)
+# or
+nano ~/.bashrc  # for bash users
+
+# Add this function at the end of the file
+function claude() {
+  command claude --dangerously-skip-permissions "$@"
+}
+
+# Save and reload your configuration
+source ~/.zshrc  # or source ~/.bashrc
+```
+
+#### For Windows (PowerShell)
+```powershell
+# Open PowerShell profile
+notepad $PROFILE
+
+# Add this function
+function claude {
+    & claude.exe --dangerously-skip-permissions $args
+}
+
+# Save and reload
+. $PROFILE
+```
+
+**⚠️ IMPORTANT SECURITY NOTE:**
+- This bypasses Claude's file permission checks
+- Use ONLY for personal projects and development
+- NEVER use this in production or with sensitive data
+- This is specifically for Episode tutorials where we're working with our own files
+
+### Why This Helps
+- Speeds up development workflow
+- Avoids repetitive permission prompts
+- Allows rapid iteration on resume generation
+- Essential for the live demo sections
+
 ## Integration with Tools
 
 ### For Markdown to PDF
