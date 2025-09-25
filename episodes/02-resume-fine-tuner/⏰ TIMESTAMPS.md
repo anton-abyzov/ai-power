@@ -2,7 +2,7 @@
 
 ## 🎬 AI-Powered Resume Fine-Tuner with Claude Code
 
-### Total Duration: 14:30 - 15:00
+### Total Duration: 16:00 - 16:30
 
 ---
 
@@ -74,12 +74,18 @@
 - Do's and Don'ts checklist
 - ROI calculation
 
+### 🔍 Where to Find These Opportunities
+**[14:30 - 15:30]** - Job Platforms & Security
+- LinkedIn, AngelList, Dice, Indeed
+- Security warning about phishing
+- How to verify legitimate recruiters
+
 ### 🎬 Conclusion & Call to Action
-**[14:30 - 15:00]** - Your Next Steps
-- Quick recap of system
+**[15:30 - 16:00]** - Your Next Steps
+- AI won't replace developers message
 - GitHub repo walkthrough
 - Subscribe reminder
-- Next episode teaser (AI Code Reviewer)
+- Keep using AI as competitive advantage
 
 ---
 

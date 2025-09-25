@@ -77,8 +77,7 @@ Contains:
 
 ### 🎥 Related Episodes
 - **Episode 01**: Portfolio Builder with Claude Code
-- **Episode 03**: AI Code Reviewer (Coming Next!)
-- **Episode 04**: Automated Testing Agent
+- More episodes coming soon!
 
 ## What's Next?
 

@@ -251,24 +251,40 @@ experience_google_ml_engineer_sarah_2024-01.md
 
 ---
 
-### 🎬 CLOSING & CALL TO ACTION (14:30-15:00)
+### 🔍 WHERE TO FIND THESE OPPORTUNITIES (14:30-15:30)
+**[Screen: Show various job platforms]**
+
+"Where do I find all these opportunities? Let me show you the best sources:"
+
+**[Navigate to each platform briefly]**
+- **LinkedIn**: "Turn on 'Open to Work' privately - recruiters will flood your inbox"
+- **AngelList/Wellfound**: "Perfect for startup roles with equity"
+- **Dice & Indeed**: "Traditional but effective"
+- **Direct emails**: "Check your spam folder - real opportunities hide there!"
+
+**[Warning message on screen with alert icon]**
+"⚠️ SECURITY WARNING: Watch out for phishing! I once got a fake recruiter site that looked perfect - great UI, professional design - but it tried to steal my LinkedIn credentials. NEVER enter your password on external sites. Always apply through official channels or verify the recruiter's company email."
+
+### 🎬 CLOSING & CALL TO ACTION (15:30-16:00)
 **[Screen: Back to terminal with agent running]**
 
-"You now have an AI assistant that knows your entire career and can instantly optimize it for any opportunity. No more generic resumes. No more missed opportunities."
+"Remember this: AI won't replace developers. But developers who don't use AI WILL be replaced by those who do. While everyone's panicking, smart developers are using AI to 10x their productivity and land better roles."
 
 **[Show the GitHub repo]**
 
-"I've put the complete agent configuration, sample resumes, and setup guide in the GitHub repo - link below. Star it if this helps!"
+"Everything's in my GitHub repo at github.com/anton-abyzov/ai-power, with live documentation at anton-abyzov.github.io/ai-power. Star it if this helps!"
 
 **[Final screen with links]**
 
-"Next episode: Building an AI code reviewer that catches bugs before production. Subscribe and hit the bell - you don't want to miss this one."
+"Keep building, keep learning, and most importantly - start using AI as your competitive advantage."
 
 **[End screen elements]**
 - Subscribe button
 - Episode 01 thumbnail (Portfolio Builder)
 - GitHub repo link
-- Discord community link
+- Community links
+
+"You won't be replaced by AI. You'll be replaced by someone who knows how to use AI. Start today."
 
 ---
 

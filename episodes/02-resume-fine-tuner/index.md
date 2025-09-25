@@ -71,8 +71,7 @@ claude "Use resume-fine-tuner agent for the Microsoft position in samples folder
 ## 🔗 Related Episodes
 
 - [Episode 01: Portfolio Builder](../01-portfolio-no-code/index.md) - Build portfolios without coding
-- Episode 03: AI Code Reviewer (Coming Soon)
-- Episode 04: Test Generator Agent (Coming Soon)
+- More episodes coming soon!
 
 ## 💬 Community
 

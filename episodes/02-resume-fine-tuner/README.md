@@ -167,8 +167,7 @@ claude "Use the resume-fine-tuner agent to create a resume for this Senior .NET 
 
 ### Related Episodes
 - [Episode 01: Portfolio Builder](../01-portfolio-no-code/)
-- Episode 03: AI Code Reviewer (Coming Soon)
-- Episode 04: Test Generator Agent (Coming Soon)
+- More episodes coming soon!
 
 ## 🎓 Learning Path
 
