@@ -45,7 +45,7 @@
 "In my previous episode, I showed how to create UI/UX agents for building portfolios. Today, we're taking it further - creating a resume fine-tuning agent that understands YOUR specific career."
 
 **[Show Excalidraw: Agent Architecture Diagram]**
-
+![[Agent workflow.excalidraw]]
 "Claude Code agents are custom AI assistants that follow your specific instructions. Think of them as specialized team members who know exactly how to present your experience."
 
 **[Quick reference to previous video with overlay pointing to Episode 01]**
