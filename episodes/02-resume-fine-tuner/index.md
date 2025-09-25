@@ -9,7 +9,6 @@ Welcome to Episode 02 of the AI Power series! This episode teaches you how to bu
 ### Video Resources
 - [📹 Full Script](📹%20FULL_SCRIPT.md) - Complete video script with production notes
 - [⏰ Timestamps](⏰%20TIMESTAMPS.md) - Chapter markers and key moments
-- [📖 README](README.md) - Overview and quick start guide
 
 ### Tutorial Sections
 
@@ -71,7 +70,7 @@ claude "Use resume-fine-tuner agent for the Microsoft position in samples folder
 
 ## 🔗 Related Episodes
 
-- [Episode 01: Portfolio Builder](../01-portfolio-no-code/) - Build portfolios without coding
+- [Episode 01: Portfolio Builder](../01-portfolio-no-code/index.md) - Build portfolios without coding
 - Episode 03: AI Code Reviewer (Coming Soon)
 - Episode 04: Test Generator Agent (Coming Soon)
 
