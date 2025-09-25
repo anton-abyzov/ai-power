@@ -5,6 +5,10 @@ timestamp: "6:30-8:00"
 
 # Building Your Experience Database
 
+## Quick Note: Business Automation Potential
+
+If you wanted to turn this into a complete business - with a UI, backend, automatic job description scraping, and full automation - you absolutely could. Imagine a SaaS where users upload their experience once, then get instant tailored resumes for any job posting. But today, we're focusing on personal productivity.
+
 ## The Foundation: Complete Career Inventory
 
 Your experience database is the fuel for the AI engine. The more detailed and organized, the better the output.

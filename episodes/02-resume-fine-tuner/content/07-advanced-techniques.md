@@ -64,6 +64,7 @@ Instead of one resume for all, maintain variants:
 - Specific Azure services mentioned
 - Payment processing alignment
 - Team size match (15 engineers)
+- Word format for ATS
 
 ## TechCo DevOps - NO RESPONSE ❌
 **What Might Have Been Wrong**:
@@ -237,12 +238,12 @@ code review practices reducing bugs by 40%"
 ### When You See Similar Roles
 ```bash
 # Original successful application
-experience_microsoft_senior_dotnet_john_2024-01.md
+microsoft_senior_dotnet_john_2024-01.docx
 
 # Similar role appears
 # Copy and slightly modify
-cp experience_microsoft_senior_dotnet_john_2024-01.md \
-   experience_amazon_principal_dotnet_sarah_2024-02.md
+cp microsoft_senior_dotnet_john_2024-01.docx \
+   amazon_principal_dotnet_sarah_2024-02.docx
 
 # Quick adjustments for new role
 # - Update company-specific keywords

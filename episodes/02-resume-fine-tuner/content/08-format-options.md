@@ -7,7 +7,11 @@ timestamp: "12:30-13:30"
 
 ## Output Formats Overview
 
-Your AI-generated markdown resume can be converted to any professional format:
+Your AI-generated resume defaults to Word format (.docx) for best ATS compatibility, but you can convert to any professional format.
+
+### What is Pandoc?
+
+Pandoc is the "Swiss Army knife" of document conversion. Think of it as a universal translator between document formats - it can convert between Word, PDF, Markdown, LaTeX, HTML, and dozens of other formats. It's free, open-source, and works on all platforms.
 
 ## 1. PDF Output (Most Common)
 
@@ -61,35 +65,54 @@ pandoc resume.md -o resume.docx \
 ## 3. LaTeX (Professional/Academic)
 
 ### The Premium Option
+
+LaTeX gives you pixel-perfect control over formatting, which is why it's preferred for academic and research positions.
+
+### Real Example from Healthcare Position
 ```latex
-% Generated LaTeX from agent
-\documentclass{article}
-\usepackage{moderncv}
-\moderncvstyle{classic}
+% Recruiter: Healthcare Systems - Cardiology Unit
+% Company: Healthcare Technology Organization
+% Phone: Contact via application portal
+% Position: Senior Software Engineer - Healthcare Systems
+% Duration: Full-time opportunity
 
-\firstname{John}
-\familyname{Doe}
-\title{Senior Software Engineer}
+\section*{Professional Summary}
+Senior Software Engineer with 18+ years developing enterprise healthcare
+applications, specializing in React, C\#, JavaScript, and medical device
+integration. Proven expertise in incident management, system upgrades,
+and security modifications within healthcare environments.
 
-\begin{document}
-\makecvtitle
+\section*{Work Experience}
 
-\section{Experience}
-\cventry{2017--Present}{Senior Developer}{Company}{Location}{}{
-  \begin{itemize}
-    \item Achievement 1
-    \item Achievement 2
-  \end{itemize}
-}
-\end{document}
+\cventry{Jun 2017 -- Present}{Senior Software Engineer}{Softgreat}{Miami, FL / Remote}{}{
+\begin{itemize}
+  \item Led healthcare technology initiatives across multiple enterprise clients
+  \item Resolved 95\% of critical incidents within 4-hour SLA
+  \item Managed system upgrades ensuring 99.9\% uptime for patient-critical apps
+  \item \textbf{Selected Healthcare Client Deliveries:}\\
+    \begin{itemize}
+      \item \textit{\textbf{Pathmate Technologies} – Heart Coach Platform}\\
+        Developed React Native app ranked \#68 in App Store medical category.
+        Built .NET Core backend processing 10M+ daily health readings.
+        Implemented SharePoint content management for medical protocols.
+
+      \item \textit{\textbf{DentalCorp} – Clinical Data Integration}\\
+        Built React administration portal for 1,500+ dental clinics.
+        Developed .NET Core agents for 9 PMS integrations.
+        Created monitoring dashboard with real-time status updates.
+    \end{itemize}
+\end{itemize}}
 ```
 
 ### Using Overleaf.com
 1. Create free account at overleaf.com
 2. Upload your .tex file
 3. Choose from professional templates
-4. Real-time preview
-5. Download PDF
+4. Real-time preview with error checking
+5. Collaborate with version control
+6. Download PDF when ready
+
+**[Video: Navigate to Overleaf and show the live compilation]**
 
 ### LaTeX Advantages
 - Pixel-perfect formatting

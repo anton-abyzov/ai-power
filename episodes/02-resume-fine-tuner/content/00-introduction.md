@@ -49,6 +49,12 @@ Using this system, I've achieved:
 
 Ready to revolutionize your job search? Let's build your personal resume AI assistant.
 
+## 📚 Resources
+
+- **GitHub Repository**: [github.com/anton-abyzov/ai-power](https://github.com/anton-abyzov/ai-power)
+- **Live Documentation**: [anton-abyzov.github.io/ai-power](https://anton-abyzov.github.io/ai-power/)
+- **Previous Episode**: Build portfolios without code (Episode 01)
+
 ---
 
 <div class="navigation-footer">
