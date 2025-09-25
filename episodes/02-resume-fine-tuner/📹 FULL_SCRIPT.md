@@ -21,7 +21,7 @@
 "Here's the reality for experienced developers:"
 
 **[Show Excalidraw diagram: Broad Experience vs Focused JDs]**
-![[]]
+![[Broad vs Focused.excalidraw]]
 
 "You've worked with everything - C#, Python, JavaScript, Azure, AWS, Kubernetes... But that Senior .NET position? They want .NET expertise front and center. That ML role? They need to see your Python and TensorFlow first."
 
