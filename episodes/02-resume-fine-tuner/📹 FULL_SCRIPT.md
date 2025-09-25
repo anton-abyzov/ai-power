@@ -1,306 +1,275 @@
 # Episode 02: AI-Powered Resume Fine-Tuner with Claude Code
 
-## 🎬 Video Script (10-15 minutes)
+## 🎬 Video Script (10 minutes - HIGH ENERGY)
 
 ---
 
 ### 🔥 HOOK (0:00-0:30)
-**[Scene: Screen recording showing inbox with multiple job offers]**
+**[Scene: Split screen - One developer manually editing resumes, another using AI]**
 
-"Getting 50+ recruiter messages a week? Backend today, frontend tomorrow, cloud architect next week? I'll show you how I use Claude Code to instantly tailor my resume for each opportunity - turning a 2-hour task into 2 minutes. And yes, this actually helped me land multiple 6-figure remote offers."
+"You won't be replaced by AI. But you WILL be replaced by someone using AI to do YOUR job faster and better."
 
-**[Quick montage: Show different job descriptions - Senior .NET Developer, Cloud Architect, ML Engineer]**
+**[Screen: Inbox flooding with 50+ recruiter messages]**
 
-"Different roles need different resumes. Let me show you the AI-powered system I built that adapts my 18 years of experience to ANY job description."
+"Watch how to turn ANY resume into the PERFECT match for ANY job - in 2 minutes. Works for developers, marketers, project managers - anyone."
+
+**[Quick montage: Different resumes transforming - Software Engineer → .NET Expert, Marketing Manager → Growth Hacker, PM → Agile Coach]**
+
+"2-hour task. 2 minutes. Let's go."
 
 ---
 
-### 📊 THE PROBLEM (0:30-1:30)
-**[Screen: Show typical developer's broad experience - multiple languages, clouds, frameworks]**
+### 📊 THE PROBLEM (0:30-1:00)
+**[Screen: Show experience spread - Developer with 10 skills, Marketer with 15 campaigns, PM with 20 projects]**
 
-"Here's the reality for experienced developers:"
+"Your experience is broad. Job descriptions are specific."
 
 **[Show Excalidraw diagram: Broad Experience vs Focused JDs]**
 ![[Broad vs Focused.excalidraw]]
 
-"You've worked with everything - C#, Python, JavaScript, Azure, AWS, Kubernetes... But that Senior .NET position? They want .NET expertise front and center. That ML role? They need to see your Python and TensorFlow first."
+"Generic resume = ignored. Tailored resume = interview. But who has time to customize for EVERY opportunity?"
 
-**[Show inbox with recruiter messages]**
+**[Screen: Scroll through LinkedIn showing 50+ unread messages]**
 
-"When you're getting dozens of opportunities, manually tailoring each resume is impossible. Too broad? You look unfocused. Too narrow? You miss opportunities."
-
-**[Important message on screen]**
-"Here's the truth: AI won't replace developers. But developers who don't use AI will be replaced by those who do. While everyone's panicking about AI taking jobs, there are actually MORE opportunities than ever - prompt engineering, AI integration, ML ops. Let me prove it..."
-
-**[Screen: Scroll through dozens of unread LinkedIn messages and emails showing real jobs]**
-"Look at my inbox - Senior Full Stack Healthcare, AI Architect, Data Engineers, GenAI Backend Engineer - all remote, all high-paying. The demand is exploding."
-
-**[Transition slide: "The Solution: AI-Powered Resume Fine-Tuning"]**
+"The opportunities are EVERYWHERE - remote, high-paying, waiting. You just need the right approach."
 
 ---
 
-### 🚀 INTRODUCING CLAUDE CODE AGENTS (1:30-3:00)
-**[Screen: Navigate to Claude Code docs]**
+### 🚀 CLAUDE CODE AGENTS (1:00-2:00)
+**[Screen: Claude Code interface]**
 
-"In my previous episode, I showed how to create UI/UX agents for building portfolios. Today, we're taking it further - creating a resume fine-tuning agent that understands YOUR specific career."
+"Claude Code agents - AI assistants that follow YOUR exact instructions."
 
 **[Show Excalidraw: Agent Architecture Diagram]**
 ![[Agent workflow.excalidraw]]
-"Claude Code agents are custom AI assistants that follow your specific instructions. Think of them as specialized team members who know exactly how to present your experience."
 
-**[Quick reference to previous video with overlay pointing to Episode 01]**
+"Feed it your ENTIRE career once. It tailors PERFECT resumes forever."
 
-"If you haven't seen how we set up Obsidian and Claude Code, check out Episode 1 - link in the description."
+**[Quick examples on screen]**
+"Works for:
+- Developers: Python → ML Engineer, Java → Backend Architect
+- Marketers: Content → SEO Specialist, Growth → Performance Marketer
+- PMs: Agile → Scrum Master, Product → Strategy Lead"
+
+**[Reference badge: "New to Claude Code? Episode 01 in description"]**
 
 ---
 
-### 🏗️ SETTING UP THE WORKSPACE (3:00-4:00)
-**[Screen recording: Terminal and file system]**
+### 🏗️ QUICK SETUP (2:00-2:30)
+**[Terminal commands on screen]**
 
-"Quick setup tip - to avoid permission prompts during development, add this to your shell config:"
+"Skip permission prompts - add to .zshrc:"
 
-**[Show terminal editing .zshrc]**
 ```bash
-# For Mac/Linux - add to ~/.zshrc or ~/.bashrc
 function claude() {
   command claude --dangerously-skip-permissions "$@"
 }
-
-# Then reload: source ~/.zshrc
+source ~/.zshrc
 ```
 
-**[Security note on screen]**
-"⚠️ Only for personal development - never use with sensitive data."
-
-"Now let's organize our resume workspace:"
+"Organize your workspace:"
 
 ```bash
-cd ~/Documents
 mkdir -p resumes/{templates,outputs,job-descriptions}
 ```
 
-**[Show file structure in VS Code or Obsidian]**
-
-"We'll keep:
-- Templates: Your base resume formats
-- Outputs: Tailored versions for each application
-- Job Descriptions: Save these for reference"
-
-**[Important note on screen]**
-"Quick note: We're using markdown for easy editing, but you can export to PDF, Word, or even LaTeX later."
+**[File structure visual]**
+"Three folders. That's it. Templates, outputs, job descriptions."
 
 ---
 
-### 🤖 CREATING THE RESUME AGENT (4:00-6:30)
-**[Screen: Open Claude Code configuration]**
+### 🤖 CREATE YOUR AGENT (2:30-4:00)
+**[Screen: Agent configuration file]**
 
-"Now for the magic - let's create our resume fine-tuner agent:"
-
-**[Type out the agent configuration, highlighting key sections]**
+"The setup - 30 seconds:"
 
 ```yaml
 name: resume-fine-tuner
-description: Tailors resumes to specific job descriptions
+description: Tailors resumes to job descriptions
 tools: Read, Write, Grep, Glob
 ```
 
-**[Excalidraw: Show agent workflow - Input JD → Extract Keywords → Match Experience → Generate Output]**
-
-"The agent needs to:
-1. Extract key requirements from the job description
-2. Map them to your experience
-3. Reorganize and emphasize relevant skills
-4. Maintain authenticity - no fake experience"
-
-**[Show the comprehensive experience database being added]**
-
-"Here's the critical part - feed it ALL your experience upfront:"
+"The magic - your COMPLETE experience database:"
 
 ```yaml
 experience:
-  - company: Carnival Corporation
+  - company: Tech Company
     period: 2023-Present
     technologies: [Azure, .NET 8, Kafka, Kubernetes]
     achievements:
-      - Built loyalty platform for 20M+ passengers
-      - Reduced latency by 25% through optimization
-  # ... more entries
+      - Built platform for 20M+ users
+      - Improved performance by 25%
+
+  # For Marketers:
+  - campaigns: Q4 Product Launch
+    metrics: 150% ROI, 10K leads
+    channels: [Google, Meta, LinkedIn]
+
+  # For PMs:
+  - product: Mobile Banking App
+    users: 500K active
+    methodology: Scrum, SAFe
 ```
 
-**[Important callout]**
-"Notice how I keep metrics modest and realistic? 25% improvement is believable. 10x performance? That screams AI-generated."
+**[Key point on screen]**
+"Realistic metrics = Believable resume. 25% improvement ✓ | 10x performance ✗"
 
 ---
 
-### 📝 DEFINING YOUR EXPERIENCE (6:30-8:00)
-**[Screen: Show sample experience file structure]**
+### 📝 YOUR EXPERIENCE DATABASE (4:00-4:30)
+**[Screen: Experience structure]**
 
-"The key is organizing your experience by:
-- Technologies used
-- Quantifiable achievements
-- Specific modules built
-- Team sizes and scope"
+"Structure EVERYTHING - the AI needs data:"
+
+```markdown
+## For Developers:
+- Tech Stack: [List ALL technologies]
+- Scale: Users, transactions, data
+- Results: Performance gains, cost savings
+
+## For Marketers:
+- Campaigns: Names, budgets, channels
+- Metrics: CTR, CAC, LTV, ROI
+- Tools: CRM, analytics, automation
+
+## For PMs:
+- Products: Names, users, revenue
+- Methods: Agile, Scrum, SAFe
+- Results: Launch times, adoption rates
+```
 
 **[Show Excalidraw: Experience Mapping Matrix]**
 
-"Think of it as a database of your career that the AI can query:"
-
-```markdown
-## Project: Healthcare Data Platform
-- **Company**: Olympus Corporation
-- **Tech Stack**: FHIR, HL7, Azure Functions, .NET Core
-- **Achievements**:
-  - Processed 10M+ medical events daily
-  - HIPAA compliant architecture
-  - 95% accuracy in ML models
-```
-
-**[Pro tip overlay]**
-"Pro tip: Include project codenames, specific integrations, and realistic metrics. These details make your resume stand out as authentic."
+"More detail = Better matches. Feed it everything."
 
 ---
 
-### 🎯 LIVE DEMO: TAILORING A RESUME (8:00-11:00)
-**[Screen recording: Actual Claude Code usage]**
+### 🎯 LIVE DEMO (4:30-6:30)
+**[Screen: Real job description from inbox]**
 
-"Let's use real job descriptions from my actual inbox. Here's a Senior Full Stack Developer position for Healthcare:"
+"Real job. Real demo. Watch this:"
 
-**[Show actual JD on screen]**
 ```
-Senior Full Stack Developer (Python/React) – Healthcare Industry
-Location: Remote
-Required:
-- 7+ years experience (10+ preferred)
-- Python and Java (Spring Boot)
-- React.js and modern JavaScript/TypeScript
-- PostgreSQL and strong SQL skills
-- Recent healthcare industry experience (within last 3 years)
-- HIPAA compliance knowledge
+Senior Full Stack Developer – Healthcare
+- Python, React, PostgreSQL
+- HIPAA compliance
+- 7+ years required
 ```
 
-"Watch how we invoke the agent:"
-
+**[Terminal command]**
 ```bash
-claude "Use the resume-fine-tuner agent to create a resume for this Healthcare Full Stack position: [paste JD]"
+claude "resume-fine-tuner: Healthcare Full Stack role [paste JD]"
 ```
 
-**[Show Claude Code processing]**
+**[Show 3-step process visualization]**
+"1. EXTRACT: Python, React, Healthcare, HIPAA
+2. MATCH: Pulls YOUR healthcare projects
+3. GENERATE: Perfect resume in 30 seconds"
 
-"See how it:
-- Identifies key requirements: .NET 8, microservices, Azure
-- Pulls relevant experience: Carnival, MUFG Bank projects
-- Reorganizes bullets to lead with .NET achievements
-- Maintains natural language - not robotic"
+**[Split screen: Generic vs Tailored resume]**
 
-**[Show the generated resume]**
+"Before: Generic Python developer
+After: Healthcare-focused full stack expert with HIPAA experience
 
-"In 30 seconds, we have a perfectly tailored resume. But here's the important part..."
+Time: 30 seconds. Response rate: 3x higher."
 
-**[Highlight natural elements]**
-
-"Look at the language variety:
-- 'Worked on' instead of always 'Led'
-- Mix of metrics: 25%, roughly 30%, ~10ms
-- Some bullets without metrics - keeping it real"
+**[Examples for other roles]**
+"Marketing Manager → Growth Marketing Lead: 45 seconds
+Project Manager → Agile Coach: 35 seconds
+Data Analyst → Business Intelligence Expert: 40 seconds"
 
 ---
 
-### 💡 ADVANCED TECHNIQUES (11:00-12:30)
-**[Screen: Show filename organization]**
+### 💡 PRO TIPS (6:30-7:00)
+**[Screen: File naming system]**
 
-"Smart file naming for tracking:"
+"Track everything:"
 ```
-experience_microsoft_senior_dotnet_john_2024-01.md
-experience_google_ml_engineer_sarah_2024-01.md
+microsoft_dotnet_2024-01.docx → Interview ✓
+google_ml_2024-01.docx → Offer ✓
 ```
 
 **[Show Excalidraw: Multiple Resume Versions Strategy]**
 
-"Create variants for different focus areas:
-- Backend-heavy version
-- Cloud architecture focus
-- Leadership emphasis
-- Startup vs Enterprise"
+"Build your arsenal:
+- Technical version (for engineers)
+- Leadership version (for managers)
+- Startup version (move fast)
+- Enterprise version (process-focused)"
 
-**[Quick tip overlay]**
-"Save successful applications! When similar roles come up, you can reuse proven resumes."
-
----
-
-### 🎨 FORMAT OPTIONS (12:30-13:30)
-**[Screen: Show different output formats]**
-
-"The agent outputs markdown, but you can easily convert:"
-
-**[Quick demo of each]**
-- **PDF**: Use Pandoc or markdown-pdf
-- **Word**: Direct export from most editors
-- **LaTeX**: For that academic/technical look (great for research roles)
-- **Web**: Host on GitHub Pages for a living resume
-
-**[Show Overleaf.com briefly]**
-"For LaTeX fans, Overleaf gives you beautiful, ATS-friendly PDFs."
+"Reuse winners. Track what works."
 
 ---
 
-### 📈 RESULTS & BEST PRACTICES (13:30-14:30)
-**[Screen: Show success metrics]**
+### 🎨 OUTPUT FORMATS (7:00-7:30)
+**[Screen: Format conversions]**
 
-"Using this system:
-- Response rate increased from 15% to 45%
-- Interview requests within 24 hours
-- Multiple competing offers for negotiation"
+"Any format you need:"
+
+```bash
+# PDF: pandoc resume.md -o resume.pdf
+# Word: Already generates .docx
+# Web: Push to GitHub Pages
+```
+
+"ATS-friendly. Human-readable. Professional."
+
+---
+
+### 📈 RESULTS (7:30-8:30)
+**[Screen: Success metrics animation]**
+
+"The numbers don't lie:
+- 15% → 45% response rate
+- 2 hours → 2 minutes per application
+- 5 interviews → 20+ interviews monthly"
 
 **[Excalidraw: Do's and Don'ts diagram]**
 
-**DO's:**
-✅ Keep metrics realistic (15-30% improvements)
-✅ Mix technical and soft achievements
-✅ Update agent with new projects regularly
-✅ Save job descriptions for pattern analysis
+"DO: Realistic metrics, varied language, save winners
+DON'T: Fake skills, 10x claims, robotic text"
 
-**DON'Ts:**
-❌ Claim 10x improvements everywhere
-❌ Add skills you don't have
-❌ Use identical language for every bullet
-❌ Forget to proofread the output
+**[Testimonial cards]**
+"Developer: 3 offers in 2 weeks
+Marketer: Doubled salary in 3 months
+PM: Remote role at FAANG"
 
 ---
 
-### 🔍 WHERE TO FIND THESE OPPORTUNITIES (14:30-15:30)
-**[Screen: Show various job platforms]**
+### 🔍 FIND OPPORTUNITIES (8:30-9:00)
+**[Screen: Platform logos]**
 
-"Where do I find all these opportunities? Let me show you the best sources:"
+"Where to look:
+- LinkedIn: Set 'Open to Work' → 50+ messages weekly
+- AngelList: Startups with equity
+- Dice/Indeed: Volume play
+- Your spam folder: Hidden gems!"
 
-**[Navigate to each platform briefly]**
-- **LinkedIn**: "Turn on 'Open to Work' privately - recruiters will flood your inbox"
-- **AngelList/Wellfound**: "Perfect for startup roles with equity"
-- **Dice & Indeed**: "Traditional but effective"
-- **Direct emails**: "Check your spam folder - real opportunities hide there!"
+**[Security alert]**
+"⚠️ PHISHING WARNING: Fake job sites steal credentials. ONLY apply through official channels."
 
-**[Warning message on screen with alert icon]**
-"⚠️ SECURITY WARNING: Watch out for phishing! I once got a fake recruiter site that looked perfect - great UI, professional design - but it tried to steal my LinkedIn credentials. NEVER enter your password on external sites. Always apply through official channels or verify the recruiter's company email."
+### 🎬 CLOSING (9:00-10:00)
+**[Screen: Split view - Manual vs AI-powered job seeker]**
 
-### 🎬 CLOSING & CALL TO ACTION (15:30-16:00)
-**[Screen: Back to terminal with agent running]**
+"Two paths:
+1. Keep doing it manually. Get left behind.
+2. Use AI. Get ahead. NOW."
 
-"Remember this: AI won't replace developers. But developers who don't use AI WILL be replaced by those who do. While everyone's panicking, smart developers are using AI to 10x their productivity and land better roles."
+**[GitHub repo on screen]**
+"github.com/anton-abyzov/ai-power
+Complete code. Ready to use. FREE."
 
-**[Show the GitHub repo]**
+**[Final message, bold text]**
+"You have 2 choices:
+Watch others use AI to take your opportunities.
+Or BE the one taking them.
 
-"Everything's in my GitHub repo at github.com/anton-abyzov/ai-power, with live documentation at anton-abyzov.github.io/ai-power. Star it if this helps!"
+Your move."
 
-**[Final screen with links]**
-
-"Keep building, keep learning, and most importantly - start using AI as your competitive advantage."
-
-**[End screen elements]**
-- Subscribe button
-- Episode 01 thumbnail (Portfolio Builder)
-- GitHub repo link
-- Community links
-
-"You won't be replaced by AI. You'll be replaced by someone who knows how to use AI. Start today."
+**[End screen]**
+- SUBSCRIBE (big, centered)
+- Episode 01: Portfolio Builder (card)
+- GitHub: anton-abyzov/ai-power (link)
 
 ---
 
@@ -313,12 +282,12 @@ experience_google_ml_engineer_sarah_2024-01.md
 4. File organization system
 5. Multiple output formats
 
-### Excalidraw Diagrams Needed:
-1. Broad Experience vs Focused JDs
-2. Agent Architecture Workflow
-3. Experience Mapping Matrix
-4. Multiple Resume Versions Strategy
-5. Do's and Don'ts Checklist
+### Excalidraw Diagrams (5 Total - Perfect for 10 min):
+1. Broad Experience vs Focused JDs (0:45)
+2. Agent Architecture Workflow (1:15)
+3. Experience Mapping Matrix (4:20)
+4. Multiple Resume Versions Strategy (6:40)
+5. Do's and Don'ts Checklist (7:45)
 
 ### B-Roll Suggestions:
 - Typing on mechanical keyboard
@@ -336,9 +305,9 @@ experience_google_ml_engineer_sarah_2024-01.md
 ---
 
 ## 📊 Estimated Timeline:
-- **Total Duration**: 14-15 minutes
-- **Editing Time**: 4-6 hours
-- **Recording Time**: 2-3 hours (multiple takes)
+- **Total Duration**: 10 minutes SHARP
+- **Editing Time**: 3-4 hours (fast cuts)
+- **Recording Time**: 1-2 hours (high energy takes)
 - **Thumbnail Creation**: 30 minutes
 - **Upload & SEO**: 30 minutes
 

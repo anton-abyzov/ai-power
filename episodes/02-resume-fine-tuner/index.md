@@ -8,7 +8,7 @@ Welcome to Episode 02 of the AI Power series! This episode teaches you how to bu
 
 ### Video Resources
 - [📹 Full Script](📹%20FULL_SCRIPT.md) - Complete video script with production notes
-- [⏰ Timestamps](⏰%20TIMESTAMPS.md) - Chapter markers and key moments
+- [⏰ Timestamps](⏰%20TIMESTAMPS%20(Draft).md) - Chapter markers and key moments
 
 ### Tutorial Sections
 
