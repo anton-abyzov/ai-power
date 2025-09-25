@@ -1,0 +1,62 @@
+# John Developer
+North Miami, FL | john.developer@email.com | 555-0123 | linkedin.com/in/johndev
+
+## Professional Summary
+
+Machine Learning Engineer with extensive experience building recommendation systems and deploying models at scale. Proficient in Python, TensorFlow, and cloud-based ML platforms, with recent focus on real-time inference and MLOps practices. Worked on systems serving millions of daily predictions while maintaining sub-100ms latency.
+
+## Experience
+
+### Softgreat | Machine Learning Engineer
+*Jun 2017 - Present | Miami, FL / Remote*
+
+Developed ML solutions for enterprise clients focusing on recommendation engines, fraud detection, and predictive analytics. Worked with data scientists and engineers to productionize models serving millions of users.
+
+**Selected Client Projects:**
+
+**Pathmate Technologies – Health Recommendation Engine**
+Built personalized health recommendation system using Python and TensorFlow, improving patient adherence by roughly 30%. Implemented collaborative filtering and content-based approaches using matrix factorization techniques. Deployed models to AWS SageMaker achieving 50ms inference time for real-time recommendations. Created feature store using Feast and Redis, managing 200+ features across different models. Developed A/B testing framework for recommendation algorithms, running experiments on 60K+ users. Integrated with mobile app through REST APIs built with FastAPI.
+
+**Olympus Corporation – Medical Image Analysis**
+Developed computer vision pipeline for endoscopy analysis using YOLOv8 and PyTorch. Achieved 95% accuracy in polyp detection through transfer learning and data augmentation techniques. Built MLflow experiment tracking system managing 100+ model versions and hyperparameter combinations. Implemented model serving infrastructure on Kubernetes handling 10K+ inference requests per minute. Created automated retraining pipeline triggered by data drift detection using Evidently AI. Processed approximately 10M medical images maintaining HIPAA compliance throughout.
+
+**Sportradar – Sports Analytics Platform**
+Built player performance prediction models using gradient boosting (XGBoost) and neural networks. Developed feature engineering pipeline processing real-time game statistics from multiple data sources. Implemented streaming ML using Apache Spark and Kafka, processing around 200K events per second. Created embeddings for player similarity analysis using Word2Vec-inspired techniques. Built recommendation system for fantasy sports lineups serving 1M+ daily active users. Deployed models using TensorFlow Serving with automatic scaling based on traffic.
+
+**MUFG Bank – Fraud Detection System**
+Developed real-time fraud scoring engine using ensemble methods reducing false positives by about 40%. Built feature extraction pipeline from transaction streams using PySpark and Apache Flink. Implemented anomaly detection using Isolation Forests and Autoencoders for unusual pattern identification. Created MLOps pipeline with Kubeflow for model training, validation, and deployment. Developed explainable AI dashboard using SHAP values for regulatory compliance. Processed 50M+ daily transactions with sub-second scoring latency.
+
+**EasyChamp – AI-Powered Sports Coaching**
+Implemented computer vision models analyzing player movements from video using YOLOv11 and OpenPose. Built natural language generation for personalized coaching tips using GPT-4 and LangChain. Created vector database with Pinecone for semantic search across coaching materials. Implemented RAG (Retrieval Augmented Generation) pattern for context-aware responses. Developed real-time video processing pipeline using FFmpeg and OpenCV.
+
+### eSyncTraining | Data Engineer
+*May 2016 - May 2017 | Remote*
+
+Built data pipeline for learning analytics processing student interaction data from 500K+ users. Implemented predictive models for student success using scikit-learn. Created ETL workflows with Apache Airflow processing roughly 100GB daily. Developed dashboards with Tableau for university administrators.
+
+### SocialWellth | Software Engineer / Data Analyst
+*Aug 2014 - May 2016 | Remote*
+
+Analyzed health data from wearable devices to predict health outcomes. Built time-series models using ARIMA and Prophet for activity forecasting. Created data visualization dashboards using D3.js and Python Dash. Processed streaming data from 100K+ devices using Apache Storm.
+
+## Technical Skills
+
+**Languages:** Python (Expert), SQL, Scala, R, JavaScript
+**ML Frameworks:** TensorFlow, PyTorch, Scikit-learn, XGBoost, LightGBM, Keras
+**ML Platforms:** AWS SageMaker, Azure ML, MLflow, Kubeflow, TensorFlow Serving
+**Data Processing:** Apache Spark, Pandas, NumPy, Dask, Apache Flink, Kafka
+**Computer Vision:** OpenCV, YOLOv8/v11, OpenPose, PIL, torchvision
+**NLP/LLM:** Transformers, LangChain, GPT-4, BERT, spaCy, NLTK, Semantic Kernel
+**Databases:** PostgreSQL, MongoDB, Redis, Pinecone, Weaviate, Elasticsearch
+**Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, Airflow, Git, CI/CD
+
+## Education
+
+BS Computer Science - State University (2006)
+
+## Relevant Courses & Certifications
+
+- Deep Learning Specialization (Coursera)
+- AWS Certified Machine Learning - Specialty
+- TensorFlow Developer Certificate
+- Statistical Learning (Stanford Online)
