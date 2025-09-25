@@ -60,9 +60,18 @@
 ---
 
 ### 🏗️ QUICK SETUP (2:30-3:30)
-**[Terminal commands on screen]**
+**[Screen: Show IDE options]**
 
-"Quick tip that'll save you hours - skip those annoying permission prompts. Add this to your shell config file:"
+"First, let's talk tools. You can use any IDE - VS Code, Cursor, WebStorm, any JetBrains product. I prefer VS Code - it's free and powerful."
+
+**[Show download process]**
+"Download VS Code from code.visualstudio.com. Works on Mac, Windows, and Linux."
+
+**[Reference to Episode 01]**
+"In Episode 01, I showed how to install Claude Code and set up this permissions bypass. Quick recap for new viewers:"
+
+**[Terminal commands on screen]**
+"For Mac/Linux users - add this to your .zshrc or .bashrc file:"
 
 ```bash
 function claude() {
@@ -71,8 +80,17 @@ function claude() {
 source ~/.zshrc
 ```
 
+**[Show Windows PowerShell]**
+"Windows users - add this to your PowerShell profile:"
+
+```powershell
+function claude {
+    & claude --dangerously-skip-permissions $args
+}
+```
+
 **[Vocal instruction]**
-"For Windows users, check the GitHub repo for PowerShell instructions."
+"This saves hours by skipping permission prompts during development."
 
 "Now organize your workspace with three simple folders:"
 
@@ -197,7 +215,7 @@ claude "resume-fine-tuner: Healthcare Full Stack role [paste JD]"
 
 **[Show 3-step process visualization with narration]**
 "Step 1: EXTRACT - The agent identifies Python, React, Healthcare, HIPAA as critical keywords
-Step 2: MATCH - It searches my experience database for relevant projects
+Step 2: MATCH - It searches your experience file - not a complex database, just a simple text file with your career history
 Step 3: GENERATE - Creates a perfectly tailored resume emphasizing healthcare experience"
 
 **[Split screen comparison with vocal emphasis]**
@@ -254,6 +272,9 @@ google_ml_2024-01.docx → Offer ✓
 # Word: Already generates .docx
 # Web: Push to GitHub Pages
 ```
+
+**[Show Overleaf.com briefly]**
+"Pro tip: For academic or technical roles, use LaTeX templates on Overleaf. They have stunning resume templates - just export your content and paste it in. Instant professional formatting."
 
 "ATS-friendly. Human-readable. Professional."
 
