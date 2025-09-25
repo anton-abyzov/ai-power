@@ -62,6 +62,7 @@ Extracted:
 - Important: Entity Framework, CQRS, Kubernetes
 - Nice-to-have: React, Kafka, open source
 - Context: Payment processing, 15 engineers, high scale
+- Output format: Word document (.docx) by default
 ```
 
 ### 3.2 Experience Matching
@@ -151,7 +152,7 @@ BS Computer Science - BSUIR (2006)
 ```
 
 ### Filename Generated:
-`experience_microsoft_senior_dotnet_john_2024-01.md`
+`microsoft_senior_dotnet_john_2024-01.docx`
 
 ## Step 5: Key Observations
 
@@ -184,14 +185,14 @@ Notice how the agent:
 ## Converting to Final Format
 
 ```bash
-# Convert to PDF
-pandoc experience_microsoft_senior_dotnet_john_2024-01.md \
-  -o experience_microsoft_senior_dotnet_john_2024-01.pdf \
-  --pdf-engine=xelatex
+# Already in Word format (.docx) by default
+# To convert to PDF:
+pandoc microsoft_senior_dotnet_john_2024-01.docx \
+  -o microsoft_senior_dotnet_john_2024-01.pdf
 
-# Or convert to Word
-pandoc experience_microsoft_senior_dotnet_john_2024-01.md \
-  -o experience_microsoft_senior_dotnet_john_2024-01.docx
+# Or use markdown-pdf for better formatting:
+npm install -g markdown-pdf  # one-time installation
+markdown-pdf resume.md -o resume.pdf
 ```
 
 ## Time Comparison

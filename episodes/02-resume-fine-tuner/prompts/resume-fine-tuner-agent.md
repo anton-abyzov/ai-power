@@ -42,8 +42,10 @@ When given a job description, extract:
 ### File Naming Convention
 Generate descriptive filenames:
 ```
-Format: experience_[company]_[role]_[recruiter]_[date].md
-Example: experience_microsoft_senior_dotnet_john_2024-01.md
+Format: [company]_[role]_[recruiter]_[date].docx
+Example: microsoft_senior_dotnet_john_2024-01.docx
+Default output: Word document (.docx) for ATS compatibility
+Optional: Can specify PDF or LaTeX if needed
 ```
 
 ### Resume Structure
@@ -186,6 +188,7 @@ Before outputting any resume:
 - Critical: Python, Django, Kubernetes, AWS
 - Context: Recommendation systems, large team
 - Focus: Backend, scale, ML likely
+- Output format: Default to .docx unless specified
 
 ### Output Emphasis:
 1. Lead with Python/Django projects

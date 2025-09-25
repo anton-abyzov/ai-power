@@ -9,6 +9,7 @@ timestamp: "3:00-4:00"
 
 Create a clean, organized workspace for your resume system:
 
+### Mac/Linux
 ```bash
 # Create the directory structure
 cd ~/Documents
@@ -16,6 +17,17 @@ mkdir -p resumes/{templates,outputs,job-descriptions,samples}
 
 # Optional: Create sections for different markets
 mkdir -p resumes/outputs/{remote,onsite,contract,fulltime}
+```
+
+### Windows
+```powershell
+# Create the directory structure
+cd $env:USERPROFILE\Documents
+mkdir resumes\templates, resumes\outputs, resumes\job-descriptions, resumes\samples
+
+# Optional: Create sections for different markets
+mkdir resumes\outputs\remote, resumes\outputs\onsite
+mkdir resumes\outputs\contract, resumes\outputs\fulltime
 ```
 
 ### Folder Purposes
@@ -41,10 +53,10 @@ mkdir -p resumes/outputs/{remote,onsite,contract,fulltime}
 Smart naming helps track everything:
 
 ```bash
-# Format: experience_[company]_[role]_[recruiter]_[date].md
-experience_microsoft_senior_dotnet_john_2024-01.md
-experience_google_ml_engineer_sarah_2024-01.md
-experience_aws_solutions_architect_amy_2024-02.md
+# Format: [company]_[role]_[recruiter]_[date].docx
+microsoft_senior_dotnet_john_2024-01.docx
+google_ml_engineer_sarah_2024-01.docx
+aws_solutions_architect_amy_2024-02.docx
 ```
 
 ### Why This Matters
