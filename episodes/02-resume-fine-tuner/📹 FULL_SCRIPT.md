@@ -28,6 +28,12 @@
 
 "When you're getting dozens of opportunities, manually tailoring each resume is impossible. Too broad? You look unfocused. Too narrow? You miss opportunities."
 
+**[Important message on screen]**
+"Here's the truth: AI won't replace developers. But developers who don't use AI will be replaced by those who do. While everyone's panicking about AI taking jobs, there are actually MORE opportunities than ever - prompt engineering, AI integration, ML ops. Let me prove it..."
+
+**[Screen: Scroll through dozens of unread LinkedIn messages and emails showing real jobs]**
+"Look at my inbox - Senior Full Stack Healthcare, AI Architect, Data Engineers, GenAI Backend Engineer - all remote, all high-paying. The demand is exploding."
+
 **[Transition slide: "The Solution: AI-Powered Resume Fine-Tuning"]**
 
 ---
@@ -141,14 +147,25 @@ experience:
 ### 🎯 LIVE DEMO: TAILORING A RESUME (8:00-11:00)
 **[Screen recording: Actual Claude Code usage]**
 
-"Let's do this live. Here's a Senior .NET Developer position from Microsoft:"
+"Let's use real job descriptions from my actual inbox. Here's a Senior Full Stack Developer position for Healthcare:"
 
-**[Copy job description]**
+**[Show actual JD on screen]**
+```
+Senior Full Stack Developer (Python/React) – Healthcare Industry
+Location: Remote
+Required:
+- 7+ years experience (10+ preferred)
+- Python and Java (Spring Boot)
+- React.js and modern JavaScript/TypeScript
+- PostgreSQL and strong SQL skills
+- Recent healthcare industry experience (within last 3 years)
+- HIPAA compliance knowledge
+```
 
 "Watch how we invoke the agent:"
 
 ```bash
-claude "Use the resume-fine-tuner agent to create a resume for this Job Description: [paste JD]"
+claude "Use the resume-fine-tuner agent to create a resume for this Healthcare Full Stack position: [paste JD]"
 ```
 
 **[Show Claude Code processing]**
