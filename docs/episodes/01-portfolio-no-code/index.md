@@ -118,6 +118,6 @@ We have maybe 12 months where knowing this gives you an INSANE advantage.
 ---
 
 <div style="text-align: center; color: #666; margin-top: 3rem;">
-    <p>📧 Questions? Join our community on <a href="https://discord.gg/UYg4BGJ65V">Discord</a></p>
+    <p>📧 Questions? Join our community on <a href="https://discord.gg/YOUR-DISCORD">Discord</a></p>
     <p>📺 New episodes every week on <a href="https://youtube.com/@antonabyzov">YouTube</a></p>
 </div>

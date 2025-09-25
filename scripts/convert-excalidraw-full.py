@@ -9,6 +9,47 @@ import re
 import shutil
 from pathlib import Path
 
+def convert_checklist_format(content):
+    """
+    Convert emoji checkboxes to plain list items for proper MkDocs rendering.
+    - ✅ text -> - text
+    - ☑️ text -> - text
+    - ✓ text -> - text
+    Also ensure blank lines before lists for proper MkDocs rendering.
+    """
+    # Remove checkmark emojis but keep as list items
+    patterns = [
+        (r'^(\s*)-\s*✅\s*', r'\1- '),  # Remove green checkmark
+        (r'^(\s*)-\s*☑️\s*', r'\1- '),  # Remove ballot box with check
+        (r'^(\s*)-\s*✓\s*', r'\1- '),   # Remove check mark
+    ]
+
+    lines = content.split('\n')
+    result_lines = []
+    in_list = False
+
+    for i, line in enumerate(lines):
+        # Remove emoji checkboxes but keep list format
+        for pattern, replacement in patterns:
+            line = re.sub(pattern, replacement, line)
+
+        # Check if this line starts a list
+        is_list_item = line.strip().startswith('- ')
+
+        # Add blank line before starting a new list
+        if is_list_item and not in_list:
+            # If previous line has content and isn't blank, add blank line
+            if i > 0 and result_lines and result_lines[-1].strip():
+                result_lines.append('')
+            in_list = True
+        elif not is_list_item and line.strip():
+            # Not a list item and has content, so we're out of the list
+            in_list = False
+
+        result_lines.append(line)
+
+    return '\n'.join(result_lines)
+
 def convert_excalidraw_links(content):
     """
     Convert Obsidian Excalidraw embeds to use individual frame SVGs.
@@ -64,8 +105,9 @@ def process_markdown_file(source_path, dest_path):
     with open(source_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Convert Excalidraw links
+    # Apply all conversions
     converted_content = convert_excalidraw_links(content)
+    converted_content = convert_checklist_format(converted_content)
 
     # Ensure destination directory exists
     dest_path.parent.mkdir(parents=True, exist_ok=True)
