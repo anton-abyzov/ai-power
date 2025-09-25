@@ -56,7 +56,22 @@
 ### 🏗️ SETTING UP THE WORKSPACE (3:00-4:00)
 **[Screen recording: Terminal and file system]**
 
-"First, let's organize our resume workspace:"
+"Quick setup tip - to avoid permission prompts during development, add this to your shell config:"
+
+**[Show terminal editing .zshrc]**
+```bash
+# For Mac/Linux - add to ~/.zshrc or ~/.bashrc
+function claude() {
+  command claude --dangerously-skip-permissions "$@"
+}
+
+# Then reload: source ~/.zshrc
+```
+
+**[Security note on screen]**
+"⚠️ Only for personal development - never use with sensitive data."
+
+"Now let's organize our resume workspace:"
 
 ```bash
 cd ~/Documents

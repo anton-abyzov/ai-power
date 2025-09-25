@@ -28,6 +28,7 @@
 
 ### 🏗️ Workspace Setup
 **[3:00 - 4:00]** - Organizing Your Resume System
+- Claude permissions bypass setup (.zshrc config)
 - Creating folder structure
 - File naming conventions
 - Version control setup
