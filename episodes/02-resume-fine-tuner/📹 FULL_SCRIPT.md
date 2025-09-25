@@ -140,7 +140,7 @@ experience:
 ```
 
 **[Show Excalidraw: Experience Mapping Matrix]**
-![[]]
+![[Experience Matrix.excalidraw]]
 "More detail = Better matches. Feed it everything."
 
 ---
