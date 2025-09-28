@@ -1,19 +1,26 @@
 # Episode 02: AI-Powered Resume Fine-Tuner with Claude Code
 
+> 📹 **PRODUCTION NOTE**: For detailed video creation instructions, see:
+> - `_production/VIDEO_GENERATION_GUIDE.md` - How to create each visual effect
+> - `_production/production-notes/` - Recording and editing guides
+> - Links marked with 📹 point to specific production instructions
+
 ## 🎬 Video Script (12-15 minutes - HIGH ENERGY)
 
 ---
 
 ### 🔥 HOOK (0:00-0:30)
 **[Scene: Split screen - One developer manually editing resumes, another using AI]**
+*📹 [See VIDEO_GENERATION_GUIDE.md → Split-Screen Recording section for OBS setup]*
 
 "You won't be replaced by AI. But you WILL be replaced by someone using AI to do YOUR job faster and better."
 
 **[Screen: Inbox flooding with 50+ recruiter messages]**
 
-"Watch how to turn ANY resume into the PERFECT match for ANY job - in 2 minutes. Works for developers, marketers, project managers - anyone."
+"Watch how to turn ANY resume into the PERFECT match for ANY job - in 2 minutes. Works for developers, marketers, project managers, real estate agents, teachers, consultants, designers - literally ANY professional."
 
-**[Quick montage: Different resumes transforming - Software Engineer → .NET Expert, Marketing Manager → Growth Hacker, PM → Agile Coach]**
+**[Quick montage: Different resumes transforming - Software Engineer → .NET Expert, Marketing Manager → Growth Hacker, PM → Agile Coach, Real Estate Agent → Luxury Specialist, Teacher → EdTech Consultant]**
+*📹 [See VIDEO_GENERATION_GUIDE.md for Veo3 prompts and creation details]*
 
 "2-hour task. 2 minutes. Let's go."
 
@@ -52,6 +59,10 @@
 - Developers: Generic Python developer BECOMES specialized ML Engineer
 - Marketers: Basic content writer TRANSFORMS INTO SEO specialist
 - Project Managers: Standard PM EVOLVES INTO Agile Coach
+- Real Estate Agents: General agent BECOMES Luxury Property Specialist
+- Teachers: Classroom teacher TRANSFORMS INTO EdTech Consultant
+- Designers: Graphic designer EVOLVES INTO UX Architect
+- Sales Reps: Basic sales BECOMES Enterprise Account Executive
 - And hundreds more combinations..."
 
 **[Bridge to next section]**
@@ -61,6 +72,7 @@
 
 ### 🏗️ QUICK SETUP (2:30-3:30)
 **[Screen: Show IDE options]**
+*📹 [See VIDEO_GENERATION_GUIDE.md → Quick Setup Section Fix for recording details]*
 
 "First, let's talk tools. You can use any IDE - VS Code, Cursor, WebStorm, any JetBrains product. I prefer VS Code - it's free and powerful."
 
@@ -230,11 +242,16 @@ Which one gets the interview? Exactly."
 **[YouTube Card @ 7:30: "See Complete Agent Setup" - links to GitHub]**
 
 **[Examples for other industries with vocal transitions]**
+*📹 [See VIDEO_GENERATION_GUIDE.md for complete transformation visuals]*
 "And this works for ANY role:
 - Marketing Manager BECOMES Growth Marketing Lead
 - Project Manager TRANSFORMS INTO Agile Coach
 - Data Analyst EVOLVES INTO Business Intelligence Expert
-- Sales Rep BECOMES Enterprise Account Executive"
+- Sales Rep BECOMES Enterprise Account Executive
+- Real Estate Agent BECOMES Luxury Property Specialist
+- Teacher BECOMES EdTech Implementation Specialist
+- Nurse BECOMES Clinical Informatics Specialist
+- Designer BECOMES UX Architecture Lead"
 
 **[Bridge to next section]**
 "Want to maximize your results? Here are the pro strategies..."
@@ -251,6 +268,7 @@ google_ml_2024-01.docx → Offer ✓
 ```
 
 **[Show Excalidraw: Multiple Resume Versions Strategy]**
+![[Version Strategy updated.excalidraw]]
 
 "Build your arsenal:
 - Technical version (for engineers)
@@ -291,7 +309,7 @@ Application time: From 2 hours down to 2 minutes. That's 60 TIMES faster.
 Monthly interviews: From 5 to over 20. Four times more opportunities."
 
 **[Excalidraw: Do's and Don'ts diagram]**
-![[Dos and Donts.excalidraw]]
+![[Excalidraw/Dos and donts.excalidraw|Dos and donts.excalidraw]]
 
 **[Vocal walkthrough of do's and don'ts]**
 "Critical rules for success:

@@ -1,0 +1,295 @@
+# Experience Tracker - Complete Career Database
+# Update this file continuously as you gain new experience
+# The AI agent will use this to generate tailored resumes
+
+personal:
+  name: "[Your Full Name]"
+  email: "[your.email@domain.com]"
+  phone: "[+1-XXX-XXX-XXXX]"
+  location: "[City, State or Remote]"
+  linkedin: "linkedin.com/in/[yourprofile]"
+  github: "github.com/[yourusername]"
+  portfolio: "[yourwebsite.com]"
+
+  # Professional headline variations (agent will select most relevant)
+  headlines:
+    technical: "Senior Software Engineer | Cloud Architecture | Scalable Systems"
+    leadership: "Engineering Leader | Team Builder | Technical Strategy"
+    startup: "Full Stack Developer | Rapid Prototyping | 0 to 1 Products"
+    enterprise: "Solutions Architect | Enterprise Systems | Digital Transformation"
+
+# Complete work history with all details
+experience:
+  - company: "[Company Name]"
+    position: "[Your Title]"
+    start_date: "YYYY-MM"
+    end_date: "YYYY-MM" # or "Present"
+    location: "[City, State or Remote]"
+    company_details:
+      industry: "[e.g., FinTech, Healthcare, E-commerce]"
+      size: "[10-50, 50-200, 200-1000, 1000+]"
+      stage: "[Seed, Series A/B/C, Public, Enterprise]"
+      description: "[1-2 lines about what the company does]"
+
+    # All projects at this company
+    projects:
+      - name: "[Project Name]"
+        description: "[What it was and why it mattered]"
+        duration: "[X months]"
+        team_size: [number]
+        role: "[Lead, Contributor, Architect]"
+        technologies:
+          - "[List all tech used]"
+
+        achievements:
+          - metric: "Performance"
+            before: "[baseline]"
+            after: "[result]"
+            improvement: "[percentage]"
+            method: "[how you achieved it]"
+
+          - metric: "Cost"
+            before: "$[amount]"
+            after: "$[amount]"
+            savings: "$[amount] annually"
+            method: "[optimization approach]"
+
+          - metric: "Scale"
+            before: "[X users/requests/transactions]"
+            after: "[Y users/requests/transactions]"
+            method: "[scaling approach]"
+
+        challenges:
+          - problem: "[Technical or business problem]"
+            solution: "[Your approach]"
+            outcome: "[Result]"
+
+        business_impact:
+          revenue: "$[amount if measurable]"
+          users_impacted: [number]
+          efficiency_gain: "[percentage or hours saved]"
+
+    # Non-project contributions
+    other_contributions:
+      mentoring:
+        - mentees: [number]
+        - topics: "[areas you mentored in]"
+        - outcomes: "[promotions, skill improvements]"
+
+      hiring:
+        - interviews_conducted: [number]
+        - hires_made: [number]
+        - hiring_process_improvements: "[what you improved]"
+
+      culture:
+        - initiatives: "[culture/team building initiatives]"
+        - documentation: "[guides/wikis created]"
+        - presentations: "[internal talks given]"
+
+# Comprehensive skills inventory
+skills:
+  technical:
+    languages:
+      expert: # 5+ years, production experience
+        - name: "Python"
+          years: [number]
+          contexts: "[web, data science, automation]"
+          frameworks: "[Django, Flask, FastAPI]"
+
+      advanced: # 3-5 years
+        - name: "JavaScript"
+          years: [number]
+          contexts: "[frontend, backend, full-stack]"
+          frameworks: "[React, Node.js, Vue]"
+
+      intermediate: # 1-3 years
+        - name: "Go"
+          years: [number]
+          contexts: "[microservices, CLI tools]"
+
+      learning: # <1 year
+        - name: "Rust"
+          years: [number]
+          contexts: "[systems programming]"
+
+    databases:
+      relational:
+        - name: "PostgreSQL"
+          proficiency: "expert"
+          use_cases: "[OLTP, OLAP, complex queries]"
+
+      nosql:
+        - name: "MongoDB"
+          proficiency: "advanced"
+          use_cases: "[document storage, real-time]"
+
+      cache:
+        - name: "Redis"
+          proficiency: "advanced"
+          use_cases: "[caching, pub/sub, sessions]"
+
+    cloud:
+      aws:
+        services: "[EC2, S3, RDS, Lambda, etc.]"
+        certifications: "[List any AWS certs]"
+        projects: [number]
+
+      azure:
+        services: "[App Service, Functions, etc.]"
+        certifications: "[List any Azure certs]"
+        projects: [number]
+
+      gcp:
+        services: "[Compute, Storage, etc.]"
+        certifications: "[List any GCP certs]"
+        projects: [number]
+
+    devops:
+      ci_cd: "[Jenkins, GitHub Actions, CircleCI]"
+      containerization: "[Docker, Kubernetes]"
+      iac: "[Terraform, CloudFormation]"
+      monitoring: "[Prometheus, Grafana, DataDog]"
+
+  soft:
+    leadership:
+      - "Team management ([max team size] people)"
+      - "Cross-functional collaboration"
+      - "Stakeholder management"
+      - "Technical mentoring"
+
+    communication:
+      - "Technical writing"
+      - "Public speaking ([number] talks)"
+      - "Executive presentations"
+      - "Documentation"
+
+    problem_solving:
+      - "System design"
+      - "Performance optimization"
+      - "Debugging complex issues"
+      - "Architecture decisions"
+
+# Education and continuous learning
+education:
+  formal:
+    - degree: "[Bachelor's/Master's/PhD]"
+      field: "[Computer Science, Engineering, etc.]"
+      institution: "[University Name]"
+      graduation_year: "YYYY"
+      gpa: "[X.X/4.0 if 3.5+]"
+      honors: "[Dean's list, Summa cum laude, etc.]"
+      relevant_courses:
+        - "[Course name and what you learned]"
+
+  certifications:
+    - name: "[Certification Name]"
+      issuer: "[Organization]"
+      date: "YYYY-MM"
+      credential_id: "[ID if applicable]"
+      expiry: "YYYY-MM" # if applicable
+
+  courses:
+    - name: "[Course Name]"
+      platform: "[Coursera, Udemy, etc.]"
+      completion: "YYYY-MM"
+      skills_gained: "[what you learned]"
+
+# Achievements and recognition
+achievements:
+  awards:
+    - name: "[Award Name]"
+      issuer: "[Organization]"
+      year: "YYYY"
+      description: "[What it was for]"
+
+  publications:
+    - title: "[Article/Paper Title]"
+      publication: "[Where published]"
+      date: "YYYY-MM"
+      url: "[link if available]"
+      citations: [number if applicable]
+
+  patents:
+    - title: "[Patent Title]"
+      number: "[Patent number]"
+      status: "[Pending/Granted]"
+      year: "YYYY"
+
+  speaking:
+    - event: "[Conference/Meetup Name]"
+      title: "[Talk Title]"
+      date: "YYYY-MM"
+      audience_size: [number]
+      recording: "[URL if available]"
+
+# Side projects and open source
+projects:
+  open_source:
+    - name: "[Project Name]"
+      url: "github.com/[repo]"
+      description: "[What it does]"
+      role: "[Creator/Maintainer/Contributor]"
+      stars: [number]
+      contributors: [number]
+      technologies: "[tech stack]"
+      impact: "[downloads, users, etc.]"
+
+  personal:
+    - name: "[Project Name]"
+      description: "[What and why]"
+      technologies: "[tech stack]"
+      status: "[Active/Completed/Archived]"
+      users: "[if applicable]"
+      learnings: "[what you gained]"
+
+# Keywords for ATS optimization
+keywords:
+  # Add all variations of your skills for better matching
+  technical_variations:
+    - ["Python", "Python3", "Python 3.x"]
+    - ["JavaScript", "JS", "ECMAScript", "ES6+"]
+    - ["React", "ReactJS", "React.js"]
+    - ["Node", "NodeJS", "Node.js"]
+
+  methodologies:
+    - ["Agile", "Scrum", "Kanban", "SAFe"]
+    - ["CI/CD", "DevOps", "GitOps"]
+    - ["TDD", "BDD", "Test-Driven"]
+
+  soft_skills:
+    - ["Leadership", "Team Lead", "Management"]
+    - ["Communication", "Collaboration", "Teamwork"]
+
+# Application tracking (for your records)
+applications:
+  success_patterns:
+    - company_type: "[Startup/Enterprise]"
+      role_type: "[Senior/Lead/Principal]"
+      keywords_that_worked: "[List effective keywords]"
+      resume_version: "[Which template worked]"
+
+  lessons_learned:
+    - "[What consistently gets interviews]"
+    - "[What keywords trigger responses]"
+    - "[What formats work best]"
+
+# Notes for AI agent
+agent_instructions:
+  tone:
+    - startup: "Dynamic, fast-paced, impact-focused"
+    - enterprise: "Process-oriented, structured, methodical"
+    - technical: "Deep technical details, specific technologies"
+    - leadership: "Team impact, mentoring, strategy"
+
+  length:
+    - junior: "1 page maximum"
+    - mid_level: "1-2 pages"
+    - senior: "2 pages"
+    - executive: "2-3 pages"
+
+  emphasis:
+    - by_role:
+        developer: "Technical skills, project complexity"
+        manager: "Team size, budget, delivery"
+        architect: "System design, scalability"
+        specialist: "Deep expertise in specific area"

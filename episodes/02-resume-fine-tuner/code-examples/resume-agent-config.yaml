@@ -1,0 +1,137 @@
+# Resume Fine-Tuner Agent Configuration
+# This is the complete configuration for your Claude Code resume agent
+
+name: resume-fine-tuner
+description: AI-powered agent that tailors resumes to specific job descriptions
+version: 1.0.0
+author: Your Name
+
+# Tools the agent can use
+tools:
+  - Read      # Read job descriptions and existing resumes
+  - Write     # Create tailored resume files
+  - Edit      # Modify existing resume sections
+  - Grep      # Search for keywords in job descriptions
+  - Glob      # Find resume files in directories
+  - Task      # Manage multi-step resume creation
+
+# Agent capabilities and instructions
+capabilities:
+  keyword_extraction:
+    enabled: true
+    priority_terms:
+      - required_skills
+      - preferred_qualifications
+      - years_of_experience
+      - specific_technologies
+      - industry_keywords
+
+  experience_matching:
+    enabled: true
+    match_threshold: 0.7  # 70% relevance minimum
+    boost_exact_matches: true
+
+  format_generation:
+    enabled: true
+    output_formats:
+      - markdown
+      - docx
+      - pdf
+      - html
+
+# Prompt template for the agent
+system_prompt: |
+  You are a professional resume optimization expert. Your role is to:
+  1. Analyze job descriptions to extract key requirements
+  2. Match requirements with the candidate's experience database
+  3. Generate tailored resumes that highlight relevant experience
+  4. Ensure ATS compatibility while maintaining readability
+  5. Use natural, varied language (not robotic or repetitive)
+
+  Rules:
+  - Never fabricate experience or skills
+  - Use realistic metrics (15-30% improvements, not 10x)
+  - Prioritize relevance over quantity
+  - Maintain consistent formatting
+  - Include keywords naturally in context
+
+# Experience database structure
+experience_schema:
+  projects:
+    - name: string
+      company: string
+      duration: string
+      technologies: array
+      achievements: array
+      metrics: object
+      team_size: number
+
+  skills:
+    technical:
+      languages: array
+      frameworks: array
+      databases: array
+      cloud: array
+      tools: array
+    soft:
+      leadership: array
+      communication: array
+      problem_solving: array
+
+  education:
+    - degree: string
+      institution: string
+      graduation: string
+      gpa: number (optional)
+      relevant_courses: array
+
+  certifications:
+    - name: string
+      issuer: string
+      date: string
+      credential_id: string (optional)
+
+# Matching algorithm configuration
+matching:
+  algorithm: weighted_keywords
+  weights:
+    required_skills: 1.0
+    preferred_skills: 0.7
+    years_experience: 0.8
+    education: 0.5
+    certifications: 0.6
+
+# Output configuration
+output:
+  structure:
+    - contact_info
+    - professional_summary
+    - skills
+    - experience
+    - education
+    - certifications (if applicable)
+    - projects (if applicable)
+
+  formatting:
+    date_format: "MM/YYYY"
+    bullet_style: "-"
+    section_spacing: 2
+    font_recommendations:
+      - Arial
+      - Calibri
+      - Helvetica
+
+# Quality checks
+quality_control:
+  checks:
+    - keyword_density: 2-4%  # Not too sparse, not keyword stuffing
+    - readability_score: 60+  # Flesch reading ease
+    - length: 1-2 pages
+    - no_typos: true
+    - consistent_tense: true
+
+# Example usage
+usage_examples:
+  - command: "claude resume-fine-tuner 'Tailor for Microsoft Senior .NET position'"
+  - command: "claude resume-fine-tuner --input job.txt --output tailored_resume.md"
+  - command: "claude resume-fine-tuner --experience my_experience.yaml --job senior_dev.txt"
