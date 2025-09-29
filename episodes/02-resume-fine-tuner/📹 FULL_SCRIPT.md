@@ -13,7 +13,7 @@
 **[Scene: Split screen - One developer manually editing resumes, another using AI]**
 *📹 [See VIDEO_GENERATION_GUIDE.md → Split-Screen Recording section for OBS setup]*
 
-"You won't be replaced by AI. But you WILL be replaced by someone using AI to do YOUR job faster and better."
+"Most likely You won't be replaced by AI. But you WILL be replaced by someone using AI to do YOUR job faster and better."
 
 **[Screen: Inbox flooding with 50+ recruiter messages]**
 
