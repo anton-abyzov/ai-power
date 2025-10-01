@@ -34,7 +34,6 @@ An AI Resume Agent powered by Claude Sonnet 4.5 that:
 │
 ├── 🎯 START_HERE.md                    ← You are here
 ├── 📹 THE_FULL_SCRIPT.md               ← Read next (complete video script)
-├── index.md                             ← Reference (overview & docs)
 │
 ├── prompts/
 │   ├── resume-fine-tuner-agent.md      ← Step 3: Copy this
@@ -412,8 +411,7 @@ Same experience DB, different emphasis.
 - [Real Estate Agent Template](templates/experience-real-estate-agent.md)
 
 **Examples:**
-- [Sample Job Descriptions](samples/sample-job-descriptions.md)
-- [Episode Index](index.md) - Full documentation
+- [LaTeX Resume Example](samples/example-latex-resume.tex) - Beautiful PDF output
 
 ---
 
