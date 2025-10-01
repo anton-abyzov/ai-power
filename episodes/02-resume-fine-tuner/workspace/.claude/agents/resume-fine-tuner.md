@@ -51,12 +51,3 @@ Transform generic experience into job-specific resumes that pass ATS systems and
 - No buzzwords without substance (e.g., "synergy", "rockstar")
 - Professional formatting that works in all ATS systems
 
-### Why Claude Sonnet 4.5?
-Could you use ChatGPT-5, Gemini, or other models? Yes, they work.
-But Claude Sonnet 4.5 offers:
-- **Better instruction following** - Less hallucination, more accuracy
-- **Superior keyword matching** - Contextual understanding, not just word stuffing
-- **Smoother workflow** - More reliable, consistent results
-- **77.2% SWE-bench score** - Proven coding and structured task excellence
-
-This is why top professionals choose Claude Sonnet 4.5 for career automation.

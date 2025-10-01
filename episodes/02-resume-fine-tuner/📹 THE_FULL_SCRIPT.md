@@ -25,7 +25,7 @@ Claude Sonnet 4.5 Resume Agent: Get 10x More Employer Responses in 2 Minutes
 
 ## ⏱️ VIDEO STRUCTURE
 
-**Total Duration:** 14-15 minutes (includes ~10 seconds of Veo 3 videos)
+**Total Duration:** 13-14 minutes (includes ~10 seconds of Veo 3 videos)
 **Production Method:**
 - 2 on-camera segments (Hook + Closing) = 1-2 minutes
 - 15+ screen recordings = 11-13 minutes (includes Claude Desktop usage demo)
@@ -528,11 +528,7 @@ Claude Code itself got new features:
 Checkpoints, context editing, memory tool, Chrome extension.
 
 Plus "Imagine with Claude" - their research preview.
-Comment if you want a full episode on that.
-
-[Pause]
-
-For now? Let's build this resume agent."
+Comment if you want a full episode on that."
 ```
 
 **Editing Notes:**
@@ -540,55 +536,130 @@ For now? Let's build this resume agent."
 - OR show clean Mermaid diagram imported to Excalidraw
 - Add text overlays as you mention each capability
 - Add link graphic: "Previous Videos ↓ Description"
-- Smooth transition from diagram to next section
+- Smooth transition to GitHub resources
+
+
+### Part 2: Claude Desktop Token Tracking (30 seconds)
+
+**📹 SCREEN: Claude Desktop App - Usage Page**
+
+**What to show:**
+1. **Open Claude Desktop app**
+2. **Navigate to Settings → Usage**
+3. **Show usage bars clearly**
+
+**Voiceover:**
+```
+"One more thing: Token tracking is built into Claude Desktop now.
+
+[Open Claude Desktop → Settings → Usage]
+
+See this? 'Current session' - resets every 5 hours based on when you started.
+Right now, 6% used, resets in 38 minutes.
+
+'All models' - 24% used this week. Resets Monday 2 PM.
+'Opus only' - 16% used. Separate tracking for premium model.
+
+You need Claude Desktop installed for this. Cross-platform:
+Mac, Windows, Linux - works everywhere.
+
+Claude Code runs in terminal or VS Code - also cross-platform.
+
+Now you know where your tokens go."
+```
+
+**Editing Notes:**
+- Zoom in on usage bars
+- Highlight each bar as explained
+- Add "5-Hour Window" overlay on Current session
+- Add "Weekly Limits" overlay
+- "Cross-Platform: Mac, Windows, Linux" badge
+- Show quick flash of VS Code with Claude running
+
 
 ---
 
-### P
+## 📁 GITHUB RESOURCES & SETUP (5:24-6:54)
+
+### Part 1: GitHub Repository & Documentation (60 seconds)
+
+**📹 SCREEN: GitHub Repository**
+
+**What to show:**
+1. **Open:** https://github.com/anton-abyzov/ai-power
+2. **Show repo structure** - episodes folder, Episode 02 folder
+3. **Quick scroll** through Episode 02 files
+4. **Open deployed docs:** https://anton-abyzov.github.io/ai-power/
+
+**Voiceover:**
+```
+"Important note on resources.
+
+[Open GitHub repo]
+
+Link to this GitHub repo is in the desc and it's public. Always will be
+
+Every YouTube episode with detailed steps, prompts, code snippets,
+important notes - all here.
+
+[Scroll through Episode 02 folder]
+
+Episode 02: Resume Fine-Tuner. Everything you'll see in this video.
+
+[Open deployed docs site]
+
+Don't have Obsidian? Don't want to mess with markdown files locally?
+
+There's a deployed version with MkDocs. Browse tutorials right in your browser.
+
+[Back to terminal/VS Code]
+
+Everything's linked in the description. Let's build."
+```
+
+**Editing Notes:**
+- Show repo structure clearly
+- Highlight Episode 02 folder
+- Quick view of deployed docs
+- "All Free & Public" badge
+- GitHub star button animation
+
 ---
 
-## 🏗️ WORKSPACE SETUP (5:24-6:24)
 
-### Part 1: Quick Setup (30 seconds)
+---
+
+### Part 3: Workspace Quick View (30 seconds)
 
 **📹 SCREEN: VS Code with Terminal**
 
 **What to show:**
-1. **Open VS Code** - workspace folder already open
-2. **Show terminal** - `claude` command already running from previous demo
-3. **Quick mention** - token tracking in Claude Desktop
+1. **VS Code open** - workspace folder visible
+2. **Terminal panel** - `claude` command running
+3. **Folder structure** - quick view in sidebar
 
 **Voiceover:**
 ```
-"Quick setup: VS Code open, terminal ready.
+"Back to the workspace. VS Code open, terminal ready.
 
 [Show VS Code with terminal]
 
+Four folders: experience-db for your career history, outputs for generated resumes,
+job-descriptions to save postings, templates for base formats.
 
-[Quick flash to Claude Desktop Usage page]
+[Show folder structure in sidebar]
 
-Token tracking built-in now - see your usage in Claude Desktop.
-
-[Back to terminal]
-
-Four folders: experience-db, outputs, job-descriptions, templates.
-
-That's it. Let's build the agent."
+Simple structure. Let's build the agent."
 ```
 
 **Editing Notes:**
-- Keep it fast, no deep explanations
-- Reference earlier JD analysis demo
-- Quick flash to Claude Desktop (2 sec)
-- Move on quickly
+- Show VS Code with terminal and sidebar
+- Quick view of folder structure
+- Keep it moving
 
 ---
 
-### Part 2: (Removed - Combined into Part 1)
-
----
-
-## 🎨 CREATE THE AGENT (5:54-7:24)
+## 🎨 CREATE THE AGENT (6:54-8:24)
 
 ### Part 1: Agent Configuration File (90 seconds)
 
@@ -823,7 +894,7 @@ Save the file. Agent created."
 
 **Voiceover:**
 ```
-"Demo one: Software engineer resume.
+"Demo - Software engineer resume.
 
 First step: Create your experience database. This is YOUR career, structured.
 
@@ -872,13 +943,13 @@ The more detailed, the better the output."
 
 **Voiceover:**
 ```
-"Real job. LinkedIn. Senior Backend Engineer at [Company Name].
+"Real job. LinkedIn. Senior Backend Engineer at ClickUp.
 
 Requirements they're asking for:
-- 7+ years Python experience
-- Kubernetes and AWS expertise
-- Microservices architecture
-- Team leadership
+- 5+ years Node.js experience
+- High quality in Typescript
+- AWS expertise
+- Product-minded
 
 Salary: $180K-$220K. Remote.
 
@@ -892,122 +963,64 @@ Perfect test case. Let's tailor the resume."
 
 ---
 
-### Part 3: Claude Agent in Action - UNCUT (90 seconds)
+### Part 3: Show the Result - LaTeX Resume Example (60 seconds)
 
-**📹 SCREEN: Claude Code - Software Engineer Resume**
-
-**CRITICAL: Record this completely uncut, real-time, no edits!**
-
-**In Claude Code terminal, type:**
-```
-@resume-fine-tuner
-
-Create a tailored resume for this Senior Backend Engineer position at [Company Name]:
-
-[Paste full job description]
-
-Use experience database: experience-db/software-engineer.md
-
-Output file: outputs/senior-backend-engineer-stripe-2025-10-01.md
-
-Emphasize:
-- Python and FastAPI expertise
-- Kubernetes and AWS cloud experience
-- Microservices architecture
-- Performance optimization
-- Team leadership and mentoring
-
-Ensure 90%+ keyword match while maintaining authenticity.
-```
-
-**Note:** You can call the agent two ways:
-- `@resume-fine-tuner` (using @ symbol)
-- Just type `resume-fine-tuner` (agent name directly)
-
-**Press Enter and let Claude work - DO NOT CUT OR SPEED UP**
-
-**Voiceover during Claude's processing:**
-```
-"Call the agent with @ symbol or just the name. Either works.
-
-[Type @resume-fine-tuner and press Enter]
-
-Watch Claude Sonnet 4.5 work. Real-time. No edits.
-
-[Silent for 20 seconds while Claude processes]
-
-See what it's doing:
-- Reading the job description
-- Extracting Python, AWS, Kubernetes keywords
-- Searching my experience database
-- Finding matching achievements
-- Prioritizing microservices and performance work
-
-[Silent for 20 seconds more]
-
-Building the resume:
-- Summary targeting the role
-- Experience section emphasizing relevant wins
-- Skills matched to their stack
-- Quantified metrics throughout
-
-[Silent until done]
-
-Done. Resume created. Let's see it."
-```
-
-**Editing Notes:**
-- **DO NOT SPEED UP** Claude's response
-- Add subtle progress indicator (e.g., "Analyzing..." "Matching..." "Writing...")
-- This uncut proof is critical for trust
-- Total time: 60-90 seconds of Claude working
-
----
-
-### Part 4: Show Generated Resume (45 seconds)
-
-**📹 SCREEN: Open Generated Resume**
+**📹 SCREEN: Open LaTeX Resume from Repo**
 
 **Actions:**
-1. Open: `outputs/senior-backend-engineer-stripe-2025-10-01.md`
-2. Scroll through showing:
-   - **Summary:** Mentions Python, microservices, AWS
-   - **Experience:** FastAPI, Kubernetes, performance metrics highlighted
-   - **Skills:** Tech stack matches job requirements
-   - **Keywords:** Naturally distributed throughout
+1. Navigate to `samples/example-latex-resume.tex` in repo
+2. Scroll through showing the perfectly tailored .NET resume
+3. Briefly open compiled PDF version to show final output
 
 **Voiceover:**
 ```
-"Here's the generated resume. Perfectly tailored.
+"This is what the agent produces. Here's a real example from the repo.
 
-Summary: 'Senior Backend Engineer specializing in Python microservices
-and AWS cloud infrastructure...'
+[Open example-latex-resume.tex]
 
-[Scroll to experience]
+Look at this. Tailored for a .NET Fullstack Developer position.
 
-Experience section: FastAPI project featured prominently.
-Kubernetes migration highlighted. AWS cost optimization mentioned.
-All with metrics: 28% latency reduction, 45% faster deployments.
+[Scroll through slowly]
 
-[Scroll to skills]
+Professional summary - hits all keywords:
+'18+ years building enterprise applications using C# .NET, Angular, SQL Server...'
+'OAuth/OIDC authentication, REST API design, T-SQL optimization...'
 
-Skills section: Python, FastAPI, Kubernetes, AWS - all there.
-Exactly matching the job requirements.
+Experience section - client projects with generic company names:
+- Entertainment Platform Company - Angular 15, OAuth 2.0, microservices
+- Financial Services Platform - Trading APIs, sub-10ms response times
+- Healthcare Data Platform - HIPAA-compliant, 10M+ medical events daily
+- Sports Analytics Platform - Real-time processing, 200K+ messages/second
+- Healthcare Management System - Practice integration, API-to-API communication
 
-[Pause]
+Every bullet has metrics. Every achievement is quantified.
+150K+ requests/second. 50M+ records daily. Team of 12 developers.
 
-This isn't keyword stuffing. It's smart matching.
-Claude found the relevant experience and emphasized it naturally.
+[Scroll to skills section]
 
-ATS systems will love this. Recruiters will love this.
-From your database to perfect resume in 2 minutes."
+Technical skills perfectly organized:
+- Languages: C#, TypeScript, T-SQL
+- Frameworks: .NET Core 6-8, Angular 14-17, Entity Framework
+- Web Tech: REST APIs, OAuth 2.0, OIDC, JWT
+- Databases: MS SQL Server, T-SQL optimization
+
+[Quick flash of PDF version]
+
+This compiles to a beautiful PDF. Professional. ATS-friendly.
+
+The agent does this. Reads job description. Searches your experience database.
+Writes tailored resume. 90%+ keyword match. 2 minutes.
+
+You customize the template for your profession. Same principle.
+Marketing? Real estate? Software? Doesn't matter. Agent adapts."
 ```
 
 **Editing Notes:**
-- Highlight matching keywords with subtle glow
-- Add checkmarks next to matched requirements
-- Show "90%+ Match" badge
-- Side-by-side comparison: Job requirements → Resume keywords
+- Scroll slowly through LaTeX file to show structure
+- Highlight key metrics and keywords
+- Quick 3-second flash of compiled PDF
+- Add "Example Output" badge
+- "Available in Repo" text overlay
 
 ---
 
@@ -1115,62 +1128,7 @@ You got the idea. Templates are there. Adjust for your needs. Go for it."
 
 ---
 
-## 💡 WHY SONNET 4.5 WINS (10:54-11:24)
-
-**📹 SCREEN: Model Comparison Revisited (45 seconds)**
-
-**Show comparison table:**
-
-| Feature | Claude Sonnet 4.5 | ChatGPT-5 | Gemini Pro |
-| ------------------------- | ----------------- | --------- | ------------ |
-| **SWE-bench Score** | 77.2% ✅ | 72.8%     | ~70% |
-| **Instruction Following** | Excellent | Good      | Good |
-| **Hallucination Rate** | Very Low | Moderate  | Moderate |
-| **Context Window** | 200K (1M beta) | 128K      | 1M |
-| **Pricing** | $3/$15 | $10/$30   | $3.50/$10.50 |
-| **Best For** | Agents, Coding | General   | Multimodal |
-
-**Voiceover:**
-```
-"You might ask: Why Claude Sonnet 4.5?
-Why not ChatGPT, Gemini, or others?
-
-Truth is, they all work. You could build this with any of them.
-
-But here's why Sonnet 4.5 is the best choice for resume agents:
-
-[Show comparison table]
-
-1. **Accuracy:** 77.2% SWE-bench. Best in the world.
-   Better instruction following = more accurate keyword matching.
-
-2. **Reliability:** Lower hallucination rate.
-   It won't make up achievements or fake metrics.
-
-3. **Context:** 200K tokens (1M in beta).
-   Can handle massive experience databases.
-
-4. **Price:** Same cost as old Sonnet 4.
-   You get the best model at the old price.
-
-[Pause]
-
-Could you use ChatGPT or Gemini? Absolutely.
-But for complex multi-step tasks like resume optimization?
-Claude Sonnet 4.5 is smoother, more reliable, more accurate.
-
-That's why professionals choose it."
-```
-
-**Editing Notes:**
-- Animated comparison table
-- Green checkmarks on Sonnet 4.5 wins
-- "Best Choice for Agents" badge
-- Subtle trophy icon on Sonnet 4.5
-
----
-
-## 🎨 ITERATIVE REFINEMENTS (11:24-12:09)
+## 🎨 ITERATIVE REFINEMENTS (10:54-11:24)
 
 ### Part 1: Quick Adjustments - Conversational Editing (45 seconds)
 
@@ -1232,7 +1190,7 @@ Perfect resume in 2 minutes. Fine-tuned in 30 seconds more."
 
 ---
 
-## 📈 RESULTS & THE BIG PICTURE (12:09-12:58)
+## 📈 RESULTS & THE BIG PICTURE (11:24-12:13)
 
 **🎬 VEO 3 VIDEO #3** (3-4 seconds) - Results Celebration
 
@@ -1384,7 +1342,7 @@ The question is: Will you use it?"
 
 ---
 
-## 🎬 CLOSING (13:02-13:47)
+## 🎬 CLOSING (12:13-12:58)
 
 **📹 YOU ON CAMERA (45 seconds)**
 
@@ -1442,47 +1400,6 @@ Let's go."
 
 ---
 
-### Final Screen: GitHub & Resources (30 seconds)
-
-**📹 SCREEN: GitHub Repository**
-
-**Actions:**
-1. Open: `github.com/anton-abyzov/ai-power`
-2. Briefly show:
-   - Episode 02 folder structure
-   - README with instructions
-   - Agent files
-   - Templates
-3. Show deployed docs: `[your-mkdocs-url]`
-
-**Voiceover:**
-```
-"Everything is here. GitHub. Free. Public.
-
-Episode 02 folder contains:
-- Complete agent configuration
-- Experience templates for software, marketing, real estate
-- All prompts, all examples
-- Step-by-step setup guide
-
-Deployed documentation: Easy-to-browse HTML version.
-Or clone the repo and open in Obsidian for local editing.
-
-[Show star button]
-
-Star the repo. Use it today. Share with someone job hunting.
-
-Go get those interviews."
-```
-
-**Editing Notes:**
-- Show file structure clearly
-- Highlight key files
-- Zoom on "Star" button with animation
-- "Free & Open Source" badge
-
----
-
 ### END SCREEN (20 seconds)
 
 **📹 SCREEN: YouTube End Screen Template**
@@ -1503,7 +1420,7 @@ comment below. I'll do a full episode on it.
 
 Drop your results in the comments - I read every one.
 
-Now go build something incredible."
+Now go build something incredible. Do it now."
 ```
 
 **Music:** Upbeat, inspiring (fade out)
