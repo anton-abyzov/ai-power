@@ -163,6 +163,7 @@ nano experience-db/my-experience.md
 1. Go to LinkedIn Jobs, Indeed, or company career page
 2. Find a role that matches your experience
 3. Copy the full job description
+4. Save it: `job-descriptions/[company-name]-[role].md`
 
 **Generate resume:**
 ```bash
@@ -174,7 +175,7 @@ claude
 
 Create a tailored resume for [JOB TITLE] at [COMPANY NAME]:
 
-[PASTE FULL JOB DESCRIPTION HERE]
+Read job description: job-descriptions/[company-name]-[role].md
 
 Use experience database: experience-db/my-experience.md
 
@@ -204,25 +205,26 @@ Ensure 90%+ keyword match while maintaining authenticity.
 
 **Claude outputs Markdown by default. Convert to:**
 
-**PDF (most common):**
-```bash
-pandoc outputs/your-resume.md -o outputs/your-resume.pdf
-```
-
-**Word (.docx):**
+**Word (.docx) - Recommended:**
 ```bash
 pandoc outputs/your-resume.md -o outputs/your-resume.docx
 ```
 
-**HTML (web portfolio):**
-```bash
-pandoc outputs/your-resume.md -o outputs/your-resume.html --self-contained
-```
+**PDF (from Word):**
+1. Open the .docx file in Word
+2. File → Save As → PDF
+3. Done!
 
-**LaTeX (academic):**
+**Or use online converters (no installation):**
+- Dillinger.io - Paste Markdown → Export as PDF/DOCX
+- StackEdit.io - Paste Markdown → Export
+- CloudConvert.com - Upload .md → Convert to PDF/DOCX
+
+**LaTeX (for academic resumes):**
 ```bash
 pandoc outputs/your-resume.md -o outputs/your-resume.tex
 ```
+Then compile in Overleaf or with LaTeX installed locally.
 
 ---
 
