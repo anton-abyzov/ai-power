@@ -22,21 +22,33 @@
   </div>
 </div>
 
-## 🎥 Featured Episode
+## 🎥 Latest Episode
 
 <div style="margin: 2rem 0;">
-  <iframe width="760" height="427" src="https://www.youtube.com/embed/XUylfjtjv9g" title="Build Professional Websites in 60 Minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="760" height="427" src="https://www.youtube.com/embed/RfwZSRRRtmY" title="AI Resume Agent That Gets 6x More Interviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+### Episode 02: Resume Fine-Tuner with Claude Sonnet 4.5 🆕
+
+!!! success "What You'll Build"
+    - AI agent that tailors resumes in 2 minutes
+    - 90%+ ATS keyword matching
+    - 6x more interviews (proven results)
+    - Works for ANY profession
+
+[**→ Start Building Now**](episodes/02-resume-fine-tuner/){ .md-button .md-button--primary }
+
+---
 
 ### Episode 01: Portfolio Without Code
 
-!!! success "What You'll Learn"
-    - Build 3 professional portfolio websites
-    - Use Claude Code AI assistant effectively
-    - Deploy to GitHub Pages (completely free)
-    - Create custom designs without templates
+!!! info "Build Professional Portfolios"
+    - 3 complete portfolio websites
+    - Claude Code AI assistant
+    - Free GitHub Pages deployment
+    - Custom designs without templates
 
-[**→ Start Learning Now**](episodes/01-portfolio-no-code/){ .md-button .md-button--primary }
+[**→ View Episode 01**](episodes/01-portfolio-no-code/){ .md-button }
 
 ---
 
@@ -80,6 +92,12 @@
     We're building a comprehensive library of AI-powered development tutorials. Each episode is designed to be completed in 60 minutes or less.
 
 ### ✅ Available Now
+
+- **[Episode 02: Resume Fine-Tuner](episodes/02-resume-fine-tuner/)** 🆕 - AI agent for job search automation
+  - Claude Sonnet 4.5 powered
+  - 6x more interviews
+  - 2-minute resume generation
+  - Works for any profession
 
 - **[Episode 01: Portfolio Without Code](episodes/01-portfolio-no-code/)** - Build professional portfolios using AI
   - 3 complete websites
@@ -177,7 +195,12 @@
   <p style="font-size: 1.1rem; margin: 1rem 0 2rem;">
     Transform your ideas into reality in the next 60 minutes
   </p>
-  <a href="episodes/01-portfolio-no-code/" class="md-button md-button--primary" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
-    🚀 Start Episode 01 Now
-  </a>
-</div><!-- Cache bust: 1758570419 -->
+  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+    <a href="episodes/02-resume-fine-tuner/" class="md-button md-button--primary" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
+      🆕 Episode 02: Resume Agent
+    </a>
+    <a href="episodes/01-portfolio-no-code/" class="md-button" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
+      🚀 Episode 01: Portfolios
+    </a>
+  </div>
+</div>

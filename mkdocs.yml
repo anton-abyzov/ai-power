@@ -171,6 +171,20 @@ nav:
       - "🎯 Master Prompt": episodes/01-portfolio-no-code/prompts/master-prompt.md
       - "📚 All Resources": episodes/RESOURCES.md
 
+  - Episode 02:
+    - "🎯 Start Here": episodes/02-resume-fine-tuner/🎯 START_HERE.md
+    - "📹 Full Script": episodes/02-resume-fine-tuner/📹 THE_FULL_SCRIPT.md
+    - Prompts:
+      - "📝 Resume Fine-Tuner Agent": episodes/02-resume-fine-tuner/prompts/resume-fine-tuner-agent.md
+      - "📋 All Claude Prompts": episodes/02-resume-fine-tuner/prompts/ALL_CLAUDE_PROMPTS.md
+    - Templates:
+      - "💼 Software Engineer": episodes/02-resume-fine-tuner/templates/experience-software-engineer.md
+      - "📢 Marketing Manager": episodes/02-resume-fine-tuner/templates/experience-marketing-manager.md
+      - "🏠 Real Estate Agent": episodes/02-resume-fine-tuner/templates/experience-real-estate-agent.md
+    - Workspace:
+      - "📂 Workspace Guide": episodes/02-resume-fine-tuner/workspace/README.md
+      - "⚡ Demo Commands": episodes/02-resume-fine-tuner/workspace/DEMO_COMMANDS.md
+
   - Community:
     - Showcase: community/showcase.md
     - Contributions: community/contributions.md
