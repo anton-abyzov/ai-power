@@ -181,9 +181,6 @@ nav:
       - "💼 Software Engineer": episodes/02-resume-fine-tuner/templates/experience-software-engineer.md
       - "📢 Marketing Manager": episodes/02-resume-fine-tuner/templates/experience-marketing-manager.md
       - "🏠 Real Estate Agent": episodes/02-resume-fine-tuner/templates/experience-real-estate-agent.md
-    - Workspace:
-      - "📂 Workspace Guide": episodes/02-resume-fine-tuner/workspace/README.md
-      - "⚡ Demo Commands": episodes/02-resume-fine-tuner/workspace/DEMO_COMMANDS.md
 
   - Community:
     - Showcase: community/showcase.md

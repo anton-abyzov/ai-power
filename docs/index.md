@@ -36,7 +36,7 @@
     - 6x more interviews (proven results)
     - Works for ANY profession
 
-[**→ Start Building Now**](episodes/02-resume-fine-tuner/){ .md-button .md-button--primary }
+[**→ Start Building Now**](episodes/02-resume-fine-tuner/🎯%20START_HERE/){ .md-button .md-button--primary }
 
 ---
 
@@ -48,7 +48,7 @@
     - Free GitHub Pages deployment
     - Custom designs without templates
 
-[**→ View Episode 01**](episodes/01-portfolio-no-code/){ .md-button }
+[**→ View Episode 01**](episodes/01-portfolio-no-code/index/){ .md-button }
 
 ---
 
@@ -93,13 +93,13 @@
 
 ### ✅ Available Now
 
-- **[Episode 02: Resume Fine-Tuner](episodes/02-resume-fine-tuner/)** 🆕 - AI agent for job search automation
+- **[Episode 02: Resume Fine-Tuner](episodes/02-resume-fine-tuner/🎯%20START_HERE/)** 🆕 - AI agent for job search automation
   - Claude Sonnet 4.5 powered
   - 6x more interviews
   - 2-minute resume generation
   - Works for any profession
 
-- **[Episode 01: Portfolio Without Code](episodes/01-portfolio-no-code/)** - Build professional portfolios using AI
+- **[Episode 01: Portfolio Without Code](episodes/01-portfolio-no-code/index/)** - Build professional portfolios using AI
   - 3 complete websites
   - Full deployment pipeline
   - Custom designs
@@ -196,10 +196,10 @@
     Transform your ideas into reality in the next 60 minutes
   </p>
   <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-    <a href="episodes/02-resume-fine-tuner/" class="md-button md-button--primary" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
+    <a href="episodes/02-resume-fine-tuner/🎯%20START_HERE/" class="md-button md-button--primary" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
       🆕 Episode 02: Resume Agent
     </a>
-    <a href="episodes/01-portfolio-no-code/" class="md-button" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
+    <a href="episodes/01-portfolio-no-code/index/" class="md-button" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
       🚀 Episode 01: Portfolios
     </a>
   </div>
