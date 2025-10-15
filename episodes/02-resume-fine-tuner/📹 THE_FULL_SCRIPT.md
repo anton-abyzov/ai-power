@@ -25,7 +25,7 @@ Claude Sonnet 4.5 Resume Agent: Get 10x More Employer Responses in 2 Minutes
 
 ## ⏱️ VIDEO STRUCTURE
 
-**Total Duration:** 12-13 minutes (includes ~10 seconds of Veo 3 videos)
+**Total Duration:** 13-14 minutes (includes ~10 seconds of Veo 3 videos)
 **Production Method:**
 - 2 on-camera segments (Hook + Closing) = 1-2 minutes
 - 15+ screen recordings = 11-13 minutes (includes Claude Desktop usage demo)
@@ -947,15 +947,11 @@ The more detailed, the better the output."
 
 Requirements they're asking for:
 - 5+ years Node.js experience
-- High quality TypeScript code
-- Performant, high-throughput systems
-- SQL queries at scale
-- Event-based systems experience
-- AWS cloud services
-- Product-minded approach
-- Comfortable with ambiguity
+- High quality in Typescript
+- AWS expertise
+- Product-minded
 
-Salary: $160K-$205K. Remote.
+Salary: $180K-$220K. Remote.
 
 Perfect test case. Let's tailor the resume."
 ```
@@ -967,209 +963,110 @@ Perfect test case. Let's tailor the resume."
 
 ---
 
-### Part 2b: Run the Agent - Generate Resume (60 seconds)
+### Part 3: Show the Result - LaTeX Resume Example (60 seconds)
 
-**📹 SCREEN: Claude Code Terminal - Agent Execution**
-
-**In Claude Code terminal, type the prompt:**
-
-```
-@resume-fine-tuner
-
-Create a tailored resume for this Senior Backend Engineer position at ClickUp:
-
-Read full job description: job-descriptions/senior-backend-engineer-clickup.md
-
-Use experience database: experience-db/software-engineer.md
-
-Output file: outputs/senior-backend-engineer-clickup-2025-10-01.md
-
-Emphasize:
-- 5+ years Node.js experience
-- High quality TypeScript code
-- Performant high-throughput systems
-- SQL optimization at scale
-- Event-based systems (Kafka, message queues)
-- AWS cloud expertise
-- Product-minded approach
-
-Ensure 90%+ keyword match while maintaining authenticity.
-```
-
-**Note:** You can call the agent two ways:
-- `@resume-fine-tuner` (with @ symbol)
-- Just type `resume-fine-tuner` (agent name directly)
-
-**Press Enter and let Claude work**
-
-**Voiceover while typing and during execution:**
-```
-"Now I call the agent. Type at-resume-fine-tuner or just the agent name.
-
-[Start typing prompt]
-
-Give it the job description path. Point to my experience database.
-Tell it what to emphasize based on the job requirements.
-
-[Finish typing, press Enter]
-
-[Watch Claude work for 30-45 seconds]
-
-See it working:
-- Reading the ClickUp job description
-- Extracting Node.js, TypeScript, SQL, event-based systems keywords
-- Searching my experience database for matches
-- Prioritizing relevant achievements
-- Building the tailored resume
-
-[Wait until completion]
-
-Done. Resume generated. Let's see what it produced."
-```
-
-**Editing Notes:**
-- Show the full prompt being typed (can speed up 1.5x)
-- Keep Claude's execution real-time (don't speed up)
-- Add subtle progress indicators if desired
-- Total agent execution: 30-60 seconds uncut
-- "Agent Working" overlay
-- Show "Two Ways to Call" badge briefly
-
----
-
-### Part 3: Show the Result - Generated Markdown Resume (90 seconds)
-
-**📹 SCREEN: Open Generated Markdown Resume**
+**📹 SCREEN: Open LaTeX Resume from Repo**
 
 **Actions:**
-1. Open `outputs/senior-backend-engineer-clickup-2025-10-01.md` (or pre-generated example)
-2. Scroll through showing the tailored resume
-3. Run Pandoc conversion live: `pandoc resume.md -o resume.docx`
-4. Open generated Word document showing professional formatting
-5. Show final PDF export from Word
+1. Navigate to `samples/example-latex-resume.tex` in repo
+2. Scroll through showing the perfectly tailored .NET resume
+3. Briefly open compiled PDF version to show final output
 
 **Voiceover:**
 ```
-"Here's what the agent generated. Clean Markdown resume.
+"This is what the agent produces. Here's a real example from the repo.
 
-[Open generated .md file]
+[Open example-latex-resume.tex]
 
-Look at this. Perfectly tailored for that ClickUp position.
+Look at this. Tailored for a .NET Fullstack Developer position.
+
+[Scroll through slowly]
 
 Professional summary - hits all keywords:
-'Senior Backend Engineer with 5+ years Node.js and TypeScript experience...'
-'Performant high-throughput systems, event-based architecture...'
-'AWS cloud infrastructure, product-minded approach...'
+'18+ years building enterprise applications using C# .NET, Angular, SQL Server...'
+'OAuth/OIDC authentication, REST API design, T-SQL optimization...'
 
-[Scroll through experience]
+Experience section - client projects with generic company names:
+- Entertainment Platform Company - Angular 15, OAuth 2.0, microservices
+- Financial Services Platform - Trading APIs, sub-10ms response times
+- Healthcare Data Platform - HIPAA-compliant, 10M+ medical events daily
+- Sports Analytics Platform - Real-time processing, 200K+ messages/second
+- Healthcare Management System - Practice integration, API-to-API communication
 
-Experience section prioritized:
-- Node.js and TypeScript work - prominently featured
-- High-throughput systems - 10M+ requests per day
-- SQL optimization at scale - exactly what they asked for
-- Event-based architecture - Kafka, message queues
-- AWS expertise - highlighted throughout
-- Product-minded achievements - user experience focus
+Every bullet has metrics. Every achievement is quantified.
+150K+ requests/second. 50M+ records daily. Team of 12 developers.
 
-Every bullet has metrics. 28% performance improvement. 45% faster deployments.
-Team of 5 engineers. 99.9% uptime SLA.
+[Scroll to skills section]
 
-[Scroll to skills]
+Technical skills perfectly organized:
+- Languages: C#, TypeScript, T-SQL
+- Frameworks: .NET Core 6-8, Angular 14-17, Entity Framework
+- Web Tech: REST APIs, OAuth 2.0, OIDC, JWT
+- Databases: MS SQL Server, T-SQL optimization
 
-Skills perfectly matched:
-Node.js, TypeScript, SQL optimization, Event-based systems, AWS, PostgreSQL.
-90%+ keyword match. Nothing fabricated.
+[Quick flash of PDF version]
 
-[Stop scrolling]
+This compiles to a beautiful PDF. Professional. ATS-friendly.
 
-Now here's the magic. You want this in Word or PDF?
+The agent does this. Reads job description. Searches your experience database.
+Writes tailored resume. 90%+ keyword match. 2 minutes.
 
-[Terminal]
-
-First, install Pandoc if you don't have it.
-Mac: brew install pandoc
-Windows: Download from pandoc.org
-Linux: sudo apt install pandoc
-
-[Show installation link on screen: pandoc.org/installing.html]
-
-Or use online tools - no installation needed:
-dillinger.io, stackedit.io, cloudconvert.com
-
-[Quick text overlay with these URLs]
-
-Command-line version - one command:
-
-pandoc resume.md -o resume.docx
-
-[Run command, show it execute]
-
-Done. Let's open it.
-
-[Open Word document]
-
-Beautiful. Professional formatting. Ready to submit.
-
-Want PDF? Save as PDF from Word.
-
-[Quick flash of PDF]
-
-Same content. Multiple formats. 30 seconds.
-
-From job description to ATS-ready resume in 2 minutes.
-Any format you need."
+You customize the template for your profession. Same principle.
+Marketing? Real estate? Software? Doesn't matter. Agent adapts."
 ```
 
 **Editing Notes:**
-- Scroll slowly through MD file to show structure
-- Highlight matching keywords with subtle glow
-- Show Pandoc installation text overlay (3 seconds): "pandoc.org/installing.html"
-- Show online alternatives text overlay (2 seconds): "dillinger.io | stackedit.io | cloudconvert.com"
-- Show terminal command clearly
-- Quick cut to Word document opening
-- Show professional Word formatting
-- "Multiple Format Options" text overlay
-- "90%+ Match" badge
+- Scroll slowly through LaTeX file to show structure
+- Highlight key metrics and keywords
+- Quick 3-second flash of compiled PDF
+- Add "Example Output" badge
+- "Available in Repo" text overlay
 
 ---
 
-## 🎨 OUTPUT FORMATS & PANDOC WORKFLOW (9:54-10:24)
+## 🎨 OUTPUT FORMATS & OTHER PROFESSIONS (9:54-10:54)
 
-### Part 1: Format Options - The Possibilities (30 seconds)
+### Part 1: Output Formats - Your Choice (30 seconds)
 
-**📹 SCREEN: Show Format Options Overview**
+**📹 SCREEN: Show Multiple Format Options**
 
 **What to show:**
-1. **Current Markdown resume** in editor
-2. **Quick browse to samples folder** showing example-latex-resume.tex
-3. **Text overlay** with format possibilities
+1. **Generated Markdown resume** - `outputs/senior-backend-engineer-stripe-2025-10-01.md`
+2. **Quick conversion options:**
+   - Copy to Overleaf → LaTeX PDF (show example in repo: `samples/example-latex-resume.tex`)
+   - Save as .docx (Claude Code can write Word-compatible markdown)
+   - Keep as plain text for ATS systems
+3. **Open example LaTeX resume** from repo briefly
 
 **Voiceover:**
 ```
-"The possibilities are limitless.
+"Output format? Your choice.
 
-[Show current markdown resume]
+[Show generated MD file]
 
-You have clean Markdown. Professional. ATS-friendly.
+Claude generates Markdown by default. Clean, ATS-friendly.
 
-[Navigate to samples folder]
+[Show repo samples folder]
 
-Want beautiful LaTeX formatting? Example in the repo - 'example-latex-resume.tex'.
+Want beautiful LaTeX PDFs? Example in the repo - 'example-latex-resume.tex'.
+Copy to Overleaf, paste content, compile. Professional output.
 
-The agent creates perfect content.
-The format? Your choice. Examples in the repo.
+[Quick flash of LaTeX PDF]
 
-Focus on what matters: the content, the keywords, the tailoring.
-Let tools handle the formatting."
+Want Word format? Claude Code can write directly to .docx-compatible markdown.
+Want plain text? You already have it.
+
+The content is perfect. The format? Whatever you need.
+
+That's why I have 100+ resumes. Same agent, any format, 5 minutes each."
 ```
 
 **Editing Notes:**
-- Keep it high-level, not prescriptive
-- Show samples folder briefly
-- Text overlay with format options (5 seconds)
-- "Examples Available" badge
-- "Focus on Content" text overlay
-- Don't show detailed commands (viewers can explore repo)
+- Show outputs folder with .md file
+- Quick cut to repo samples/ folder
+- Flash LaTeX PDF example (2 seconds)
+- "Any Format You Need" text overlay
+- "Examples in Repo" badge
 
 ---
 
@@ -1210,6 +1107,16 @@ Completely different world, same principle.
 
 The process? Exactly what we just did with software engineering.
 
+1. Copy the template for your profession
+2. Fill in YOUR experience
+3. Use the agent with any job description
+4. Get tailored resume in 2 minutes
+
+Marketing, sales, real estate, finance, healthcare - whatever.
+The system adapts. The agent works.
+
+I'm not going to do live demos for each profession.
+You got the idea. Templates are there. Adjust for your needs. Go for it."
 ```
 
 **Editing Notes:**
@@ -1242,7 +1149,7 @@ The process? Exactly what we just did with software engineering.
 
 The resume looks great, but can you:
 1. Make the professional summary shorter (2 sentences max)
-2. Add more quantified metrics to the Analytics Dashboard project
+2. Add more quantified metrics to the Carnival project
 3. Emphasize team leadership throughout
 
 Keep everything else the same.
@@ -1283,111 +1190,213 @@ Perfect resume in 2 minutes. Fine-tuned in 30 seconds more."
 
 ---
 
-## 📈 RESULTS & AUTOMATION (11:24-11:54)
+## 📈 RESULTS & THE BIG PICTURE (11:24-12:13)
 
-**🎬 VEO 3 VIDEO #3** (15 seconds) - The Transformation
+**🎬 VEO 3 VIDEO #3** (3-4 seconds) - Results Celebration
 
 ```
-Veo 3 Prompt: "First-person POV sitting at a desk. Start with a single paper resume being hand-written slowly with a pen, clock on wall shows time passing slowly. Suddenly, an electric blue AI energy wave flows across the desk from left to right. After the wave passes, the scene transforms: the desk now has a laptop showing a terminal with code scrolling rapidly, stacks of completed resumes appearing one by one in quick succession on the desk, digital email icons flying out from the laptop screen into the air like paper airplanes. The clock on the wall spins forward rapidly. The transformation shows manual slow work becoming instant AI automation. Smooth camera movement, professional office lighting, modern tech aesthetic, blue and white color scheme."
+Veo 3 Prompt: "Numbers appearing and growing in 3D space: '10x' appears first
+(large, gold, rotating), '100+' appears next (silver, floating), '2 min' appears
+last (bronze, pulsing). Confetti particles falling in background. Professional
+office setting, warm lighting, success theme colors."
 ```
 
 **Why this works:**
-- **Visual story** - Shows before/after transformation in one shot
-- **No text generation** - Veo 3 doesn't need to spell anything
-- **Relatable POV** - First-person makes it personal
-- **Clear metaphor** - Manual → AI automated
-- **15 seconds** - Perfect length for the transformation
-- **Professional** - Office setting, clean aesthetic
-- **Energy and motion** - AI wave, emails flying, clock spinning
+- Shows success metrics visually
+- Celebratory feel before results discussion
+- Only uses numbers (no spelling risk)
+- Sets positive tone for metrics section
 
-**Alternative (if POV doesn't work well):**
+**Alternative (simpler):**
 ```
-Veo 3 Prompt: "Wide shot of a modern office desk. Left side: person manually writing resumes by hand, papers stacked messily, frustrated expression, wall clock ticking slowly. Center: a bright blue lightning bolt strikes the desk. Right side: same person now relaxed, smiling, laptop open with terminal showing automation, completed resumes organized in neat stacks, digital email icons launching into the air automatically, wall clock spinning rapidly. Split-screen transformation, professional lighting, tech aesthetic, blue energy effects."
+Veo 3 Prompt: "A graph line shooting upward from bottom left to top right.
+Starting point labeled 'BEFORE', ending point labeled 'AFTER'. Green line with
+glowing trail effect, particles following the path. Dark background with grid,
+stock market success aesthetic."
 ```
 
-**Transition:** Video fades to you on camera
+**Transition:** Cut from Veo 3 video to metrics comparison screen
 
 ---
 
-### Part 1: The Results (30 seconds)
+### Part 1: Metrics That Matter (30 seconds)
 
-**📹 YOU ON CAMERA or VOICEOVER over simple graphics**
+**📹 SCREEN: Before/After Comparison**
 
-**Show simple text overlays (not detailed spreadsheet):**
-- "6x more interviews"
-- "72 hours saved"
-- "Same content, smarter delivery"
+**Show visual comparison:**
+
+```
+BEFORE (Generic Resume):
+├── Applications sent: 50
+├── Response rate: 12% (6 responses)
+├── Interviews: 3
+├── Time per application: 90 minutes
+└── Total time invested: 75 hours
+
+AFTER (Claude-Tailored Resumes):
+├── Applications sent: 50
+├── Response rate: 44% (22 responses)
+├── Interviews: 18
+├── Time per application: 3 minutes
+└── Total time invested: 2.5 hours
+
+IMPROVEMENT:
+├── Response rate: +267%
+├── Interviews: +500%
+├── Time saved: 72.5 hours
+└── ROI: Massive
+```
 
 **Voiceover:**
-
-![[Before After.excalidraw]]
 ```
-"The results speak for themselves.
+"Real results. Real numbers.
 
-Before this system: 3 interviews from 50 applications. 75 hours of manual work.
+Before automation:
+- 50 applications
+- 12% response rate (6 responses)
+- 3 interviews
+- 90 minutes per application
+- 75 hours total
 
-After building this agent: 18 interviews from 50 applications. 2.5 hours total.
-
-6x more interviews. 72 hours saved.
+After Claude Sonnet 4.5:
+- 50 applications
+- 44% response rate (22 responses)
+- 18 interviews
+- 3 minutes per application
+- 2.5 hours total
 
 [Pause]
 
-Same experience. Same qualifications. Better delivery.
+That's 3.7x more responses.
+6x more interviews.
+72 hours saved.
 
-And you can go even further.
-
-Want full automation? Use n8n or Claude Code agents to auto-send these resumes.
-Auto-apply to jobs. Auto-follow-up with recruiters.
-
-The agent creates the resume. The automation handles the rest.
-
-You just review the offers."
+This isn't theory. This is math."
 ```
 
 **Editing Notes:**
-- Simple, clean text overlays (not busy spreadsheets)
-- Show the "6x more interviews" as hero metric
-- Quick mention of n8n/Claude Code for full automation
-- Keep it conversational, not data-heavy
-- "Full Automation Possible" badge
+- Animated counters
+- Before (red) vs After (green) split screen
+- Confetti animation on improvements
+- "ROI: Massive" with trophy
 
 ---
 
-## 🎬 CLOSING (11:54-12:28)
+### Part 2: The Real Message (30 seconds)
 
-**📹 YOU ON CAMERA (34 seconds)**
+**📹 SCREEN: Text overlay with subtle background**
 
-**Camera setup: Same as opening, high energy**
+**Show text appearing:**
+```
+"You won't be replaced by AI.
+
+You'll be replaced by someone who knows how to USE AI.
+
+The difference?
+This video.
+This agent.
+2 minutes of automation.
+
+You now have the knowledge.
+You now have the tools.
+
+The question is: Will you use them?"
+```
+
+**Voiceover:**
+```
+"Let's zoom out. The bigger picture.
+
+You won't be replaced by AI.
+But you might be replaced by someone who leverages AI better than you.
+
+[Pause]
+
+Think about it:
+- They apply to 50 jobs in 3 hours
+- You apply to 10 jobs in 15 hours
+- They get 20+ interviews
+- You get 2-3
+
+Same experience. Same qualifications.
+The only difference? They built this agent.
+
+[Pause]
+
+You now have everything you need:
+- The best AI model (Claude Sonnet 4.5)
+- The complete agent setup
+- Templates for 3+ professions
+- The exact prompts
+
+Everything is in the description. Free. Public. Yours.
+
+The question is: Will you use it?"
+```
+
+**Editing Notes:**
+- Dramatic text reveals
+- Subtle inspiring background music
+- "Your Move" final text
+- Pause for impact
+
+---
+
+## 🎬 CLOSING (12:13-12:58)
+
+**📹 YOU ON CAMERA (45 seconds)**
+
+**Camera setup: Same as opening**
 
 **Script:**
 ```
+"You just watched how to build a resume fine-tuning system with
+Claude Sonnet 4.5 - the world's best coding model.
 
+[Pause]
 
-Here's the reality:
-Someone else is building this right now while you're watching.
-They'll apply to 50 jobs this week.
-You'll apply to 5.
+Not magic. Not hype.
+The world's best coding model, released three days ago,
+applied to your career.
 
-They get 20 interviews. You get 2.
+[Look directly at camera]
 
-Same skills. Different tools.
+Everything you saw is free on GitHub. Link in description.
+- Agent configuration files
+- Experience templates (software, marketing, real estate, and more)
+- LaTeX examples
+- All the prompts
+- Full documentation
 
-So stop watching.
+[Lean forward, confident]
 
-Go build this. Right now.
+Here's your choice:
+- Spend 2 hours customizing each resume manually
+- Or spend 2 minutes with Claude Sonnet 4.5
 
-And when you land the offer? Comment below.
+One approach gets you ignored.
+The other gets you interviews.
 
+[Pause, slight smile]
 
+The people who win in the AI age aren't the ones with the best raw skills.
+They're the ones who know how to amplify those skills with AI.
+
+You now have the blueprint.
+
+[Point to camera]
+
+Go build. Get interviews. Get offers.
+And when you do, comment below and tell me about it.
+
+Let's go."
 ```
 
 **Recording tips:**
-- **High energy throughout** - no slow moments
-- **Direct, intense eye contact** - make it personal
-- **Faster pace** - urgency and action
-- **Strong hand gestures** on key points
-- **Final line delivery** - confident, commanding
-- This should feel like a **call to action**, not a summary
+- High energy, inspiring tone
+- Make eye contact with camera
+- Confident body language
+- End with clear call-to-action
 
 ---
 

@@ -1,0 +1,558 @@
+[00:00] Locked. Sending. Hop. Yes. Anchored. Look at that view.
+[00:10] Driving forward again. Space opening up for him. Still at an abyss of H to the box now.
+[00:15] It looks like I want to finish. Brilliant for the captain.
+[00:18] Emily, it robs.
+[00:21] Everything you just saw, built with AI.
+[00:25] In less than 30 minutes, you'll know exactly how.
+[00:30] I'm Anton Abyss of those videos created with Sora 2. Open AI video generator.
+[00:37] Released on September 30, 2025. And here is why it matters to your business.
+[00:44] Last week I saved 40 hours. This is my resume fine tuning automation.
+[00:50] Job posting arrives. Claude analyzes it resume tailored automatically.
+[00:56] But with automation tools, which you could use for free locally,
+[01:01] and it and does way more than this. Lead management, automatic serial
+[01:08] enrichment linked in data pooled automatically. Talk to your spreadsheets.
+[01:15] With AI, ask questions in plain English. Get answers instantly.
+[01:22] AI customer support. Instant replies 24-7 availability human quality.
+[01:30] Content creation automated. One input multiple outputs across platforms.
+[01:38] All automatic zero manual work while you sleep.
+[01:43] And the best part N8N integrates with Sora to API.
+[01:49] That's right. AI video generation right inside of your workflows.
+[01:55] Product demos, marketing videos, content creation, all automated.
+[02:01] But before we build this, you need to know about pricing and access requirements.
+[02:06] There are three ways to access Sora. First is the iOS mobile application.
+[02:12] Perfect for testing fronts. Second is web.
+[02:17] You could go here, login with your chat GPT ID. In my case, I'm using Google.
+[02:27] And get access and test the same features which works in any browser.
+[02:38] Here is the profile. And third is API for automation.
+[02:43] You need to login to API platform.
+[02:50] And then go to your settings.
+[02:57] Which is basically here.
+[03:02] And your organization should be verified.
+[03:06] Meaning that it could be organization or person.
+[03:10] State issue document like driver license should be enough.
+[03:16] But if you don't pass verification, it might take really long time up to 90 days to be re verified.
+[03:24] So take care about it. Let's look at the cost of API access.
+[03:30] It could be from 10 cents to 50 cents depending on the size and the model.
+[03:37] So it could be $5 for a 10 second HD video or $50 for 100 seconds of content.
+[03:48] For business automation, you could spend hundreds per month.
+[03:53] Let's look at chat GPT pricing options.
+[03:57] Three with a limited access with invite.
+[04:02] Chat GPT plus $20 a month. And access also via invite.
+[04:10] And chat GPT pro $200 a month.
+[04:15] What's the difference?
+[04:17] So for plus, this is what most people need.
+[04:24] Unlimited sort to access up to 30 videos per 24 hours.
+[04:30] Videos up to 10 seconds.
+[04:34] Priority during peak times and downloaded videos have slower watermark.
+[04:40] Perfect for testing, learning and personal projects.
+[04:44] And with a pro.
+[04:48] This is great for serious creators and businesses.
+[04:53] Everything in plus and 500 videos a month, longer videos up to 20 seconds.
+[05:01] Yeah, no watermarks, of course, on downloaded videos and faster generation priority access to new features.
+[05:09] So for this tutorial, plus is more than enough. 10 seconds videos.
+[05:14] Watermark is fine for learning.
+[05:17] Let's look at the mobile iOS Sora 2 application, which is officially available in the United States and Canada only.
+[05:23] But the reality is that many international users access it with the help of VPN tools.
+[05:30] All right, so we type Sora AI.
+[05:36] You have to download this application and then open it.
+[05:39] I'll demonstrate it right from my phone.
+[05:44] You'd be able to continue with your chat GPT account.
+[05:51] And yeah, if you've got an invite, you're lucky enough, that's what you're going to see here.
+[05:59] While recording this video, I will discover that Sora mobile application has internet connectivity issues when the iPhone is connected via cable to a Mac recording through quick time.
+[06:09] By the way, Sora 2 just became number one iOS app by downloads in the United States.
+[06:14] So I'll switch to the web version at Sora dot com.
+[06:18] Sora dot GPT dot com in fact.
+[06:20] And it has exactly the same functionality, though it's noticeably slower and can make the computer sluggish.
+[06:27] I usually close and reopen it every minute or so, like, especially once I see added to Q message after submitting a video prompt.
+[06:37] So this is the main fit like Instagram or TikTok community videos, trending prompts and Sora 2 showcases scroll through like and follow creators hitting this button.
+[06:51] You could see a remix button meeting that it was already remixed five times.
+[06:58] So shape snappers. This is the way you target somebody when you want him to participate in the video.
+[07:05] So basically, he did it for himself and left this prompt doing a food review whilst kind diving.
+[07:16] Let's do it.
+[07:19] Let's do this.
+[07:23] Okay. Now we could go back or navigate through.
+[07:30] Basically, you could filter at the top. This is for you following top latest.
+[07:36] That's all available here in the main fit.
+[07:40] Now let's visit profile page.
+[07:43] Here you see three sections, posts, hammers and likes.
+[07:54] Cameo is your personalized video.
+[07:59] Once you register in the system, you have to upload your face, turn it left, right, up, down.
+[08:08] Once you create a prompt, you get drafts, meaning that this is unfinished work.
+[08:15] And you could go here and just publish one of them once you're sure that this is something that you want to see in your posts.
+[08:27] Sora 2 generates you in the video, your face, your likeness, cinematic quality.
+[08:36] Let me create a video right now with this prompt.
+[08:41] Okay.
+[08:43] Samma, which is Sam Altman, founder and CEO of OpenAI.
+[08:53] James A. Abysov, which is me, as the new CTO of the OpenAI company in their office.
+[09:08] Modern attack office and Francisco skyline visible through windows, roll business,
+[09:21] tire, handshake, celebration, cinematic lighting.
+[09:32] And just to make things more interesting, let me also choose an image.
+[09:38] You cannot choose the video, but you could add an image.
+[09:44] So let's add something like use this image somewhere related to A. Abysov.
+[09:57] Okay.
+[10:01] Before we hit start, in the settings, you could choose orientation, portrait or landscape.
+[10:10] This time, I'm going to use landscape.
+[10:14] Let's go for it.
+[10:18] And now added to Q means that it was actually added to the Q and soon it's going to be processed.
+[10:30] We could see the spinner around the icon of a profile.
+[10:36] If you have a pro subscription, you could generate videos in HD quality and up to 20 seconds.
+[10:44] I have a plus one, so mine will be five or ten seconds.
+[10:49] If your video doesn't violate any policies, including third party likeness, it should appear in your drafts after three to five minutes.
+[10:59] Try refreshing the page.
+[11:02] And sometimes the video generated could be off.
+[11:06] If we click on this new video, we're thrilled to have you as our new CTO.
+[11:10] I'm excited to be here and can't wait to get started.
+[11:12] Everyone, please give Anton a warm welcome.
+[11:13] Thank you, everyone.
+[11:14] And before we're working with you, here's to.
+[11:17] And drop a comment below.
+[11:19] For example, the image that I've uploaded was seen on the screen, but this is not exactly what I've uploaded.
+[11:26] We could go to the posts that I have already.
+[11:31] This is the back button.
+[11:34] And just take one of those videos, which I've already generated with Sam Alpin.
+[11:42] Just to see basically how.
+[11:45] You can't blinds up perfectly what we're trying to.
+[11:47] We're really excited about what you're building easy.
+[11:48] You can't blinds up perfectly what we're trying to accomplish.
+[11:50] That's great to hear. It means a lot to have your support.
+[11:52] This agreement reflects the first transfer of $25 million.
+[11:54] It gives you the runway to grow the product and the brand.
+[11:56] 25 million.
+[11:57] We're really excited about what you're building.
+[11:58] And that's one is way better.
+[11:59] And from the posted videos, you could do a remix.
+[12:03] He's in this bottom.
+[12:04] That's great to hear.
+[12:05] It means a lot to have your support.
+[12:06] We're really excited about what you're building easy.
+[12:07] Champ lines up perfectly.
+[12:08] We'll let you reuse this in about a shape, probably.
+[12:15] So let's do something similar.
+[12:21] Welcome's Anton as a CTO of the open AI company in the office.
+[12:36] Sailboat in distance in window.
+[12:45] Let's generate it.
+[12:46] This is going to be every mix.
+[12:50] And this time if we go to drafts, we could see that the content may violate our guard rails
+[12:56] around potential fraudulent or scam activity.
+[12:59] So this request is not safe.
+[13:02] And in order to mitigate those violation issues, you could again bring the prompt
+[13:09] and put it into one of the AI tools.
+[13:11] It could be chat GPT, code or cloud desktop.
+[13:17] And a simple prompt like mitigate violation spam issue of open AI create a better prompt
+[13:36] to have my video generated.
+[13:42] And then after a few seconds, you will get a better prompt.
+[13:46] Let's make sure that it references some album and a bus of in this video.
+[13:59] Make it shorter.
+[14:01] Okay, let's copy this first part and replace this placeholder.
+[14:10] And get our video finally generated.
+[14:15] And this is going to be a remix.
+[14:17] Edit to the key.
+[14:18] And this time we've got our video finally generated.
+[14:21] I'll meet you. Welcome.
+[14:22] Thanks.
+[14:23] It's good to be here.
+[14:24] Thank you.
+[14:25] Finally, meet you. Welcome.
+[14:26] Thanks.
+[14:27] Good to see you.
+[14:28] Let's sit down and get started.
+[14:29] Absolutely.
+[14:30] Thank you.
+[14:31] Gorgeous interface and powerful features.
+[14:34] I have five sorrows to invite codes to give away.
+[14:40] And first five people who posted thought will comment below a genuine question or workflow idea
+[14:47] or how you'll use when a night and will receive an invite code on their YouTube email connected.
+[14:55] And you could always share a video with your friend works in incognito mode.
+[15:01] You don't have to authenticate in order to view the video or download the video.
+[15:08] And now let's jump into the automation part.
+[15:12] You'll install N8N and build your first workflow.
+[15:17] No fluff, just builds.
+[15:20] N8N is a fair code workflow automation.
+[15:24] Think Zapier or may.com
+[15:31] but sell hosted your data in your server.
+[15:37] No limits unlimited workflows unlimited executions.
+[15:42] Open source free forever.
+[15:44] And code when needed JavaScript for custom logic.
+[15:50] Visual workflow builder.
+[15:54] Or secops DevOps and many other workflows.
+[16:00] And 400 plus integrations.
+[16:04] Gmail discord obsidian.
+[16:06] Google sheets.
+[16:07] Cloud AI. Open AI.
+[16:10] If it has an API, N8N connects to it.
+[16:14] Perfect for automation that actually matters.
+[16:17] What can you build?
+[16:19] Email arrives.
+[16:20] Cloud a chat GPT analyzes intent.
+[16:22] Reply drafted and send.
+[16:25] Zero human input.
+[16:27] Or customer submits a form added to the database,
+[16:31] team notified, invoice created.
+[16:34] Four tools, one workflow, instant execution.
+[16:38] Or RSS feed update.
+[16:41] AI summarizes articles.
+[16:44] Posts to Twitter, LinkedIn, threads.
+[16:48] Content marketing on autopilot.
+[16:51] There are three ways you could leverage N8N.
+[16:54] From your local environment.
+[16:57] From remote machine, VM or hostinger.
+[17:04] Which is paid service.
+[17:07] Or another paid service.
+[17:09] N8N cloud.
+[17:11] You have to create your username.
+[17:14] And start trial.
+[17:16] Standard on local install.
+[17:18] This is what I'm using today.
+[17:19] Three simple and perfect for learning.
+[17:22] From the official documentation on GitHub.
+[17:25] So let's copy this command.
+[17:28] And run it in the terminal on macOS.
+[17:31] You could easily open this terminal.
+[17:34] And paste the command.
+[17:37] Npx and N8N.
+[17:40] It requires a no GS.
+[17:44] Of a higher version that the one that is installed currently.
+[17:48] So let's go to the no GS.org website.
+[17:53] And copy this command for version 22.20.
+[17:59] And execute it in our terminal.
+[18:05] Once it's executed.
+[18:08] We could call the NVM command.
+[18:13] Space LS.
+[18:15] And we will see that now it points to the version 22.
+[18:20] So Npx and N8N should succeed.
+[18:25] Once the installation is complete.
+[18:27] You will be able to reach this local host on this port.
+[18:34] And you will see something like this.
+[18:37] Or if I sign out.
+[18:40] You will most likely set a sign in page.
+[18:43] I also edit N8N as auto start with this command.
+[18:48] And if you are interested, please put a comment below.
+[18:51] I'll share it with you.
+[18:54] All right.
+[18:55] So we've got completely pre local installation of N8N.
+[18:59] Comparing to N8N cloud with $20 in started plan.
+[19:04] And hostinger, which has some major discounts on the black Friday.
+[19:09] But usually it's around $10 a month.
+[19:12] This is a huge savings.
+[19:14] So when you first run N8N locally,
+[19:17] you will be prompted to create a user and password.
+[19:20] I've already created one and I'm using it for signing.
+[19:23] First workflow.
+[19:25] This is the one you've been waiting for.
+[19:27] Let's press create workflow button.
+[19:30] And generate AI videos with Sora to own demand.
+[19:37] We need to add a manual trigger.
+[19:40] Then enter your prompt.
+[19:42] And open AI API generates the video.
+[19:46] Discord notification when it's ready.
+[19:49] Simple, powerful.
+[19:51] Let's scale that.
+[19:52] So you could trigger the workflow by clicking this item.
+[19:56] Or doing something like mimicking a chat
+[20:00] where we basically submit the four.
+[20:03] So for now, let's just remove this one.
+[20:06] And find another like own form submission trigger.
+[20:10] And add it to the page.
+[20:12] So this is the form where we could set the title.
+[20:16] For example, create.
+[20:20] Sora video.
+[20:23] And specify a form element,
+[20:26] which is in our case prompt.
+[20:29] Our type.
+[20:31] Text area, which is a required field.
+[20:35] And basically that's it.
+[20:38] That's all we want from the form the prompt.
+[20:42] So we could try to execute a step.
+[20:45] But in fact, nothing more than showing this form will happen.
+[20:50] So we could specify a prompt like generate an ocean view.
+[20:55] But once we submitted.
+[20:58] Nothing really happens because we don't have a process in connected.
+[21:02] We could click anywhere outside of this area and back to canvas.
+[21:05] And then go to this documentation of Sora.
+[21:10] We could scroll down to it and see some details.
+[21:13] But it's more interesting to know about the API itself.
+[21:18] And I'm clicking on API reference here in the right top corner.
+[21:22] So that you could jump right into this method to create a video.
+[21:27] And leverage it in our workflow.
+[21:30] As we have our previous step already executed.
+[21:33] We could actually specify the input parameter here like a prompt maybe.
+[21:39] And drag and drop from the left right into the value.
+[21:44] And basically we could see this syntax, which we could write down manually.
+[21:48] But of course it's more convenient to just drag and drop and then execute this step.
+[21:53] And now we could try to execute this step.
+[21:56] And what we see is authorization failed.
+[21:59] This is because we need to authenticate to access open AI API with the key.
+[22:07] So we need to go to this page, creating new secret key.
+[22:10] And once you select the project, default project in my case, and specify a name.
+[22:17] Your key and create a secret key.
+[22:21] You will get one, which you need to go and paste into this.
+[22:28] Section authentication generic credentials type.
+[22:35] And then we should use bearer authentication.
+[22:41] And provide a new credentials for it.
+[22:44] So I'm pasting in the bearer token my secret of an API key.
+[22:50] Click safe.
+[22:51] And that's it. Credential successfully saved.
+[22:54] And important note here.
+[22:56] So it's not just enough to have this key.
+[22:58] In fact, you should have your organization's verified meaning that if you go back and go to this general tab.
+[23:09] And look at this verifications.
+[23:13] I've already passed it with my license driver license, which is basically an government issue document.
+[23:21] So you have to do it for your company or for your person.
+[23:26] Now we could proceed to our flow.
+[23:30] But before clicking this execute step, we should know that every time we click this button and call an API,
+[23:41] we will be charged, which is basically 10 cents per second.
+[23:49] So I'd rather go to the API documentation here and look at the response.
+[23:57] So every time we post a request, we get a response with ID of our video.
+[24:05] And this is how we could track the progress, whether it's already processed, created or not.
+[24:11] As a next step, I would wait for video to be generated and then get the status of it.
+[24:19] So we could go back here.
+[24:21] I skip executing this step for now and just adding one more note, which is wait.
+[24:30] Specify 60 seconds and try to execute the step.
+[24:33] You don't need to click this because this is basically executing the call to the API,
+[24:39] posting a request.
+[24:42] And basically next step would be to get the video.
+[24:46] So I'm scrolling down in the documentation to this retrieve video endpoint and going to execute it with this URL.
+[24:56] And when the video is generated, this is the idea of a video we've been looking for.
+[25:03] So I'm going to create a new step adding, again, HTTP request.
+[25:11] This time it will be a get method and the URL will be exactly as we copied it here.
+[25:22] Based in the video ID from the previous step, I'm dragging and dropping it to this part
+[25:32] and replacing the placeholder that we had in the URL.
+[25:36] So we need to provide an authentication.
+[25:40] Again, I'm using these generic credential types.
+[25:45] And we're using the bearer authentication that I've already configured.
+[25:53] And now I could execute this step and get the status of the video for this ID.
+[26:03] Let's try to see.
+[26:05] This is the completed status we've got.
+[26:11] And a bunch of other information about the video.
+[26:14] It's four second video.
+[26:16] This is the size that looks like the video was generated.
+[26:20] I'm just going to rename this to get video heat safe.
+[26:25] I'm going back to the canvas.
+[26:27] I would add another step in case the video is not yet ready.
+[26:30] And we need to wait a little bit more.
+[26:32] So I'm using this if condition.
+[26:35] I'm bringing the status of our video into this condition box.
+[26:43] Basically we have the same syntax.
+[26:46] And it shows is equal to completed.
+[26:49] I write it exactly as it is here in the value.
+[26:55] So once I execute the step.
+[27:00] It's successful.
+[27:02] I want to connect the false statement to the wait.
+[27:10] And we could do it with a simple drag and drop.
+[27:13] And on the get video step.
+[27:15] We saw only information about the video.
+[27:17] We haven't seen the actual video content.
+[27:21] And this is because we need to expose another end point,
+[27:26] which is retrieve video content, which has a little bit different syntax.
+[27:31] So we have to add a new node for yes scenario,
+[27:37] which is another HTTP request.
+[27:40] We will call it video content.
+[27:44] Get video content.
+[27:46] And here we should specify the URL.
+[27:50] Again, replacing this video ID.
+[27:54] By just dragging and dropping this ID from the left.
+[27:59] Into the right place.
+[28:01] I did it wrong.
+[28:02] So I'll just change it.
+[28:05] Then specify the authentication, which we already know how to do.
+[28:12] And it should be it.
+[28:13] Let's click execute step.
+[28:15] After some time we get this output here.
+[28:18] And we can download or view.
+[28:22] It's just four seconds because of the default setting that we had.
+[28:27] But isn't it gorgeous?
+[28:30] We just automated video generation in a couple of clicks.
+[28:35] Let's do an improvement to our form submission.
+[28:38] I'm going back to this first step that we did.
+[28:41] And besides prompt field, I'm going to add another form element,
+[28:46] which we could call orientation.
+[28:50] Let's choose a drop down and specify two values.
+[28:55] The first one would be the portrait mode.
+[29:00] And I'm going back to the create video.
+[29:03] Just to see the default size that is specified here.
+[29:12] Okay, I'm going to provide an option.
+[29:17] And the other way around.
+[29:20] Or.
+[29:23] Landscape one.
+[29:25] And let's add another parameter, which is duration.
+[29:29] With some predefined values.
+[29:32] Or by default eight.
+[29:36] And 12.
+[29:37] The values that are specified.
+[29:40] Or API generation.
+[29:42] And then we'll have to map those form parameters to request parameters.
+[29:47] Seconds and size.
+[29:51] So I'm going to change the workflow.
+[29:55] This HTTP request, which is post one for a video.
+[30:01] I'm going to add another parameter here.
+[30:04] Called size and the value for it.
+[30:10] And at this point, we cannot drag and drop it from the left.
+[30:13] Just because it stores the results of the previous execution.
+[30:18] So I'm going to do it manually.
+[30:20] I'll just copy this and replace a name of prompt with orientation.
+[30:26] And we'll do the same for seconds.
+[30:30] And here I'm setting the duration.
+[30:34] Before I need the full workflow, let's add two more things.
+[30:39] Let's add alerts to Discord once when the submission starts.
+[30:45] And one when it's ready.
+[30:49] I'm going back to the canvas.
+[30:51] And once the HTTP post request is done, we could add another node,
+[30:56] which will be send a message.
+[31:01] And I want to rearrange it because basically it was a little bit broken.
+[31:09] So I will just remove this connection.
+[31:16] And build it by just dragging, dropping, and connecting those two.
+[31:21] So we want to send a message in parallel to Discord.
+[31:25] In order to do this, we will open this panel and choose the connection type.
+[31:31] The simplified version is web hook.
+[31:34] We don't need anything more than this for this specific scenario.
+[31:39] I'm going to create credentials.
+[31:42] In order to create credentials and specify a web hook, we need to go to actual Discord server.
+[31:49] By the way, this is the community of our AA power channel.
+[31:55] Feel free to join the server and share your ideas here.
+[32:00] I'll get some information.
+[32:03] You could create a channel, and I'm going to show you how to create a text channel here.
+[32:10] The same way I've just created the Sora videos channel.
+[32:13] And the idea is to click on integrations and enable a web hook.
+[32:20] To do this, we just need to click our new web hook.
+[32:24] And then copy web hook URL.
+[32:28] I'm closing this window.
+[32:32] Basically, all those messages should appear in this chat.
+[32:35] Okay, keep this web hook URL in secret.
+[32:39] I'm just going to paste it here and save it.
+[32:44] Going back, we could see the operation is send the message.
+[32:49] And we just need to provide a proper message to it.
+[32:53] And of course, we could use our JSON properties that we already have in the response to the post request.
+[33:01] So I'm going to put it like this.
+[33:08] Paste it like this with a prompt, video ID, status size, seconds.
+[33:16] And actually, it should be just ID.
+[33:24] And I'm just changing this prompt to grab it from the own form submission.
+[33:31] And now let's add the same after we get a video content.
+[33:37] So again, I'm clicking on the Discord,
+[33:42] choosing a send a message using the web hook, the same account.
+[33:50] And the message will be something different.
+[33:54] Now back to Canvas to our original step.
+[33:58] We are ready to execute the whole workflow.
+[34:01] I prepared a new prompt, which is actually about marrying a strange deep die.
+[34:07] So you could create a structure like this,
+[34:12] shown detailed description for each three seconds.
+[34:16] But actually, sort of two is good enough to manage just the simple prompts without this structure.
+[34:24] So first three seconds are about extreme close-up of my face inside professional dive helmet with lead lights.
+[34:34] Then camera pulls back revealing me in professional deep sea, diving suit, climax, wide shot.
+[34:44] Showing me suspended in deep ocean void and the resolution.
+[34:49] Camera orbits showing Anton ascending slowly.
+[34:54] There are a couple of details about technical stuff, professional atmospheric video,
+[35:01] and subtle branding about easy champ.
+[35:05] So we need to choose orientation this time.
+[35:07] I'll go in with landscape and duration maximum 12 seconds.
+[35:13] Okay, let's admit it.
+[35:16] And it's not running the whole workflow because this is a test version.
+[35:20] So we could activate our workflow, which means we could call production URL.
+[35:27] And what we actually need to do, once we activated the workflow,
+[35:31] go to the submission form, production URL, copy it, and paste in a new tab.
+[35:39] Before I need the full production flow, it makes sense to test each and every step first.
+[35:45] Let's start with this low execute step and let's go with simple approach.
+[35:54] I'll use a simple but a bit provocative prompt.
+[35:58] Sam Alpen welcomes Anton Abudov in Tesla office together with Elon Musk.
+[36:04] Set the simplest parameters per second because this is a test and submit.
+[36:12] Close the form and we could see that this tab go through.
+[36:18] Let's enter this court message.
+[36:20] And once it's executed, we could verify the execution step by going into this Discord channel.
+[36:28] Okay, this looks good.
+[36:33] Then get video and it will take a minute to wait before we see the results and what we see here.
+[36:42] Status failed and this is interesting.
+[36:45] Let's look at the next step.
+[36:48] If we try to execute this, we see that it's always going to the false branch, which is not good.
+[36:56] This is an infinite loop.
+[36:58] In order to fix this, we need to introduce another if with the condition.
+[37:06] Let's connect it first to the right place, removing this connection, moving it here and chaining it like this.
+[37:25] So that if it's not failed, we could send another Discord message.
+[37:35] Again, using the same channel.
+[37:39] And the message will be failed.
+[37:44] Now we see that the status failed.
+[37:46] Quickly rename it to failed alert.
+[37:51] Let's go to the Discord and this is the notification that we just got.
+[38:00] Let's make sure that another branch is connected to all.
+[38:06] In case it takes a lot of time, it will just loop again and wait.
+[38:12] So this looks better.
+[38:14] Let's quickly add meaningful names to all the elements here.
+[38:20] I'm going to clear the execution just to remove all this information that we have and start from scratch.
+[38:43] I'm going to the next one.
+[38:47] Let's check the status.
+[38:49] Now this is in progress.
+[38:52] And it looks like after this execution.
+[39:02] And definitely we need to check the status.
+[39:07] If it equals to failed, only in this case we should send a Discord message.
+[39:15] So now it's in a full state, meaning that it will wait for this video to be either failed or succeeded.
+[39:26] Let's run this if video status again.
+[39:29] And we could clearly see that it's still in progress.
+[39:32] It took me some time to understand that actually open AI API blocks human face references.
+[39:38] It means cameo via API equals moderation blocked.
+[39:43] I'm going to write a modified prompt.
+[39:46] An important stamp here is to use a different production URL.
+[39:52] Because we modified and we added two input fields here.
+[39:57] So the previous one was outdated.
+[40:00] Once we go to this page, I copy and paste the modified prompt,
+[40:07] which removes all references of me and adds just a professional DPC diver instead.
+[40:15] Other options like landscape again, maximum duration and let's submit it.
+[40:21] Going back to the workflow.
+[40:23] Let's see what we've got in the execution.
+[40:26] There is an error, which means that Discord doesn't allow a few symbols that we've sent to it.
+[40:33] Most likely this is because of the complicated structure of the prompt that we did when we sent request.
+[40:40] So instead of sending the full prompt into Discord, I'm going to rework it to send just the time now.
+[40:54] Running this production workflow again.
+[41:02] And after a few minutes of execution, let's check what we've got.
+[41:06] I'm going here.
+[41:08] And we've got a succeeded workflow.
+[41:12] Let's look at the result.
+[41:16] First, maybe let's switch to the Discord and we see all the details.
+[41:22] I'm going to clean up this from the prompt because obviously this is just a date when it was submitted.
+[41:30] Hooray, we have this video ID and I'm going to this video content.
+[41:37] Oh wow, 12 seconds of the amazing video.
+[41:44] Do you see this?
+[41:47] This is insane, exactly as we specified in the script with a professional diver.
+[41:54] What a job.
+[41:55] And if you like this video, please don't forget to subscribe, like and leave a comment below.
+[42:02] Yes! What a job.
+[42:04] What kind of AI automation.
+[42:07] Let's go back to the editor, save it, and give it a meaningful name.
+[42:18] And the last topic that I wanted to cover for today is N8NMCP.
+[42:24] Clot can control your N8N workflows with this model context protocol server.
+[42:34] Watch this.
+[42:36] Go into the GitHub and an installation is quite easy.
+[42:44] Today, let's look at the Clot desktop configuration.
+[42:48] I'm going to copy this and paste it into the Clot code desktop settings developer config.
+[43:02] And by the way, I've touched paste on this theory about MCP in my first video and you could find it below.
+[43:12] I have this N8NMCP already in the config, but I'll delete it.
+[43:18] Just edit this config again.
+[43:22] So basically, when I open this, this is the pretty much blend config that you have by default.
+[43:30] I'm going to paste something that I've just copied into the buffer.
+[43:38] And once you restart your Clot code desktop, you will be able to leverage this MCP server.
+[43:46] As I've restarted Clot desktop, which is different to the Clot code.
+[43:50] And this is how this program looks on Mac.
+[43:55] We should check if this tool is available for us.
+[43:59] So here, below connectors, I could see N8NMCP enabled.
+[44:06] Let's give it a try, build a workflow that sends discord test diagnostic message on manual trigger.
+[44:18] And after a few seconds, we could see some results.
+[44:21] Clot desktop is thinking and creating a JSON file with the workflow, which we could then copy into our N8N local installation.
+[44:36] Let's copy this file and import it into our N8NM.
+[44:42] I'm going back to our workflows, creating a new one.
+[44:46] And here, with the three dots, we have an option to import it from a file.
+[44:52] So we have to save what we've just copied into a file.
+[44:58] So I'm coming to my text editor, which is VS Code, hitting command N to create a new file, inserting what I've got in the buffer, and saving this file, then going back and trying to import it from a file.
+[45:18] Let's see.
+[45:22] Array, let's test this workflow, running the manual trigger, and then a discord message.
+[45:32] There is a problem. Let's see what kind of error it is.
+[45:36] Going to execution, and those are the details.
+[45:43] Let's go back to canvas, and let's review what we have in this message.
+[45:51] So obviously, it's too much.
+[45:55] This workflow and execution are not defined.
+[45:58] I'm going to remove it and execute this step again.
+[46:01] Array, it looks like it's working.
+[46:05] We've just leveraged N8NMCP server to generate a new workflow.
+[46:11] This is truly insane.
+[46:14] Real results, real time-safed.
+[46:17] This is not productivity. This is life-changing.
+[46:21] You build a system that worked for you. This is the future.
+[46:27] Yeah, look at this view, all trappers.
+[46:40] Coming in hot, subscribe, like, and comment below your next idea.
+[46:45] Make some noise.
