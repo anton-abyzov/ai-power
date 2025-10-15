@@ -23,7 +23,7 @@
 4. **Generate:** Tailored resumes in 2 minutes
 
 ### For Reference:
-- **[index.md](index.md)** - Complete documentation and overview
+- **[🎯 START_HERE.md](🎯%20START_HERE.md)** - Complete documentation and overview
 
 ---
 
@@ -33,8 +33,7 @@
 02-resume-fine-tuner/
 │
 ├── 📹 THE_FULL_SCRIPT.md              ← Complete video script (15-18 min)
-├── 🎯 START_HERE.md                   ← Quick start guide
-├── index.md                            ← Full documentation
+├── 🎯 START_HERE.md                   ← Quick start guide & full documentation
 ├── README.md                           ← This file
 │
 ├── prompts/
@@ -314,8 +313,7 @@ Everything is here:
 
 ## 📞 Questions?
 
-- 📖 Check [index.md](index.md) for full docs
-- 🎯 Read [START_HERE.md](🎯%20START_HERE.md) for quick start
+- 🎯 Read [START_HERE.md](🎯%20START_HERE.md) for quick start and full docs
 - 📹 Follow [THE_FULL_SCRIPT.md](📹%20THE_FULL_SCRIPT.md) for production
 - 💬 Open GitHub issue for support
 - 🎥 Comment on YouTube video
