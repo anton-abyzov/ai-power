@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="883.7750244140625" height="537.5218753814697" viewBox="0 0 883.7750244140625 537.5218753814697">
+  <rect width="883.7750244140625" height="537.5218753814697" fill="white"/>
+  <rect x="50" y="50" width="1422.0902979034636" height="986.2513868002226" stroke="#e0e0e0" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+  <rect x="354.33907318115234" y="50.0" width="219.12188720703125" height="47.50312423706055" stroke="#000" stroke-width="3" fill="#FFD60A" opacity="1.0"/>
+  <text x="377.5000762939453" y="81.25156211853027" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#000" opacity="1.0">Why Claude Code?</text>
+  <rect x="50.0" y="147.5031223297119" width="240.91876220703125" height="80.0062484741211" stroke="#059669" stroke-width="2" fill="#10B981" opacity="1.0"/>
+  <text x="62.189476013183594" y="182.50624656677246" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="62.189476013183594" dy="0">70% first-try success</tspan>
+    <tspan x="62.189476013183594" dy="1.2em">vs 45-60% others</tspan>
+  </text>
+  <rect x="340.91876220703125" y="147.5031223297119" width="245.96250915527344" height="80.0062484741211" stroke="#2563EB" stroke-width="2" fill="#3B82F6" opacity="1.0"/>
+  <text x="359.7000961303711" y="182.50624656677246" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="359.7000961303711" dy="0">Understands context</tspan>
+    <tspan x="359.7000961303711" dy="1.2em">like a senior dev</tspan>
+  </text>
+  <rect x="636.8812713623047" y="147.5031223297119" width="196.8937530517578" height="80.0062484741211" stroke="#DB2777" stroke-width="2" fill="#EC4899" opacity="1.0"/>
+  <text x="659.0082092285156" y="182.50624656677246" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="659.0082092285156" dy="0">Works anywhere</tspan>
+    <tspan x="659.0082092285156" dy="1.2em">Mac/Win/Linux</tspan>
+  </text>
+  <rect x="337.88126373291016" y="277.50937271118164" width="252.03750610351562" height="47.50312423706055" stroke="#FFD60A" stroke-width="3" fill="#000" opacity="1.0"/>
+  <text x="359.58009338378906" y="308.7609348297119" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#FFD60A" opacity="1.0">= Professional Choice</text>
+  <rect x="352.19219970703125" y="375.0124988555908" width="223.41563415527344" height="112.5093765258789" stroke="#6D28D9" stroke-width="3" fill="#7C3AED" opacity="1.0"/>
+  <text x="374.59007263183594" y="413.7671871185303" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="374.59007263183594" dy="0">Master this</tspan>
+    <tspan x="374.59007263183594" dy="1.2em">↓</tspan>
+    <tspan x="374.59007263183594" dy="1.2em">Control everything</tspan>
+  </text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-30OH4qH9" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 353.33907318115234 92.12012527252688 L 170.45899999999995 122.50300190734859 L 170.45899999999995 142.2030019073486" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-30OH4qH9)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-667EP_uj" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 463.9 98.50312423706055 L 463.9 142.20300190734864" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-667EP_uj)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-85w-jZQL" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 574.4609603881836 93.60960521355472 L 735.3280000000002 122.5030019073487 L 735.3280000000002 142.2030019073486" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-85w-jZQL)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-1qCMjWnm" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 170.45900000000046 228.509370803833 L 170.45900000000074 252.50900190734862 L 332.653 279.45600190734854" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-1qCMjWnm)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-eiFDEDda" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 463.9 228.509370803833 L 463.9 272.20900190734864" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-eiFDEDda)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-e07ZWe7L" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 735.3280000000002 228.509370803833 L 735.3280000000004 252.50900190734865 L 595.135 277.6900019073487" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-e07ZWe7L)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-xYHCRJhR" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 463.9 326.0124969482422 L 463.9 369.7120019073486" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-xYHCRJhR)"/>
+  </g>
+</svg>

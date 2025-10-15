@@ -1,0 +1,334 @@
+/* Enhanced UI/UX Styles for GitHub AI Power */
+
+/* Fix sidebar scrolling and active item visibility */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+    overflow-y: auto !important;
+    max-height: calc(100vh - 4rem) !important;
+}
+
+/* Ensure sidebar is always visible on desktop */
+@media screen and (min-width: 1220px) {
+    .md-sidebar--primary {
+        display: block !important;
+        position: sticky !important;
+        top: 0 !important;
+    }
+}
+
+.md-nav__item--active > .md-nav__link {
+    background-color: var(--md-primary-fg-color--light) !important;
+    padding: 0.6rem 1rem !important;
+    border-radius: 0.2rem !important;
+    font-weight: 600 !important;
+}
+
+/* Improve content spacing and readability */
+.md-content {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 2rem !important;
+}
+
+.md-typeset h1 {
+    margin-top: 0 !important;
+    margin-bottom: 2rem !important;
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+}
+
+.md-typeset h2 {
+    margin-top: 3rem !important;
+    margin-bottom: 1.5rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    padding-bottom: 0.5rem !important;
+    border-bottom: 2px solid var(--md-default-fg-color--lightest) !important;
+}
+
+.md-typeset h3 {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+}
+
+/* Better image and diagram display */
+.md-typeset img {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 2rem auto !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Fix diagram containers */
+div[data-testid="excalidraw-diagram"] {
+    margin: 2rem 0 !important;
+    padding: 1rem !important;
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+    overflow: hidden !important;
+}
+
+div[data-testid="excalidraw-diagram"] img {
+    margin: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+/* Improve table styling */
+.md-typeset table {
+    width: 100% !important;
+    margin: 2rem 0 !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.md-typeset table th {
+    background-color: var(--md-primary-fg-color) !important;
+    color: white !important;
+    padding: 1rem !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+}
+
+.md-typeset table td {
+    padding: 1rem !important;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest) !important;
+}
+
+/* Enhanced cards/grid */
+.md-typeset .grid.cards {
+    gap: 1.5rem !important;
+    margin: 2rem 0 !important;
+}
+
+.md-typeset .grid.cards > * {
+    padding: 1.5rem !important;
+    border-radius: 8px !important;
+    border: 1px solid var(--md-default-fg-color--lightest) !important;
+    transition: all 0.3s ease !important;
+}
+
+.md-typeset .grid.cards > *:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+    border-color: var(--md-primary-fg-color) !important;
+}
+
+/* Better code blocks */
+.md-typeset pre {
+    border-radius: 8px !important;
+    margin: 1.5rem 0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Navigation improvements */
+.md-nav__link {
+    transition: all 0.2s ease !important;
+    padding: 0.4rem 1rem !important;
+    border-radius: 0.2rem !important;
+}
+
+.md-nav__link:hover {
+    background-color: var(--md-default-fg-color--lightest) !important;
+}
+
+/* Fix sidebar visibility on scroll */
+.md-sidebar {
+    position: sticky !important;
+    top: 0 !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* Better list spacing */
+.md-typeset ul li,
+.md-typeset ol li {
+    margin-bottom: 0.5rem !important;
+    line-height: 1.8 !important;
+}
+
+/* Enhanced blockquotes */
+.md-typeset blockquote {
+    border-left: 4px solid var(--md-primary-fg-color) !important;
+    background-color: var(--md-default-fg-color--lightest) !important;
+    padding: 1rem 1.5rem !important;
+    margin: 2rem 0 !important;
+    border-radius: 0 8px 8px 0 !important;
+}
+
+/* Better admonition styling */
+.md-typeset .admonition {
+    margin: 2rem 0 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 768px) {
+    .md-content {
+        padding: 1rem !important;
+    }
+
+    .md-typeset h1 {
+        font-size: 2rem !important;
+    }
+
+    .md-typeset h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .md-typeset table {
+        font-size: 0.9rem !important;
+    }
+
+    .md-typeset table th,
+    .md-typeset table td {
+        padding: 0.5rem !important;
+    }
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] div[data-testid="excalidraw-diagram"] {
+    background: #2e2e2e !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table th {
+    background-color: var(--md-primary-fg-color--dark) !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > * {
+    background: var(--md-code-bg-color) !important;
+    border-color: var(--md-default-fg-color--lighter) !important;
+}
+
+/* Fix TOC alignment */
+.md-nav--secondary {
+    border-left: 2px solid var(--md-default-fg-color--lightest) !important;
+    padding-left: 1rem !important;
+}
+
+.md-nav--secondary .md-nav__item--active > .md-nav__link {
+    color: var(--md-primary-fg-color) !important;
+    font-weight: 600 !important;
+}
+
+/* Ensure images in diagrams are visible */
+.md-typeset img[src*="frames"] {
+    min-height: 200px !important;
+    object-fit: contain !important;
+}
+
+/* Fix navigation footer spacing - reduced height */
+.md-footer-nav {
+    margin-top: 2rem !important;
+    padding: 1rem 0 !important;
+    border-top: 1px solid var(--md-default-fg-color--lightest) !important;
+}
+
+.md-footer {
+    padding: 0.5rem 0 !important;
+}
+
+.md-footer-meta {
+    padding: 0.5rem !important;
+}
+
+/* Better link styling */
+.md-typeset a {
+    color: var(--md-primary-fg-color) !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid transparent !important;
+    transition: border-color 0.2s ease !important;
+}
+
+.md-typeset a:hover {
+    border-bottom-color: var(--md-primary-fg-color) !important;
+}
+
+/* Fix list formatting - force bullets to show */
+.md-typeset ul:not(.md-nav__list):not(.task-list) {
+    margin-left: 1.5rem !important;
+    padding-left: 1rem !important;
+    list-style: disc !important;
+    list-style-position: outside !important;
+}
+
+.md-typeset ul:not(.md-nav__list):not(.task-list) > li {
+    list-style: disc !important;
+    list-style-position: outside !important;
+    display: list-item !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.md-typeset ul:not(.md-nav__list):not(.task-list) li::before {
+    content: none !important;
+}
+
+.md-typeset ol:not(.md-nav__list) {
+    margin-left: 1.5rem !important;
+    padding-left: 1rem !important;
+    list-style: decimal !important;
+    list-style-position: outside !important;
+}
+
+.md-typeset ol:not(.md-nav__list) > li {
+    list-style: decimal !important;
+    list-style-position: outside !important;
+    display: list-item !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Remove any custom markers that MkDocs adds */
+.md-typeset li::marker {
+    unicode-bidi: isolate !important;
+    font-variant-numeric: tabular-nums !important;
+    text-transform: none !important;
+    text-indent: 0 !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+/* Nested lists */
+.md-typeset ul ul {
+    list-style-type: circle !important;
+}
+
+.md-typeset ul ul ul {
+    list-style-type: square !important;
+}
+
+/* Ensure navigation and other special lists don't get bullets */
+.md-nav__list,
+.md-nav__item,
+.md-tabs__list,
+.md-tabs__item,
+.task-list {
+    list-style-type: none !important;
+    list-style: none !important;
+}
+
+.md-nav__list li::before,
+.md-nav__item::before,
+.md-tabs__item::before {
+    content: none !important;
+}
+
+/* Fix content overflow */
+.md-typeset {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+}

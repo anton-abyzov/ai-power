@@ -1,0 +1,203 @@
+site_name: GitHub AI Power
+site_description: Build Professional Websites in 60 Minutes with AI - No Coding Required
+site_author: Anton Abyzov
+site_url: https://anton-abyzov.github.io/ai-power
+repo_url: https://github.com/anton-abyzov/ai-power
+repo_name: anton-abyzov/ai-power
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  icon:
+    repo: fontawesome/brands/github
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - content.action.edit
+    - content.action.view
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      lang:
+        - en
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+
+extra_css:
+  - stylesheets/extra.css
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: anton-abyzov
+      repo: ai-power
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://youtube.com/@antonabyzov
+      name: Subscribe on YouTube
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/in/antonabyzov/
+      name: Connect on LinkedIn
+    - icon: simple/x
+      link: https://x.com/aabyzov
+      name: Follow on X
+    - icon: simple/github
+      link: https://github.com/anton-abyzov
+      name: GitHub Profile
+    - icon: material/web
+      link: https://antonabyzov.com
+      name: Personal Website
+
+  generator: false
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+
+  - Episode 03 (Latest):
+    - "🎯 Start Here": episodes/03-n8n-automation/🎯 START_HERE.md
+    - "📹 Full Script": episodes/03-n8n-automation/📹 THE_FULL_SCRIPT.md
+    - "⏰ Timestamps": episodes/03-n8n-automation/⏰ TIMESTAMPS.md
+    - "📄 Full Transcript": episodes/03-n8n-automation/📄 FULL_TRANSCRIPT.txt
+    - "🎥 Sora 2 Video Prompts": episodes/03-n8n-automation/SORA_2_VIDEO_PROMPTS.md
+    - Prompts:
+      - "🤖 N8N Automation Agent": episodes/03-n8n-automation/prompts/n8n-automation-agent.md
+      - "💬 Claude Workflow Prompts": episodes/03-n8n-automation/prompts/claude-workflow-prompts.md
+    - Templates:
+      - "📋 Workflow Templates": episodes/03-n8n-automation/templates/README.md
+
+  - Episode 02:
+    - "🎯 Start Here": episodes/02-resume-fine-tuner/🎯 START_HERE.md
+    - "📹 Full Script": episodes/02-resume-fine-tuner/📹 THE_FULL_SCRIPT.md
+    - Prompts:
+      - "📝 Resume Fine-Tuner Agent": episodes/02-resume-fine-tuner/prompts/resume-fine-tuner-agent.md
+      - "📋 All Claude Prompts": episodes/02-resume-fine-tuner/prompts/ALL_CLAUDE_PROMPTS.md
+    - Templates:
+      - "💼 Software Engineer": episodes/02-resume-fine-tuner/templates/experience-software-engineer.md
+      - "📢 Marketing Manager": episodes/02-resume-fine-tuner/templates/experience-marketing-manager.md
+      - "🏠 Real Estate Agent": episodes/02-resume-fine-tuner/templates/experience-real-estate-agent.md
+
+  - Episode 01:
+    - Start Here: episodes/01-portfolio-no-code/index.md
+    - Quick Start:
+      - "🚀 Introduction": episodes/01-portfolio-no-code/content/00-introduction.md
+      - "⚙️ Obsidian Setup": episodes/01-portfolio-no-code/content/01-obsidian-setup.md
+      - "🔧 AI Tools Landscape": episodes/01-portfolio-no-code/content/02-ai-tools-landscape.md
+      - "🤖 Claude Install": episodes/01-portfolio-no-code/content/03-claude-code-install.md
+      - "📋 Commands Reference": episodes/01-portfolio-no-code/content/claude-commands.md
+    - Build Your Site:
+      - "👤 Agent Creation": episodes/01-portfolio-no-code/content/04-agent-creation.md
+      - "📁 Portfolio Prep": episodes/01-portfolio-no-code/content/05-portfolio-prep.md
+      - "✨ Master Prompt": episodes/01-portfolio-no-code/content/06-master-prompt.md
+      - "🌐 GitHub Deploy": episodes/01-portfolio-no-code/content/07-github-deploy.md
+      - "🎬 Closing": episodes/01-portfolio-no-code/content/08-closing.md
+    - Prompts & Resources:
+      - "📝 Agent Definition": episodes/01-portfolio-no-code/prompts/agent-definition.md
+      - "🎯 Master Prompt": episodes/01-portfolio-no-code/prompts/master-prompt.md
+      - "📚 All Resources": episodes/RESOURCES.md
+
+  - Community:
+    - Showcase: community/showcase.md
+    - Contributions: community/contributions.md
+
+copyright: >
+  Copyright &copy; 2025 Anton Abyzov |
+  <a href="https://youtube.com/@antonabyzov" target="_blank">Subscribe on YouTube</a>

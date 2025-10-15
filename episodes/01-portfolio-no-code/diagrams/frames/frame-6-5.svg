@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="965.875" height="620.0312519073489" viewBox="0 0 965.875 620.0312519073489">
+  <rect width="965.875" height="620.0312519073489" fill="white"/>
+  <rect x="50" y="50" width="1243.5978641827958" height="846.9071836717162" stroke="#e0e0e0" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+  <rect x="615.7468872070312" y="50.0" width="300.12811279296875" height="260.01873779296875" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="667.6610107421875" y="75.0" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">With Agents - $0.15</text>
+  <rect x="650.7468872070312" y="75.0" width="230.1281280517578" height="210.0187530517578" stroke="#059669" stroke-width="2" fill="#10b981" opacity="1.0"/>
+  <text x="674.1810302734375" y="125.0093765258789" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="674.1810302734375" dy="0">Multiple Specialists</tspan>
+    <tspan x="674.1810302734375" dy="1.2em">━━━━━</tspan>
+    <tspan x="674.1810302734375" dy="1.2em">Agent 1: 5K</tspan>
+    <tspan x="674.1810302734375" dy="1.2em">Agent 2: 5K</tspan>
+    <tspan x="674.1810302734375" dy="1.2em">Agent 3: 5K</tspan>
+    <tspan x="674.1810302734375" dy="1.2em">Total: 15K</tspan>
+  </text>
+  <rect x="50.0" y="50.0" width="292.1031188964844" height="260.01873779296875" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="78.5216293334961" y="75.0" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Without Agents - $0.50</text>
+  <rect x="85.0" y="75.0" width="222.10313415527344" height="210.0187530517578" stroke="#dc2626" stroke-width="2" fill="#ef4444" opacity="1.0"/>
+  <text x="99.73161315917969" y="125.0093765258789" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">
+    <tspan x="99.73161315917969" dy="0">One Conversation</tspan>
+    <tspan x="99.73161315917969" dy="1.2em">━━━━━</tspan>
+    <tspan x="99.73161315917969" dy="1.2em">Task 1: 10K</tspan>
+    <tspan x="99.73161315917969" dy="1.2em">Task 2: +15K = 25K</tspan>
+    <tspan x="99.73161315917969" dy="1.2em">Task 3: +15K = 40K</tspan>
+    <tspan x="99.73161315917969" dy="1.2em">Fixes: +10K = 50K</tspan>
+  </text>
+  <rect x="377.10313415527344" y="156.2578125" width="203.6437530517578" height="47.50312423706055" stroke="#ffd60a" stroke-width="3" fill="#000" opacity="1.0"/>
+  <text x="397.5450668334961" y="187.50937461853027" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#ffd60a" opacity="1.0">Agent Economics</text>
+  <rect x="63.310935974121094" y="360.0187530517578" width="265.48126220703125" height="112.5093765258789" stroke="#ef4444" stroke-width="2" fill="#fff" opacity="1.0"/>
+  <text x="86.8016357421875" y="398.77344131469727" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#000" opacity="1.0">
+    <tspan x="86.8016357421875" dy="0">❌ Confused Context</tspan>
+    <tspan x="86.8016357421875" dy="1.2em">❌ Accumulated Errors</tspan>
+    <tspan x="86.8016357421875" dy="1.2em">❌ $0.50</tspan>
+  </text>
+  <rect x="664.0546951293945" y="360.0187530517578" width="203.51251220703125" height="112.5093765258789" stroke="#10b981" stroke-width="2" fill="#fff" opacity="1.0"/>
+  <text x="677.6110153198242" y="398.77344131469727" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#000" opacity="1.0">
+    <tspan x="677.6110153198242" dy="0">✅ Fresh Context</tspan>
+    <tspan x="677.6110153198242" dy="1.2em">✅ Focused Tasks</tspan>
+    <tspan x="677.6110153198242" dy="1.2em">✅ $0.15</tspan>
+  </text>
+  <rect x="699.9515686035156" y="522.5281276702883" width="131.71876525878906" height="47.50312423706055" stroke="#000" stroke-width="3" fill="#ffd60a" opacity="1.0"/>
+  <text x="706.5409774780273" y="553.7796897888186" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#000" opacity="1.0">70% SAVED</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-6u5IW0NH" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 196.052 286.0187530517578 L 196.052 310.01900000000023 L 196.0516357486273 354.7190000000003" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-6u5IW0NH)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-lfZiwRv9" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 765.8110000000001 286.0187530517576 L 765.8110000000001 310.01900000000023 L 765.811 354.7190000000003" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-lfZiwRv9)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-qD3NJLNg" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 765.8109999999849 473.5281295776367 L 765.8109999999732 517.2280000000003" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-qD3NJLNg)"/>
+  </g>
+</svg>

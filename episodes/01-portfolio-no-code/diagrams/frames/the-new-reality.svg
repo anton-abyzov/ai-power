@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1702.4250411987305" height="634.2750091552734" viewBox="0 0 1702.4250411987305 634.2750091552734">
+  <rect width="1702.4250411987305" height="634.2750091552734" fill="white"/>
+  <rect x="50" y="50" width="1793.1496756417412" height="1005.4219491141182" stroke="#e0e0e0" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+  <ellipse cx="801.212516784668" cy="158.0093765258789" rx="108.0093765258789" ry="108.0093765258789" stroke="#1e1e1e" stroke-width="2" fill="#ffc9c9" opacity="1.0"/>
+  <text x="754.718366723695" y="153.1352139526989" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="754.718366723695" dy="0">THE NEW</tspan>
+    <tspan x="754.718366723695" dy="1.2em">REALITY</tspan>
+  </text>
+  <ellipse cx="104.49687576293945" cy="450.1468811035156" rx="54.49687576293945" ry="54.49687576293945" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="77.47178275250371" y="445.11177069806035" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="77.47178275250371" dy="0">❌</tspan>
+    <tspan x="77.47178275250371" dy="1.2em">HTML</tspan>
+  </text>
+  <ellipse cx="252.35781478881836" cy="450.1468811035156" rx="43.36406326293945" ry="43.36406326293945" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="233.46481112704123" y="444.9838579104885" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="233.46481112704123" dy="0">❌</tspan>
+    <tspan x="233.46481112704123" dy="1.2em">CSS</tspan>
+  </text>
+  <ellipse cx="427.33594512939453" cy="450.1468811035156" rx="81.61406707763672" ry="81.61406707763672" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="376.04613643329094" y="444.937020832705" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="376.04613643329094" dy="0">❌</tspan>
+    <tspan x="376.04613643329094" dy="1.2em">JavaScript</tspan>
+  </text>
+  <ellipse cx="614.1125144958496" cy="450.1468811035156" rx="55.16250228881836" ry="55.16250228881836" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="585.0467603897973" y="445.1411016678735" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="585.0467603897973" dy="0">❌</tspan>
+    <tspan x="585.0467603897973" dy="1.2em">React</tspan>
+  </text>
+  <ellipse cx="801.212516784668" cy="450.1468811035156" rx="81.9375" ry="81.9375" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="748.4439988465078" y="445.208319220043" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="748.4439988465078" dy="0">❌</tspan>
+    <tspan x="748.4439988465078" dy="1.2em">TypeScript</tspan>
+  </text>
+  <ellipse cx="999.7125244140625" cy="450.1468811035156" rx="66.56250762939453" ry="66.56250762939453" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="964.4557443433137" y="445.08008058598944" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="964.4557443433137" dy="0">❌</tspan>
+    <tspan x="964.4557443433137" dy="1.2em">Node.js</tspan>
+  </text>
+  <ellipse cx="1250.4031600952148" cy="450.1468811035156" rx="134.1281280517578" ry="134.1281280517578" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="1190.6402759211976" y="445.3039722102599" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="1190.6402759211976" dy="0">❌ 6 months</tspan>
+    <tspan x="1190.6402759211976" dy="1.2em">bootcamp</tspan>
+  </text>
+  <ellipse cx="1543.4781646728516" cy="450.1468811035156" rx="108.9468765258789" ry="108.9468765258789" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="1488.2911032252193" y="445.109805922973" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">
+    <tspan x="1488.2911032252193" dy="0">❌ $15,000</tspan>
+    <tspan x="1488.2911032252193" dy="1.2em">tuition</tspan>
+  </text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-Yaa2UNCk" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 694.1370063698805 178.45147132982538 L 104.49699999999984 291.01900000000023 L 104.49684489705987 390.34999999987895" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-Yaa2UNCk)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-3VUje3Ln" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 695.2697152521032 183.68362381752013 L 252.35800000000035 291.01900000000006 L 252.35774285849038 401.48299999970095" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-3VUje3Ln)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-QDltxpuD" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 698.5088926562257 194.54716191914713 L 427.33599999999973 291.01900000000023 L 427.33600000000024 363.2330000000002" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-QDltxpuD)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-bxhxcclL" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 712.3658981552094 221.17046049910095 L 614.1129999999996 291.0190000000002 L 614.1129999999998 389.6840000000002" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-bxhxcclL)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-f7FRnNdd" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 801.212999999999 267.0187530506869 L 801.2129999999988 291.01900000000006 L 801.2129999999993 362.9090000000001" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-f7FRnNdd)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-3hRgvUsX" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 891.7708750203371 218.690740421403 L 999.7129999999992 291.0190000000002 L 999.7129999999997 378.2840000000001" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-3hRgvUsX)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-bwUhBsE7" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 905.7357646030964 188.95989891320278 L 1250.4029999999998 291.0189999999999 L 1250.4029999999998 310.71900000000005" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-bwUhBsE7)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-9pjSnX9q" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 908.5126818439203 177.23744842136875 L 1543.4780000000005 291.019 L 1543.4780000000005 335.9000000000001" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-9pjSnX9q)"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+{
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "global-search:open": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "auto-card-link:auto-card-link-paste-and-enhance": [],
+  "paste-link:paste-as-plain-text": [],
+  "paste-link:paste-link": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "workspace:open-in-new-window": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "auto-card-link:auto-card-link-enhance-selected-url": []
+}

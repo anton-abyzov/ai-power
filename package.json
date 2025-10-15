@@ -1,0 +1,26 @@
+{
+  "name": "githubaipower",
+  "version": "1.0.0",
+  "description": "Build anything with AI. No code required.",
+  "main": "test-deployment.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npm run test:e2e",
+    "test:e2e": "python3 tests/test_full_navigation_e2e.py",
+    "test:e2e:basic": "python3 tests/test_navigation_e2e.py",
+    "test:e2e:production": "python3 tests/test_production.py",
+    "test:all": "pytest tests/ -v",
+    "serve": "mkdocs serve",
+    "build": "mkdocs build",
+    "deploy": "mkdocs gh-deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "excalidraw-to-svg": "^3.1.0",
+    "playwright": "^1.55.0"
+  }
+}

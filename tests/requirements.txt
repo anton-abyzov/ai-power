@@ -1,0 +1,8 @@
+# Test Dependencies
+playwright==1.52.0
+pytest==8.3.2
+pytest-playwright==0.5.1
+
+# Install with:
+# pip install -r tests/requirements.txt
+# playwright install chromium

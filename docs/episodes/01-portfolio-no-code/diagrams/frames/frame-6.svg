@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1487.2174027581968" height="492.50939178466797" viewBox="0 0 1487.2174027581968 492.50939178466797">
+  <rect width="1487.2174027581968" height="492.50939178466797" fill="white"/>
+  <rect x="50" y="50" width="1733.2449237315845" height="1078.89996770239" stroke="#e0e0e0" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+  <rect x="95.78612834413434" y="345.0062484741211" width="1341.4312744140625" height="97.50314331054688" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="678.5218232293882" y="370.0062484741211" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">What It Connects</text>
+  <rect x="130.78612834413434" y="370.00624656677246" width="106.38750457763672" height="47.50312423706055" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="139.0198968072691" y="401.25780868530273" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Your IDE</text>
+  <rect x="463.21739131410504" y="370.00624656677246" width="142.54689025878906" height="47.50312423706055" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="479.34088069398786" y="401.25780868530273" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">File System</text>
+  <rect x="826.3189652581968" y="370.00624656677246" width="127.43437957763672" height="47.50312423706055" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="837.646201433734" y="401.25780868530273" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Databases</text>
+  <rect x="1133.5923989434996" y="370.00624656677246" width="97.51875305175781" height="47.50312423706055" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="1141.8418038507261" y="401.25780868530273" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Any API</text>
+  <rect x="1281.1111519952574" y="370.00624656677246" width="121.10625457763672" height="47.50312423706055" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="1292.3643143792906" y="401.25780868530273" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Git Repos</text>
+  <rect x="50.0" y="197.0141307971444" width="1305.6531982421875" height="97.50312805175781" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="594.8466491699219" y="222.0141307971444" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">Who Supports It NOW</text>
+  <rect x="85.0" y="222.01412888979576" width="298.2843933105469" height="47.50312423706055" stroke="#1e40af" stroke-width="2" fill="#3b82f6" opacity="1.0"/>
+  <text x="112.25227355957031" y="253.26569100832603" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">Claude Code Full Support</text>
+  <rect x="433.2843933105469" y="222.01412888979576" width="302.7375183105469" height="47.50312423706055" stroke="#047857" stroke-width="2" fill="#10b981" opacity="1.0"/>
+  <text x="454.30323791503906" y="253.26569100832603" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">ChatGPT Just Announced!</text>
+  <rect x="786.0218963623047" y="222.01412888979576" width="308.3531188964844" height="47.50312423706055" stroke="#d97706" stroke-width="2" fill="#f59e0b" opacity="1.0"/>
+  <text x="810.008544921875" y="253.26569100832603" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">VSCode Native Integration</text>
+  <rect x="1144.3750228881836" y="222.01412888979576" width="176.2781219482422" height="47.50312423706055" stroke="#be185d" stroke-width="2" fill="#ec4899" opacity="1.0"/>
+  <text x="1161.9541473388672" y="253.26569100832603" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">Cursor Built-in</text>
+  <rect x="140.3595650811949" y="50.0" width="1110.9742431640625" height="97.50312805175781" stroke="#1e1e1e" stroke-width="2" fill="none" opacity="1.0"/>
+  <text x="528.0867989679136" y="75.0" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#1e1e1e" opacity="1.0">MCP Protocol (Anthropic Created)</text>
+  <rect x="465.15723353822614" y="74.99999809265137" width="494.2125244140625" height="47.50312423706055" stroke="#6d28d9" stroke-width="3" fill="#8b5cf6" opacity="1.0"/>
+  <text x="499.19361049135114" y="106.25156021118164" font-size="20" font-family="Virgil, Segoe UI Emoji" fill="#fff" opacity="1.0">Model Context Protocol Universal Standard</text>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-sZcOkStZ" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 464.15723353822614 121.64732474803463 L 183.9796839776797 147.50299999999964 L 183.9796839776797 172.50299999999964 L 269.1637154932405 196.0141307971444" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-sZcOkStZ)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-CquC8v-q" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 622.0067178999388 123.50312232971169 L 534.4906839776786 147.503 L 534.4906839776786 172.503 L 616.4450684684507 138.5031223297119" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-CquC8v-q)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-huO2i2aB" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 802.5206100505295 123.50312232971191 L 890.0356839776811 147.503 L 890.0356839776811 172.503 L 808.081586940538 138.5031223297119" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-huO2i2aB)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-ILPuUKCY" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 950.932383544377 123.50312232971169 L 1182.3516839776796 147.50299999999976 L 1182.3516839776796 172.50299999999976 L 1131.279420134241 196.01413079714416" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-ILPuUKCY)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-VRGErayQ" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 208.92695793862094 270.5172531268563 L 183.9796839776786 295.00599999999974 L 183.9796839776786 320.00599999999974 L 206.68754910238204 342.83739704395225" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-VRGErayQ)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-w9gAD4iN" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 559.4379616850074 270.5172531268563 L 534.49068397768 295.0059999999998 L 534.49068397768 320.00599999999974 L 556.2126028199596 346.8636188367136" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-w9gAD4iN)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-o18QlAJu" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 914.9829382295434 270.51725312685653 L 890.0356839776789 295.0059999999997 L 890.0356839776789 320.00599999999963 L 915.7467763091411 344.0062484741211" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-o18QlAJu)"/>
+  </g>
+  <g opacity="1.0">
+    <defs>
+      <marker id="arrowhead-dEadfrlr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 0 L 10 3 L 0 6 L 3 3 z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M 1207.2989623561243 270.5172531268563 L 1182.351683977679 295.00600000000003 L 1182.351683977679 320.006 L 1200.4099456267923 348.1057946536853" stroke="#1e1e1e" stroke-width="2" fill="none" marker-end="url(#arrowhead-dEadfrlr)"/>
+  </g>
+</svg>
