@@ -25,18 +25,31 @@
 ## 🎥 Latest Episode
 
 <div style="margin: 2rem 0;">
-  <iframe width="760" height="427" src="https://www.youtube.com/embed/RfwZSRRRtmY" title="AI Resume Agent That Gets 6x More Interviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="760" height="427" src="https://www.youtube.com/embed/c7xZb556RkI" title="I Spent 48 Hours Automating SORA 2 - Here's What ACTUALLY Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-### Episode 02: Resume Fine-Tuner with Claude Sonnet 4.5 🆕
+### Episode 03: N8N + SORA 2 Automation 🆕
 
 !!! success "What You'll Build"
+    - AI video generation workflow with SORA 2
+    - N8N automation (free, self-hosted)
+    - Real debugging and problem-solving
+    - Discord notifications and API integration
+    - Works with OpenAI SORA 2 API
+
+[**→ Start Building Now**](episodes/03-n8n-automation/🎯%20START_HERE/){ .md-button .md-button--primary }
+
+---
+
+### Episode 02: Resume Fine-Tuner with Claude Sonnet 4.5
+
+!!! info "AI-Powered Job Search"
     - AI agent that tailors resumes in 2 minutes
     - 90%+ ATS keyword matching
     - 6x more interviews (proven results)
     - Works for ANY profession
 
-[**→ Start Building Now**](episodes/02-resume-fine-tuner/🎯%20START_HERE/){ .md-button .md-button--primary }
+[**→ View Episode 02**](episodes/02-resume-fine-tuner/🎯%20START_HERE/){ .md-button }
 
 ---
 
@@ -93,7 +106,14 @@
 
 ### ✅ Available Now
 
-- **[Episode 02: Resume Fine-Tuner](episodes/02-resume-fine-tuner/🎯%20START_HERE/)** 🆕 - AI agent for job search automation
+- **[Episode 03: N8N + SORA 2 Automation](episodes/03-n8n-automation/🎯%20START_HERE/)** 🆕 - Build AI video generation workflows
+  - OpenAI SORA 2 API integration
+  - N8N workflow automation
+  - Real debugging shown live
+  - Discord notifications
+  - 46-minute deep dive
+
+- **[Episode 02: Resume Fine-Tuner](episodes/02-resume-fine-tuner/🎯%20START_HERE/)** - AI agent for job search automation
   - Claude Sonnet 4.5 powered
   - 6x more interviews
   - 2-minute resume generation
@@ -196,8 +216,11 @@
     Transform your ideas into reality in the next 60 minutes
   </p>
   <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-    <a href="episodes/02-resume-fine-tuner/🎯%20START_HERE/" class="md-button md-button--primary" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
-      🆕 Episode 02: Resume Agent
+    <a href="episodes/03-n8n-automation/🎯%20START_HERE/" class="md-button md-button--primary" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
+      🆕 Episode 03: SORA 2 Automation
+    </a>
+    <a href="episodes/02-resume-fine-tuner/🎯%20START_HERE/" class="md-button" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
+      📄 Episode 02: Resume Agent
     </a>
     <a href="episodes/01-portfolio-no-code/index/" class="md-button" style="font-size: 1.1rem; padding: 0.75rem 2rem;">
       🚀 Episode 01: Portfolios

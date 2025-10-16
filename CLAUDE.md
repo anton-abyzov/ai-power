@@ -225,3 +225,54 @@ tests/
 - **Keep Clean**: Root folder is for config files only
 - **Wait**: 5-10 min for CDN updates after deploy
 - **Debug**: Check GitHub Actions logs first
+
+## 🚨 CRITICAL: When Publishing New Episodes
+
+**ALWAYS UPDATE THESE FILES AFTER PUBLISHING A NEW YOUTUBE VIDEO:**
+
+### 1. README.md (GitHub homepage)
+```markdown
+## 📺 Latest Episode
+**[03: N8N + SORA 2 Automation](episodes/03-n8n-automation)** - Build video generation workflows
+```
+
+Update:
+- Latest Episode section (line ~13)
+- YouTube link in table
+- Episode number
+
+### 2. docs/index.md (Website homepage)
+```markdown
+## 🎥 Latest Episode
+
+<div style="margin: 2rem 0;">
+  <iframe width="760" height="427" src="https://www.youtube.com/embed/[VIDEO_ID]" ...></iframe>
+</div>
+
+### Episode 03: N8N + SORA 2 Automation 🆕
+```
+
+Update:
+- YouTube embed iframe src (line ~28)
+- Episode title and number (line ~31)
+- Episode description
+- "Available Now" section (line ~96)
+- Move previous "latest" episode down
+
+### 3. Checklist Before Publishing
+- [ ] YouTube video published and URL confirmed
+- [ ] Episode folder exists in `docs/episodes/[episode-name]/`
+- [ ] README.md "Latest Episode" updated
+- [ ] README.md episode table updated
+- [ ] docs/index.md YouTube embed updated
+- [ ] docs/index.md "Latest Episode" section updated
+- [ ] docs/index.md "Available Now" list updated
+- [ ] Git commit with message: "Update to Episode [N]: [Title]"
+- [ ] Push to GitHub
+- [ ] Verify website updates (wait 5-10 min for CDN)
+
+**Why This Matters:**
+- Users land on these pages first
+- Outdated "latest episode" = missed views
+- SEO and discoverability suffer
+- Professionalism and trust impacted

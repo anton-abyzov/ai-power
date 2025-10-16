@@ -11,10 +11,11 @@ Your source files - edit these in Obsidian!
 Never edit! Created automatically for website deployment.
 
 ## 📺 Latest Episode
-**[01: Portfolio Website](episodes/01-portfolio-no-code)** - Save $10K in 60 minutes
+**[03: N8N + SORA 2 Automation](episodes/03-n8n-automation)** - Build AI video generation workflows
 
 ## 🎬 All Episodes
-| # | Title | YouTube | Code | Live Demo |
+| # | Title | YouTube | Code | Resources |
 |---|-------|---------|------|-----------|
+| 03 | N8N + SORA 2 Automation | [Watch](https://youtu.be/c7xZb556RkI) | [Docs](docs/episodes/03-n8n-automation) | [Start Here](docs/episodes/03-n8n-automation/🎯%20START_HERE.md) |
+| 02 | Resume Fine-Tuner (Claude Sonnet 4.5) | [Watch](https://youtu.be/RfwZSRRRtmY) | [Docs](docs/episodes/02-resume-fine-tuner) | [Start Here](docs/episodes/02-resume-fine-tuner/🎯%20START_HERE.md) |
 | 01 | Portfolio Website | [Watch](https://youtu.be/XUylfjtjv9g) | [Code](episodes/01-portfolio-no-code) | [Demo](https://abyzova.com) |
-| 02 | Coming Dec 2024 | Subscribe | - | - |
